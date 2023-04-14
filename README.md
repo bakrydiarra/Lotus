@@ -86,19 +86,19 @@
 
 ### User Goals
 
-To be able to purchase hight quality sex toys
-To be able to leave a review about one of the products
-To be able to use CRUD functionality whilst logged onto the site regarding reviews.
+- To be able to purchase hight quality sex toys
+- To be able to leave a review about one of the products
+- To be able to use CRUD functionality whilst logged onto the site regarding reviews.
 
 ### Site Owner Goals
 
-To provide a platform in which users can discover our collection of vibrators
-To provide an enjoyable user experience which would make users wish to return to the site to purchase 
-To have the ability to be given feedback via a contact form
-To provide users with products that meet their expectations
-To allow users to view, read and comment reviews that may help to other users to make a choice or simply to share their joyful experience with one of the vibrator.
-To allow users to checkout quickly and easily
-To allow users to create a profile to view past orders and update profile information
+- To provide a platform in which users can discover our collection of vibrators
+- To provide an enjoyable user experience which would make users wish to return to the site to purchase 
+- To have the ability to be given feedback via a contact form
+- To provide users with products that meet their expectations
+- To allow users to view, read and comment reviews that may help to other users to make a choice or simply to share their joyful experience with one of the vibrator.
+- To allow users to checkout quickly and easily
+- To allow users to create a profile to view past orders and update profile information
 
 ---
 
@@ -107,9 +107,9 @@ To allow users to create a profile to view past orders and update profile inform
 
 ### Target Audience
 
-Women who are curious to discover self-pleasure with sex toys
-Women who care about hight quality body safe product
-Women who are sex positivity supporters
+- Women who are curious to discover self-pleasure with sex toys
+- Women who care about hight quality body safe product
+- Women who are sex positivity supporters
 
 User 1: The typical site user would be a female who has an interest in self care and self pleasure in her sexuality.
 User 2: Additional site users could be partner of user 1 and may be browsing the site to purchase gifts.
@@ -117,11 +117,11 @@ User 2: Additional site users could be partner of user 1 and may be browsing the
 
 ### User Requirements ans Expectations
 
-A site which provides a good level of interactiveness between users
-Links and functions to act as expected
-Notification to provide feedback on expected function outcomes
-Simple content that a user can easily digest
-Responsiveness to allow pleasant use across devices of different screen sizes
+- A site which provides a good level of interactiveness between users
+- Links and functions to act as expected
+- Notification to provide feedback on expected function outcomes
+- Simple content that a user can easily digest
+- Responsiveness to allow pleasant use across devices of different screen sizes
 
 ### User Stories
 
@@ -158,7 +158,31 @@ Responsiveness to allow pleasant use across devices of different screen sizes
 | 24                             | site owner | add/edit/delete products through an easy-to-use interface              | can manage the store's contents.                                                  |
 | Contact                        |            |                                                                        |                                                                                   |
 | 25                             | site user  | submit an enquiry form                                                 | report a personal matter                                                          |
-| Post                           |            |                                                                        |                                                                                   |
+| Review                           |            |                                                                        |                                                                                   |
 | 26                             | site user  | add / edit / delete a review regarding one of the products in the site | give my feedback.                                                                 |
 | Newsletter                     |            |                                                                        |                                                                                   |
 | 27                             | site user  | sign up for the website's newsletter                                   | keep myself informed about new products and promotions from the site.             |
+
+---
+
+
+## Technical Design
+
+### Agile Methodology
+
+- Throughout this project, an agile approach has been applied in order to develop the website. Each activity was broken down into manageable actions from initially  11 milestones/Epic moments, which were then broken down into smaller units : issues. Each issue was labeled to identify their main topics. For instance, the label User Story represents the user experience, the label MPV stands for the Minimum Viable Product which often are associated with the label Must Have.
+
+- Each issue has different acceptance criteria and series of tasks. GitHub's project was used to track these user stories, implement ideas, and monitor the workflow. Indeed, the kanban board allowed the workflow to focus first on the essential features, work in small iteration, adding extra features in case the time allowed it.
+
+- When I was working on the project, I chose one issue to work on from the "Todo" column of the Dashboard Wall of Shame and moved it into the "In Progress" column.
+After I finished the issue by fulfilling all the acceptance criteria and the  tasks attached to them, I closed the issue which moved it automatically into the "Done" Column.
+The issues that I couldn’t tackle from the "Todo" column ended in the “Won’t do” column.
+
+<details>
+<summary>Issue Samples</summary>
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+<img src="">
+</details>
