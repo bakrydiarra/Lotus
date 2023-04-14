@@ -186,3 +186,22 @@ The issues that I couldn’t tackle from the "Todo" column ended in the “Won�
 <img src="">
 <img src="">
 </details>
+
+---
+
+### CRUD Functionality
+
+ Lotus handles data with full CRUD Functionality. User's prerogatives are :
+
+ #### Review
+
+ | Create | Read | Update | Delete |
+ | ------------- | ------------- | -------------    | ------------- |
+ |  Yes  | Yes  | Yes | Yes |
+
+
+ #### Contact
+
+  | Create | Read | Update | Delete |
+  | ------------- | ------------- | -------------    | ------------- |
+  |  Yes  | No  | No | No |
