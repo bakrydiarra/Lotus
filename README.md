@@ -604,3 +604,44 @@ IN PROGRESS
 - [Chrome dev tools (Lighthouse)](https://developer.chrome.com/docs/lighthouse/overview/) - Used to measure site performance, SEO and accessibility.
 - [LICECap](https://www.cockos.com/licecap/) - Used to screen-record manual testing.
 
+---
+
+## Deployment 
+
+---
+
+## Testing
+
+[here](testing.md)
+
+---
+
+# Credits
+
+### Ressources Used
+
+- [W3Schools](https://www.w3schools.com/)
+- [BOUTIQUE ADO](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) - Django walkthrough project "Boutique Ado" used as an inspiration and an orientation to my project
+- [Medium.com](https://medium.com/@ksarthak4ever/django-class-based-views-vs-function-based-view-e74b47b2e41b) - for understanding difference between Class Based Views vs Function Based Views
+- [Exploring Python Classes with Ben Kavanagh](https://www.youtube.com/watch?v=opOK_1g1rsw&list=PL_7334VduOHvzZYlgy_0kZLcic2NINCUt&index=7) - for understanding difference between Class Based Views vs Function Based Views
+- [LearnDjango](https://learndjango.com/tutorials/) - for understanding use of Django Framework
+
+
+### Code Used
+
+IN PROGRESS
+
+
+### Content
+
+IN PROGRESS 
+
+###  Media
+
+IN PROGRESS
+
+
+###  Acknowledgments
+
+ - Many thanks to my Mentor Antonio Rodriguez for helpful feedback, industry insights and recommended tools.
+ - Many thanks to my friends (Marjorie and Louise) and family for helping me testing the website and for their precious feedbacks.
