@@ -250,3 +250,67 @@ A backend database was  built with the Django framework and the use of ElephantS
 
 ---
 
+### Typography
+
+- Fonts were imported using Google Fonts. Georgia and Proxima were used thoughout with a backup of sans-serif.
+
+
+### Wireframes
+
+- Due to time constraints and decisions made during the project, there might be some differences between the live site and my initial wireframes.
+
+<details>
+<summary>Home Page</summary>
+<img src="docs/wireframes/home_page.png">
+</details>
+
+
+<details>
+<summary>Product List</summary>
+<img src="docs/wireframes/product_list.png">
+</details>
+
+<details>
+<summary>Product Detail</summary>
+<img src="docs/wireframes/product_details.png">
+</details>
+
+<details>
+<summary>Reviews</summary>
+<img src="docs/wireframes/reviews.png">
+</details>
+
+<details>
+<summary>Profile</summary>
+<img src="docs/wireframes/profile.png">
+</details>
+
+<details>
+<summary>Product Management</summary>
+<img src="docs/wireframes/product_management.png">
+</details>
+
+<details>
+<summary>Edit Review</summary>
+<img src="docs/wireframes/edit_review.png">
+</details>
+
+<details>
+<summary>Order Confirmation</summary>
+<img src="docs/wireframes/order_confirmation.png">
+</details>
+
+<details>
+<summary>Contact Us</summary>
+<img src="docs/wireframes/contact_us.png">
+</details>
+
+<details>
+<summary>Bag</summary>
+<img src="docs/wireframes/bag.png">
+</details>
+
+<details>
+<summary>Checkout</summary>
+<img src="docs/wireframes/checkout.png">
+</details>
