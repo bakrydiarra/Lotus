@@ -524,5 +524,17 @@ User journey diagram
 
 ### Content marketing 
 
+- The site showcases high quality images of our vibrators in order to attract potential new clients. 
+- The photos allow the business to present a line of products in a simple and playful way. 
+- Our aesthetic  demarcates our brand from our concurrents, anchoring our line in a trendy accessoires vibe. 
 
+### Social Media Marketing
 
+IN PROGRESS
+
+### Email Marketing
+
+- Users can sign up for the site's newsletter even if they don't have an account. 
+- The signup box is at the bottom of the website. 
+- The business can use this to share news, new products, and special offers with customers and potential customers.
+- Mailchimp was used to create this service.
