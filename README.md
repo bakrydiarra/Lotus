@@ -205,3 +205,29 @@ The issues that I couldn’t tackle from the "Todo" column ended in the “Won�
   | Create | Read | Update | Delete |
   | ------------- | ------------- | -------------    | ------------- |
   |  Yes  | No  | No | No |
+
+
+   #### Product
+
+  | Create | Read | Update | Delete |
+  | ------------- | ------------- | -------------    | ------------- |
+  |  Yes  | No  | No | No |
+
+
+  Superser's prerogatives are :
+
+  #### Product
+
+  | Create | Read | Update | Delete |
+  | ------------- | ------------- | -------------    | ------------- |
+  |  Yes  | Yes  | Yes | Yes |
+
+
+### Database Model
+
+A backend database was  built with the Django framework and the use of ElephantSQL Postgres for the deployed site.
+
+<details>
+<summary>Database Schema</summary>
+<img src="docs/readme_images/databae_er_diagram_lotus.png">
+</details>
