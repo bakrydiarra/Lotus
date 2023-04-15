@@ -472,3 +472,57 @@ User journey diagram
 ---
 
 ### Future Implementations
+
+
+## Marketing Strategy
+
+- Lotus has been promoted through various marketing strategies such as SEO, content marketing, social media marketing, and email marketing. 
+- Each of these strategies has been elaborated upon separately in the following sections.
+
+### SEO
+
+- After finalizing the business model as an adult female product store, the next step was to devise a marketing strategy and determine the relevant keywords to target. 
+- To boost the website's visibility in search engine results, a number of SEO techniques were implemented.
+
+**Keywords:** 
+
+- Both short-tail and long-tail keywords were meticulously evaluated for the website. 
+- In-depth keyword research was conducted, which involved examining Google search results, analyzing competitor's keywords, and using wordtracker.com.
+
+- The most pertinent keywords were incorporated into the website's meta-keywords and meta-description. 
+- In addition, these keywords were thoughtfully integrated into page titles, headings, site content, <strong></strong> tags, image alt attributes, and anchor tag links throughout the website.
+- Below is a sample list of topics and keywords that were generated. After careful evaluation of their relevance and authority, the list was further refined.
+
+
+
+| Short Tail Keywords         | Long Tail Keywords           |
+| ------------- | ------------- |
+| Sex | Women's sex toys |
+|  Masturbation| Female pleasure products |
+| Pleasure  | Vibrators for women |
+| Orgasm| Clitoral stimulators |
+|  Masturbate | G-spot stimulators  |
+| satisfaction |Remote control vibrators for couples |
+| dildo |Rechargeable vibrators for eco-friendly pleasure |
+| vibrator |Dual-stimulating vibrators for intense orgasms |
+| sextoys |Luxury vibrators for pleasure|
+
+**Building Trust:**
+
+- In order to build brand trust, a reviews page for our product has been included in the site.
+- About Us Page inform our clientèle from our ehtic regarding our product and sex positivity awareness
+- The page footer also includes links to the privacy policy to inform users about how their data is being collected and processed.
+
+**Sitemap and robots.txt**
+
+
+- I made a list of important page URLs in a sitemap file, so search engines can easily understand the site's structure and navigate through it. 
+- I used xml-sitemaps.com to make it.
+- I made a robots.txt file to tell search engines where they can't go on the website. 
+- This improves SEO by increasing the quality of the site.
+
+
+### Content marketing 
+
+
+
