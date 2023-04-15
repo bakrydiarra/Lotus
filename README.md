@@ -36,6 +36,7 @@
   * [Database Model](#database-model)
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
+  * [Structure](#structure)
   * [Wireframes](#wireframes)
 
 * [Features](#features)
@@ -313,4 +314,15 @@ A backend database was  built with the Django framework and the use of ElephantS
 <details>
 <summary>Checkout</summary>
 <img src="docs/wireframes/checkout.png">
+</details>
+
+---
+
+### Structure
+
+User journey diagram
+
+<details>
+<summary>Functional Structure</summary>
+<img src="docs/readme_images/information_structure.png">
 </details>
