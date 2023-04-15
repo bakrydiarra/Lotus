@@ -538,3 +538,69 @@ IN PROGRESS
 - The signup box is at the bottom of the website. 
 - The business can use this to share news, new products, and special offers with customers and potential customers.
 - Mailchimp was used to create this service.
+
+
+---
+
+
+## Technologies Used
+
+
+### Languages Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+- [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+
+### Frameworks, Libraries
+
+- [Django 3.2.16](https://www.djangoproject.com/) - Used to rapidly develop the site.
+- [Gunicorn](https://gunicorn.org/) - Used for being a pure-Python HTTP server for WSGI applications
+- [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) - Used to format forms.
+- [Psycopg2](https://pypi.org/project/psycopg2/) - Used as a PostgreSQL adaptor
+- [Django allauth](https://django-allauth.readthedocs.io/en/latest/index.html)  - Used to implement account authorisation and providing associated templates
+- [jquery library](https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js) - Used to fade out alert messages
+- [dj_database_url](https://pypi.org/project/dj-database-url/) - Used to allow database urls to connect to the postgres db
+- [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Used to develop the layout of the site.
+- [Font Awesome](https://fontawesome.com/) - Used to produce icons on the site.
+- [Google Fonts](https://fonts.google.com/) - Used to import the site's font family.
+
+### Storage & Hosting
+
+- [Github](https://github.com/) - Used to create and store the project repository.
+- [Heroku Platform](https://id.heroku.com/) - Used to deploy the live project.
+- [ElephantSQL](https://www.elephantsql.com/) - Used to host the website's PostgreSQL database.
+- [AWS](https://aws.amazon.com/?nc2=h_lg) - Used for file storage.
+
+### IDE & Version Control
+
+- [Gitpod](https://gitpod.io/) - Used to create files and write code.
+- [Git](https://git-scm.com/) - Used for version control.
+
+### Other Tools
+
+- [Balsamiq](https://balsamiq.com/) - Used to create Wireframes for the project.
+- [Lucid](https://lucid.app/users/login#/login) - for creating a Model ER.
+- [Unsplash](https://unsplash.com/) - for content pictures
+- [Pexels](https://www.pexels.com/) - for content pictures
+- [amiresponsive](https://ui.dev/amiresponsive) - test responsive website.
+- [W3 Schools](https://www.w3schools.com/) - for HTML, CSS, Django tips.
+- [Tables Generator](https://www.tablesgenerator.com/markdown_tables) - Used to convert excel testing tables to markdown 
+- [Sitemap Generator](www.xml-sitemaps.com) - Used to create sitemap.xml 
+- [Mailchimp](https://mailchimp.com/?currency=EUR) - Used to create the newsletter signup functionality.
+- [Stripe](https://stripe.com/ie) - Used for the payments system.
+- [Privacy Policy Generator](https://www.privacypolicygenerator.info/) - Used to create the site's privacy policy
+- [LearnDjango](https://learndjango.com/) - for understanding the logic of Django
+- [Django Docummentation](https://docs.djangoproject.com/en/3.2/) - to research and learn specific utilisation of Django framework
+- [WC3 Validator](https://validator.w3.org/) - Used to validate the HTML code of the site.
+- [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)- Used to validate the CSS of the site.
+- [Jshint](https://jshint.com/) - Used to validate the Javascript of the site.
+- [Python Linter](https://pep8ci.herokuapp.com/) - Used to validate the Python of the site.
+- [Chrome dev tools (Lighthouse)](https://developer.chrome.com/docs/lighthouse/overview/) - Used to measure site performance, SEO and accessibility.
+- [LICECap](https://www.cockos.com/licecap/) - Used to screen-record manual testing.
+
