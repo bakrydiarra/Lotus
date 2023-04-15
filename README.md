@@ -229,5 +229,24 @@ A backend database was  built with the Django framework and the use of ElephantS
 
 <details>
 <summary>Database Schema</summary>
-<img src="docs/readme_images/databae_er_diagram_lotus.png">
+<img src="docs/readme_images/database_er_diagram_lotus.png">
 </details>
+
+---
+
+### Colour Scheme
+
+- The Two dominant colors od the website were chosen from pictures of three products
+
+<details>
+ <summary>Colour Palette</summary>
+ <img src="docs/readme_images/color_1.png">
+ <img src="docs/readme_images/color_1_bis.png">
+ <img src="docs/readme_images/color_2.png">
+ <img src="docs/readme_images/color_2_bis.png">
+ <img src="docs/readme_images/color_3.png">
+ <img src="docs/readme_images/color_3_bis.png">
+ </details> 
+
+---
+
