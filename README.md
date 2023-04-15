@@ -326,3 +326,149 @@ User journey diagram
 <summary>Functional Structure</summary>
 <img src="docs/readme_images/information_structure.png">
 </details>
+
+---
+
+## Features
+
+### Header
+
+<details>
+<summary>Navbar images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Footer
+
+<details>
+<summary>Footer images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Home Page
+
+<details>
+<summary>Home Page images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### User Account Pages
+
+<details>
+<summary>User Account Pages images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Profile
+
+<details>
+<summary>Profile images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Vibrators (Products)
+
+<details>
+<summary>Vibrators (Products) images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Product (Details)
+
+<details>
+<summary>Product (Detailss) images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Product Management
+
+<details>
+<summary>Product Management images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Bag
+
+<details>
+<summary>Bag images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Checkout
+
+<details>
+<summary>Checkout images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### About Us
+
+<details>
+<summary>About Us</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Reviews
+
+<details>
+<summary>Reviews images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Contact Form
+
+<details>
+<summary>Contact Form images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Error Pages
+
+<details>
+<summary>Error Pages images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Future Implementations
