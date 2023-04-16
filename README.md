@@ -135,10 +135,10 @@ User 2: Additional site users could be partner of user 1 and may be browsing the
 | 3                              | shopper    | click on a product                                                     | read the full product details.                                                    |
 | 4                              | shopper    | view a specific category of products                                   | browse the type of products I'm interested in.                                    |
 | 5                              | shopper    | search all products                                                    | find what I am looking for.                                                       |
-| 6                              | shopper    | sort all products                                                      | view products based on price or title                                             |
-| 7                              | site user  | read reviews left by other customers                                   | have feedback insights from custommers                                            |
+| 6                              | shopper    | sort all products                                                      | view products based on price or title.                                            |
+| 7                              | site user  | read reviews left by other customers                                   | have feedback insights from customers.                                            |
 | Registration and User Accounts |            |                                                                        |                                                                                   |
-| 8                              | site user  | register an account                                                    | have a personal account and see my profile                                        |
+| 8                              | site user  | register an account                                                    | have a personal account and see my profile.                                       |
 | 9                              | site user  | login or logout                                                        | access my personal info/keep my account secure.                                   |
 | 10                             | site user  | see my login status                                                    | know if I'm logged in or out.                                                     |
 | 11                             | site user  | save my personal details in my user profile                            | spare the time to fill them out for future orders.                                |
