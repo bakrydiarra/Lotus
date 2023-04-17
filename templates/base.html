@@ -15,6 +15,8 @@
     {% block corecss %}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Lato:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
     {% block extra_css %}
@@ -82,25 +84,30 @@
                             {% endif %}
                         </div>
                     </li>
-                    <li class="list-inline-item">
-                        <a class="text-black nav-link" href="#">
-                            <div class="text-center">
-                                <div><i class="fas fa-heart fa-lg"></i></div>
-                            </div>
-                        </a>
-                    </li>
+                    
                     <li class="list-inline-item">
                         <!-- include product count here also -->
                         <a class="text-black nav-link" href="#">
                             <div class="text-center">
-                                <div><i class="fas fa-shopping-bag fa-lg"></i>
-                                    <span class='badge badge-info bag-badge px-1'>3</span>
-                                </div>
+                                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                                {% if product_count %}
+                                     <span class='bag-badge'>{{ product_count }}</span>
+                                {% endif %}
                             </div>
                         </a>
                     </li>
                 </ul>
             </div>
+        </div>
+
+        <div class="row bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light w-100">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                {% include 'includes/mobile_top_header.html' %}
+                {% include 'includes/main_nav.html' %}
+            </nav>
         </div>
 
     </header>
