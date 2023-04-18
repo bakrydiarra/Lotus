@@ -1,0 +1,157 @@
+[{
+        "pk": 1,
+        "model": "product.product",
+        "fields": {
+            "sku": "vib133557790",
+            "name": "Glory",
+            "excerpt": "Rechargeable Remote and App Control Clitoral Vibrator.",
+            "description": "Want surrender to self-pleasure? Glory's long, smooth tips with dual-stimulating vibrators surround your sweetest spot for intense, orgasms.",
+            "price": 69.95,
+            "category": 1,
+            "image": "vibrator_glory.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "product.product",
+        "fields": {
+            "sku": "vib236778908",
+            "name": "Blush",
+            "excerpt": "Rechargeable Silicone G-Spot.",
+            "description": "Want reach the spot? Blush, the massive sleek masturbate helper on pleasing your inner hotspots.",
+            "price": 79.95,
+            "category": 2,
+            "image": "vibrator_blush.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "product.product",
+        "fields": {
+            "sku": "vib789347693",
+            "name": "Hycarus",
+            "excerpt": "Rechargeable G-Spot Vibrator.",
+            "description": "Want burst out of pleasure? Hycarus, the textured, silicone vibe aims to please and nothing more.",
+            "price": 224.95,
+            "category": 2,
+            "image": "vibrator_hycarus.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "product.product",
+        "fields": {
+            "sku": "vib968402749",
+            "name": "Utterera",
+            "excerpt": "App and Remote Controlled Rechargeable Couple's Vibrator.",
+            "description": "Want scream to the sky? Hands-free and wearable, Uttera matches its vibration intensity to the wiil of your fingers.",
+            "price": 89.95,
+            "category": 4,
+            "image": "vibrator_uttera.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "product.product",
+        "fields": {
+            "sku": "vib676037048",
+            "name": "Lovies",
+            "excerpt": "App Controlled Rechargeable Love Egg Vibrator.",
+            "description": "Want spice up the reach of your pleasure? Lovies  a wireless wearable vibrator designed to simultaneously stimulate your G-spot and clitoris.",
+            "price": 159.95,
+            "category": 4,
+            "image": "vibrator_lovies.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "product.product",
+        "fields": {
+            "sku": "vib749558308",
+            "name": "Bliss",
+            "excerpt": "Clitoral Suction Stimulator.",
+            "description": "Want blow your mind? Bliss whispers Pleasure Air Technology and tickle your clitoris to sheet-clenching pleasure.",
+            "price": 55.95,
+            "category": 1,
+            "image": "vibrator_bliss.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "product.product",
+        "fields": {
+            "sku": "vib094458720",
+            "name": "Lovehoney",
+            "excerpt": "Mini Wand Vibrator.",
+            "description": "Want a purse-friend? Lovehoney mini silicone wand vibrator, the best compagnion to travel.",
+            "price": 55.95,
+            "category": 1,
+            "image": "vibrator_lovehoney.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "product.product",
+        "fields": {
+            "sku": "vib424057370",
+            "name": "Cello",
+            "excerpt": "Rechargeable Vibrating Egg.",
+            "description": " Want take control of your masturbations? Cello, the remote-controlled vibrating egg obeys every click anywhere.",
+            "price": 49.95,
+            "category": 4,
+            "image": "vibrator_cello.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "product.product",
+        "fields": {
+            "sku": "vib585602605",
+            "name": "Bang",
+            "excerpt": "Clitoral Vibrator.",
+            "description": "Want feel the big bang? - Bang catapults you to climax. Its ears never know the sound of silence.",
+            "price": 55.95,
+            "category": 4,
+            "image": "vibrator_bang.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "product.product",
+        "fields": {
+            "sku": "vib947936204",
+            "name": "Dreamy",
+            "excerpt": "Rechargeable Silicone Warming Vibrator.",
+            "description": "Want picture a hot session? Dreamy warms you up with its double stimulators.",
+            "price": 65.95,
+            "category": 3,
+            "image": "vibrator_dreamy.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "product.product",
+        "fields": {
+            "sku": "vib840563940",
+            "name": "Jazz",
+            "excerpt": "Rechargeable Rabbit Vibrator.",
+            "description": "Want all that Jazz? This Rabbt is  the perfect fir for clitoral stimulation and internal massage.",
+            "price": 79.95,
+            "category": 3,
+            "image": "vibrator_jazz.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "product.product",
+        "fields": {
+            "sku": "vib748507307",
+            "name": "Doxy",
+            "excerpt": "Silicone Rabbit Wand Attachment.",
+            "description": "Want it all? Doxy is the perfect pleaser on the surface touch or deeper.",
+            "price": 80.95,
+            "category": 3,
+            "image": "vibrator_doxy.jpg"
+        }
+    }
+]

@@ -1,0 +1,33 @@
+[{
+    "pk": 1,
+    "model": "product.category",
+    "fields": {
+      "name": "clitoral_vibrator",
+      "friendly_name": "Clitoral Vibrator"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "product.category",
+    "fields": {
+      "name": "g_spot_vibrator",
+      "friendly_name": "G-spot Vibrator"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "product.category",
+    "fields": {
+      "name": "rabbit_vibrator",
+      "friendly_name": "Rabbit Vibrator"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "product.category",
+    "fields": {
+      "name": "wearable_vibrator",
+      "friendly_name": "Wearable Vibrator"
+    }
+  }
+]
