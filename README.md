@@ -253,7 +253,7 @@ A backend database was  built with the Django framework and the use of ElephantS
 
 ### Typography
 
-- Fonts were imported using Google Fonts. Georgia and Proxima were used thoughout with a backup of sans-serif.
+- Fonts were imported using Google Fonts. Kurale and Lato were used thoughout with a backup of sans-serif.
 
 
 ### Wireframes
@@ -638,7 +638,20 @@ IN PROGRESS
 
 ###  Media
 
-IN PROGRESS
+Images were all open source and free to use from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/) :
+
+- pexels-anna-shvets-5187571.jpg
+- pexels-anna-shvets-5187573.jpg
+- pexels-cottonbro-studio-6769000.jpg
+- pexels-anna-shvets-5187577.jpg
+- pexels-cottonbro-studio-6763676.jpg
+- ifonnx-toys-8-7EeeAM-RA-unsplash.jpg
+- pexels-anna-shvets-5187304.jpg
+- pexels-cottonbro-studio-6768984.jpg
+- ifonnx-toys-BBe9HSHIEiw-unsplash.jpg
+- pexels-anna-shvets-5187303.jpg
+- pexels-anna-shvets-5187360.jpg
+- pexels-cottonbro-studio-6768324.jpg
 
 
 ###  Acknowledgments
