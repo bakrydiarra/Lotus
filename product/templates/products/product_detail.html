@@ -14,7 +14,7 @@
     <!-- Product Detail Cards -->
     <div class="card mb-3 border-0">
         <div class="row no-gutters">
-            <div class="col-12 col-md-8">
+            <div class="col-12 col-md-6 col-xl-8">
                 {% if product.image %}
                 <a href="{{ product.image.url }}" target="_blank">
                     <img src="{{ product.image.url }}" class="product-detail-image" alt="placeholder image">
@@ -23,17 +23,16 @@
                 <img src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}" class="product-detail-image">
                 {% endif %}
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-6 col-xl-4">
                 <div class="card-body py-4 px-0 pl-md-5">
                     <div>
                         <h1 class="card-title text-left">{{ product.name }}</h1>
                     </div>
                     <p class="card-text">{{ product.excerpt }}</p>
-                    <div class="pt-3">
-                        {{ product.price }}
+                    <div class="pt-2">
+                        €{{ product.price }}
                     </div>
                     <div>
-
                         <hr class="w-80">
                         <h4>Product Details</h4>
                         {{ product.description }}
