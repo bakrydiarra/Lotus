@@ -6,10 +6,10 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="shop-link">
                 <a href="{% url 'products' %}" class="dropdown-item">All</a>
-                <a href="" class="dropdown-item ">Rabitt</a>
-                <a href="" class="dropdown-item">Clit</a>
-                <a href="" class="dropdown-item">Wand</a>
-                <a href="" class="dropdown-item">Wearable</a>
+                <a href="{% url 'products' %}?category=clitoral_vibrator" class="dropdown-item ">Clitoral Vibrator</a>
+                <a href="{% url 'products' %}?category=g_spot_vibrator" class="dropdown-item">G-spot Vibrator</a>
+                <a href="{% url 'products' %}?category=rabbit_vibrator" class="dropdown-item">Rabbit Vibrator</a>
+                <a href="{% url 'products' %}?category=wearable_vibrator" class="dropdown-item">Wearable Vibrator</a>
         </li>
 
         <li class="nav-item">
