@@ -15,7 +15,9 @@
 
 ## Site info
 
- - Lotus is an application that encourages women to explore 
+ - Lotus is an application that envourages sex-positivity amongst women. 
+ - It's an online sexshop that proposes high quality silicone hygiene safe adult toys.
+ - The site offers a great spectrum of vibrators and entertains a luxury and playfull aesthetic touch.
 
 ---
 
@@ -237,7 +239,7 @@ A backend database was  built with the Django framework and the use of ElephantS
 
 ### Colour Scheme
 
-- The Two dominant colors od the website were chosen from pictures of three products
+- The Three dominant colors of the website were chosen from pictures of three products:
 
 <details>
  <summary>Colour Palette</summary>
