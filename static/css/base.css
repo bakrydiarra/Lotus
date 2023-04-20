@@ -47,6 +47,10 @@ transform: translateY(-50%);
     cursor: pointer;
 }
 
+.border-blue {
+    border: 1px solid #77949A !important;
+}
+
 
 /* -------------------------------- Media Queries */
 
