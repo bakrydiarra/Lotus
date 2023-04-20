@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 
+
 def view_bag(request):
     """ A view to return the bag contents page """
 
