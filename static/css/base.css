@@ -4,12 +4,40 @@ html {
 
 body {
     height: calc(100vh - 164px);
+    font-family: 'Lato', sans-serif;
+    color: #6d6d6d ;
 
+}
+
+/* --------------------------------  Navbar */
+
+.logo-font {
+    font-family: 'Kurale', sans-serif;
+}
+
+.nav-link {
+    color: #7F7693;
+}
+
+.nav-link a:hover {
+    color: #FCCFD6 !important;
+}
+
+.navbar ul a {
+    text-transform: uppercase;
+    color: #7F7693 !important;
+    font-size: 14px;
+    font-weight: 400 !important;
+}
+
+.navbar ul a:hover {
+    color: #FCCFD6 !important;
 }
 
 .bag-badge {
 position: absolute;
-transform: translateY(-20%);
+transform: translateY(-15%);
+
 }
 
 /* --------------------------------  Messages */
