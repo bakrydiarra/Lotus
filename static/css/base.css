@@ -29,6 +29,12 @@ transform: translateY(-50%);
     height: 2px;
 }
 
+.bag-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 /* --------------------------------  Product Cards */
 
 .card-img-top {
