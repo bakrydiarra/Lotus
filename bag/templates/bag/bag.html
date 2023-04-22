@@ -46,7 +46,8 @@
                                 <p class="my-0">€{{ item.product.price | calc_subtotal:item.quantity }}</p>
                             </td>
                             <td class="py-3 w-25">
-                                <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
+                                <form class="form update-form" method="POST"
+                                    action="{% url 'adjust_bag' item.item_id %}">
                                     {% csrf_token %}
                                     <div class="form-group">
                                         <div class="input-group">
@@ -59,9 +60,10 @@
                                                     </span>
                                                 </button>
                                             </div>
-                                            <input class="form-control form-control-sm qty_input id_qty_{{ item.item_id }}"
-                                                type="number" name="quantity" value="{{ item.quantity }}" min="1" max="99"
-                                                data-item_id="{{ item.item_id }}">
+                                            <input
+                                                class="form-control form-control-sm qty_input id_qty_{{ item.item_id }}"
+                                                type="number" name="quantity" value="{{ item.quantity }}" min="1"
+                                                max="99" data-item_id="{{ item.item_id }}">
                                             <div class="input-group-append">
                                                 <button
                                                     class="grow-qty btn btn-sm rounded-0 grow-qty_{{ item.item_id }}"
@@ -75,7 +77,8 @@
                                     </div>
                                 </form>
                                 <a class="update-link text-info"><small>Update</small></a>
-                                <a class="remove-btn text-danger float-right remove_{{ item.item_id }}"><small>Remove</small></a>
+                                <a
+                                    class="remove-btn text-danger float-right remove_{{ item.item_id }}"><small>Remove</small></a>
                             </td>
                             <td class="py-3">
                                 <p class="my-0">€{{ item.product.price }}</p>
@@ -87,6 +90,12 @@
                                 <h6><strong>Bag Total: €{{ total|floatformat:2 }}</strong></h6>
                                 <h6>Delivery: €{{ delivery|floatformat:2 }}</h6>
                                 <h4 class="mt-4"><strong>Grand Total: €{{ grand_total|floatformat:2 }}</strong></h4>
+                                {% if free_delivery_delta > 0 %}
+                                <p class="mb-1 text-danger">
+                                    You could get free delivery by spending just
+                                    <strong>${{ free_delivery_delta }}</strong> more!
+                                </p>
+                                {% endif %}
                             </td>
                         </tr>
                         <tr>
