@@ -28,10 +28,10 @@
        var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
        var currentValue = parseInt($(closestInput).val());
        $(closestInput).val(currentValue + 1);
-       var updatedValue = parseInt($(closestInput).val());
+       /* var updatedValue = parseInt($(closestInput).val()); */
        var itemId = $(this).data('item_id');
        handleEnableDisable(itemId);
-       updateBag(itemId, updatedValue);
+      /*  updateBag(itemId, updatedValue); */
     });
 
     // Reduce quantity
@@ -40,9 +40,9 @@
        var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
        var currentValue = parseInt($(closestInput).val());
        $(closestInput).val(currentValue - 1);
-       var updatedValue = parseInt($(closestInput).val())
+       /* var updatedValue = parseInt($(closestInput).val()) */
        var itemId = $(this).data('item_id');
        handleEnableDisable(itemId);
-       updateBag(itemId, updatedValue);
+       /* updateBag(itemId, updatedValue); */
     });
 </script>
