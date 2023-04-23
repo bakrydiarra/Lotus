@@ -14,7 +14,7 @@ class ContactUs(CreateView):
 
     model = Contact
     form_class = ContactForm
-    template_name = 'contact.html'
+    template_name = 'contact/contact.html'
     success_url = reverse_lazy('home')
 
     def form_valid(self, form):
