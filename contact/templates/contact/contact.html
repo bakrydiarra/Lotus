@@ -24,7 +24,8 @@
     <div class="row justify-content-center ">
         <div class="col-11 col-md-8 col-lg-6 mt-3">
             <form method="post">
-                {{ contact_form | crispy }}
+                {{ form.as_p }}
+                {{ contact.message | safe }}
                 {% csrf_token %}
                 <button type="submit" class="btn btn-outline-dark border-pink rounded-0">Submit</button>
                 <a class="btn btn btn-outline-dark border-pink rounded-0 m-2" href="{%  url 'home' %}">Cancel</a>

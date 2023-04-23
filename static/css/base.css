@@ -9,6 +9,10 @@ body {
 
 }
 
+.border-pink {
+    border: 1px solid #FCCFD6 !important;
+}
+
 /* --------------------------------  Navbar */
 
 .logo-font {
