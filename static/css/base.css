@@ -40,6 +40,8 @@ transform: translateY(-15%);
 
 }
 
+/* --------------------------------  HomePage */
+
 /* --------------------------------  Messages */
 
 .message-container {
@@ -71,6 +73,8 @@ transform: translateY(-15%);
     object-fit: cover;
     min-height: 250px;
 }
+
+/* --------------------------------  Product Details */
 
 .product-detail-image {
     width: 100%;
