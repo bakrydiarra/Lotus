@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class ContactForm(models.Model):
+class Contact(models.Model):
 
     """
     Using a tuple to propose a multiple choice
