@@ -8,7 +8,6 @@ from django_countries.fields import CountryField
 from product.models import Product
 
 
-
 class Order(models.Model):
     """ Model for Order """
     order_number = models.CharField(max_length=32, null=False, editable=False)

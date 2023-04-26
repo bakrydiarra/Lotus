@@ -1,3 +1,4 @@
+/* --------------------------------   Stripe   */
 .StripeElement,
 .stripe-style-input {
   box-sizing: border-box;
@@ -35,6 +36,20 @@
     color: #000;
     border: 1px solid #000;
 }
+
+/* --------------------------------   Country select field on order form   */
+
+select,
+select option {
+  color: #000;
+}
+
+select:invalid,
+select option[value='']{
+  color: #aab7c4 !important;
+}
+
+/* --------------------------------  Overlay */
 
 #loading-overlay {
 	display: none;
