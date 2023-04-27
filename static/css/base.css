@@ -29,8 +29,9 @@ body {
 }
 
 .btn {
-    color: #6d6d6d;
+    color: #000;
     border: 1px solid #FCCFD6;
+    background-color: #7F7693;
 }
 
 .btn:hover {
@@ -48,9 +49,11 @@ body {
     color: #7F7693;
 }
 
-.nav-link a:hover {
+a.nav-link:hover {
     color: #FCCFD6 !important;
+    background-color: #7F7693;
 }
+
 
 .navbar ul a {
     text-transform: uppercase;
