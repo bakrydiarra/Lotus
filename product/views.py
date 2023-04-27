@@ -1,7 +1,6 @@
 from django.shortcuts import render, reverse, get_object_or_404, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from django.contrib.admin.views.decorators import staff_member_required
 from django.core.exceptions import PermissionDenied
 from django.db.models import Q
 from .models import Product, Category
@@ -15,7 +14,7 @@ def require_superuser(view_func):
         if request.user.is_superuser:
             return view_func(request, *args, **kwargs)
         else:
-            return redirect('error_page')
+            return render(request, '403.html', status=403)
     return wrapper
 
 
@@ -85,7 +84,6 @@ def product_detail(request, product_id):
 
 
 @login_required
-@staff_member_required
 @require_superuser
 def add_product(request):
     """ Add a product to the store """
@@ -111,7 +109,6 @@ def add_product(request):
 
 
 @login_required
-@staff_member_required
 @require_superuser
 def edit_product(request, product_id):
     """ Edit a product in the store """
@@ -139,7 +136,6 @@ def edit_product(request, product_id):
 
 
 @login_required
-@staff_member_required
 @require_superuser
 def delete_product(request, product_id):
     """ Delete a product from the store """
