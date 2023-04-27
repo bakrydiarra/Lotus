@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block extra_title %}Lotus | Add Product{% endblock %}
+{% block extra_title %}Lotus | Edit Product{% endblock %}
 
 {% block page_header %}
     <div class="container header-container">
@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col-12">
                 <hr>
-                <h1 class="text-center pt-4">Product Management - Add a Product</h1>
+                <h1 class="text-center pt-4">Product Management - Edit a Product</h1>
                 
                 <hr>
             </div>
@@ -25,12 +25,12 @@
 
         <div class="row justify-content-center mb-3">
             <div class="col-11 col-md-8 col-lg-6 mt-3">
-                <form method="POST" action="{% url 'add_product' %}" class="form mb-2" enctype="multipart/form-data">
+                <form method="POST" action="{% url 'edit_product' product.id %}" class="form mb-2" enctype="multipart/form-data">
                     {% csrf_token %}
                     {{ form | crispy }}
                     <div class="text-right">
                         <a class="btn btn-outline-dark border-pink rounded-0" href="{% url 'products' %}">Cancel</a>
-                        <button class="btn btn-outline-dark border-pink rounded-0" type="submit">Add Product</button>
+                        <button class="btn btn-outline-dark border-pink rounded-0" type="submit">Edit Product</button>
                     </div>
                 </form>
             </div>            
