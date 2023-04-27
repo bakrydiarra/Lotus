@@ -65,6 +65,12 @@
                     <small class="col pl-0 card-text">
                         {{ product.excerpt }}
                     </small>
+                    {% if request.user.is_superuser %}
+                    <small class="col text-right pr-0 edit-delete-btns">
+                            <a href="{% url 'edit_product' product.id %}">Edit</a> |
+                            <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                    </small>
+                    {% endif %}
                 </div>
             </div>
         </div>
