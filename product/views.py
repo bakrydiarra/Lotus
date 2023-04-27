@@ -1,9 +1,22 @@
 from django.shortcuts import render, reverse, get_object_or_404, redirect
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
+from django.contrib.admin.views.decorators import staff_member_required
+from django.core.exceptions import PermissionDenied
 from django.db.models import Q
 from .models import Product, Category
 from django.db.models.functions import Lower
 from .forms import ProductForm
+
+
+def require_superuser(view_func):
+    """Decorator that requires the user to be a superuser."""
+    def wrapper(request, *args, **kwargs):
+        if request.user.is_superuser:
+            return view_func(request, *args, **kwargs)
+        else:
+            return redirect('error_page')
+    return wrapper
 
 
 def all_products(request):
@@ -71,6 +84,9 @@ def product_detail(request, product_id):
     return render(request, 'products/product_detail.html', context)
 
 
+@login_required
+@staff_member_required
+@require_superuser
 def add_product(request):
     """ Add a product to the store """
     form = ProductForm()
@@ -94,6 +110,9 @@ def add_product(request):
     return render(request, template, context)
 
 
+@login_required
+@staff_member_required
+@require_superuser
 def edit_product(request, product_id):
     """ Edit a product in the store """
     product = get_object_or_404(Product, pk=product_id)
@@ -119,6 +138,9 @@ def edit_product(request, product_id):
     return render(request, template, context)
 
 
+@login_required
+@staff_member_required
+@require_superuser
 def delete_product(request, product_id):
     """ Delete a product from the store """
     product = get_object_or_404(Product, pk=product_id)
