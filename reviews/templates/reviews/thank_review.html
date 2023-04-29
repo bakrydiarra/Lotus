@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+{% block extra_title %}Lotus | Thank you for your review{% endblock %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row mt-md-5 flex-md-row-reverse px-5 px-md-0">
+        <div class="col-12 col-md-6 pt-3 pt-md-5">
+            <h1 class="logo-font pt-md-5 pl-2 px-md-5">
+            Thany you!
+            </h1>
+            <h2 class="px-2 px-md-5 pt-2 pt-md-5 cheerup">Sharing your experience not only spreads sex positivity but also celebrates women orgasms</h2>
+            <div class="px-2 px-md-5 pt-3 pt-md-5 pb-4">
+                    <a href="{% url 'home' %}" class="btn d-block d-lg-inline">Back Home</a>
+            
+            </div>
+        </div>
+        <div class="col-12 col-md-6 thank-image-container d-none d-md-flex" role="img" aria-label="woman holding a sex-toy">
+        </div>
+    </div>
+</div>
+{% endblock %}
