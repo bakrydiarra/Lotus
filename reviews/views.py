@@ -46,7 +46,7 @@ class EditReview(UpdateView):
     """
 
     model = Review
-    form_class = eviewForm
+    form_class = ReviewForm
     template_name = 'reviews/edit_review.html'
     success_url = reverse_lazy('thank_review')
 
@@ -68,14 +68,23 @@ class EditReview(UpdateView):
     def form_invalid(self, form):
         response = super().form_invalid(form)
         messages.error(self.request, 'Please fill up all fields.')
-        return 
+        return
 
 
 class DeleteReview(DeleteView):
     """
     Class to delete a Review
     """
-
     model = Review
     template_name = 'reviews/delete_review.html'
     success_url = reverse_lazy('home')
+
+    def dispatch(self, request, *args, **kwargs):
+        """
+        Prevent a review to be deleted by user
+        who hasn't written it
+        """
+        review = self.get_object()
+        if review.created_by != self.request.user:
+            raise PermissionDenied
+        return super().dispatch(request, *args, **kwargs)
