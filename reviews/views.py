@@ -4,6 +4,8 @@ from django.views import generic, View
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, UpdateView, DeleteView
 from .forms import ReviewForm
+from django.core.exceptions import PermissionDenied
+from django.contrib.auth.decorators import login_required
 
 
 class Reviews(generic.ListView):
@@ -20,6 +22,7 @@ class ThankReview(generic.TemplateView):
     template_name = "reviews/thank_review.html"
 
 
+@login_required
 class AddReview(CreateView):
     """
     Class to add a Review
@@ -39,6 +42,7 @@ class AddReview(CreateView):
         return response
 
 
+@login_required
 class EditReview(UpdateView):
 
     """
@@ -71,6 +75,7 @@ class EditReview(UpdateView):
         return
 
 
+@login_required
 class DeleteReview(DeleteView):
     """
     Class to delete a Review
