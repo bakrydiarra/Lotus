@@ -4,7 +4,7 @@ from .models import Review
 
 class ReviewForm(forms.ModelForm):
     class Meta:
-        model = Testimonial
+        model = Review
         fields = [
             'body',
         ]
