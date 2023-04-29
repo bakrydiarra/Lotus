@@ -13,6 +13,10 @@ body {
     border: 1px solid #FCCFD6 !important;
 }
 
+hr {
+    border-color: #7F7693;
+}
+
 /* --------------------------------  btn */
 
 .edit-delete-btns {

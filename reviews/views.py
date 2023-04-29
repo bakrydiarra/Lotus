@@ -40,7 +40,7 @@ class AddReview(CreateView):
         return response
 
 
-class EditReview(UpdateView):
+class EditReview(LoginRequiredMixin, UpdateView):
 
     """
     Class to edit review
@@ -71,6 +71,15 @@ class EditReview(UpdateView):
         messages.error(self.request, 'Please fill up all fields.')
         return
 
+    def dispatch(self, request, *args, **kwargs):
+        """
+        check that the current user
+        is the owner of the review
+        """
+        if self.get_object().name != self.request.user:
+            return self.handle_no_permission()
+        return super().dispatch(request, *args, **kwargs)
+
 
 class DeleteReview(LoginRequiredMixin, DeleteView):
     """
@@ -86,8 +95,8 @@ class DeleteReview(LoginRequiredMixin, DeleteView):
 
     def dispatch(self, request, *args, **kwargs):
         """
-        Prevent a review to be deleted by user
-        who hasn't written it
+        check that the current user
+        is the owner of the review
         """
         if self.get_object().name != self.request.user:
             return self.handle_no_permission()
