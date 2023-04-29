@@ -7,6 +7,12 @@ from .forms import ContactForm
 from django.core.mail import send_mail
 from django.conf import settings
 from django.template.loader import render_to_string
+from django.views import generic, View
+
+
+class ReceivedMsg(generic.TemplateView):
+    """This view is used to display the thank you msg received page"""
+    template_name = "contact/received_msg.html"
 
 
 class ContactUs(CreateView):
@@ -18,13 +24,10 @@ class ContactUs(CreateView):
     model = Contact
     form_class = ContactForm
     template_name = 'contact/contact.html'
-    success_url = reverse_lazy('home')
+    success_url = reverse_lazy('received_msg')
 
     def form_valid(self, form):
         response = super().form_valid(form)
-        messages.success(
-            self.request,
-            'Your message has been sent successfully!')
 
         # send confirmation email
         name = form.cleaned_data['name']
