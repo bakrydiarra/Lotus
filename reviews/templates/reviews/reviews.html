@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_title %}Lotus | Reviews{% endblock %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="text-center pt-4">Reviews</h1>
+        </div>
+        <div class="col-12">
+            <div class="pt-3 text-center">
+                <a href="{% url 'add_review' %}" class="btn btn-sm py-2" aria-label="add-review">
+                    Add Review
+                </a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container mb-4">
+        <div class="card-columns">
+            {% for review in review_list  %}
+            <div class="card my-3 review-bg border-0">
+                <div class="card-body">
+                    {{ review.body }}
+                </div>
+                <div class="card-body">
+                    <strong>{{ review.name }}</strong>
+                    <br>
+                    {{ review.created_on }}
+                    {{ review.updated_on }}
+                    {% if user.is_authenticated and testimonial.name == user or user.is_superuser %}
+                    <span class="align-self-end">
+                        <small class="edit-delete-btns ">
+                            <a href="{% url 'edit_review' review.id %}">Edit</a> |
+                            <a href="{% url 'delete_review' review.id %}">Delete</a>
+                        </small>
+                    </span>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<div class="btt-button shadow-sm rounded-0 btn-up">
+    <div class="btt-link d-flex h-100">
+        Up
+    </div>
+</div>
+{% endblock %}
