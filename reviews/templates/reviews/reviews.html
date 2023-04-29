@@ -43,7 +43,6 @@
                     <strong>{{ review.name }}</strong>
                     <br>
                     {{ review.created_on }}
-                    {{ review.updated_on }}
                     {% if user.is_authenticated and review.name == user or user.is_superuser %}
                     <span class="align-self-end">
                         <small class="edit-delete-btns ">

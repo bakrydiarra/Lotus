@@ -4,8 +4,7 @@ from django.views import generic, View
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, UpdateView, DeleteView
 from .forms import ReviewForm
-from django.core.exceptions import PermissionDenied
-from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 
 class Reviews(generic.ListView):
@@ -22,7 +21,6 @@ class ThankReview(generic.TemplateView):
     template_name = "reviews/thank_review.html"
 
 
-@login_required
 class AddReview(CreateView):
     """
     Class to add a Review
@@ -42,7 +40,6 @@ class AddReview(CreateView):
         return response
 
 
-@login_required
 class EditReview(UpdateView):
 
     """
@@ -75,8 +72,7 @@ class EditReview(UpdateView):
         return
 
 
-@login_required
-class DeleteReview(DeleteView):
+class DeleteReview(LoginRequiredMixin, DeleteView):
     """
     Class to delete a Review
     """
@@ -84,12 +80,15 @@ class DeleteReview(DeleteView):
     template_name = 'reviews/delete_review.html'
     success_url = reverse_lazy('home')
 
+    def form_valid(self, form):
+        form.instance.name = self.request.user
+        return super().form_valid(form)
+
     def dispatch(self, request, *args, **kwargs):
         """
         Prevent a review to be deleted by user
         who hasn't written it
         """
-        review = self.get_object()
-        if review.created_by != self.request.user:
-            raise PermissionDenied
+        if self.get_object().name != self.request.user:
+            return self.handle_no_permission()
         return super().dispatch(request, *args, **kwargs)
