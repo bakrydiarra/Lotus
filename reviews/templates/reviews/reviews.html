@@ -20,7 +20,7 @@
         {% if user.is_authenticated or user.is_superuser %}
         <div class="col-12">
             <div class="pt-3 text-center">
-                <a href="" class="btn btn-sm py-2" aria-label="add-review">
+                <a href="{% url 'add_review' %}" class="btn btn-sm py-2" aria-label="add-review">
                     Add Review
                 </a>
             </div>
