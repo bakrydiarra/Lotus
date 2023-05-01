@@ -8,4 +8,4 @@ class Faqs(generic.ListView):
     Class to show all the Faqs
     """
     model = Faq
-    template_name = 'faq/faqs.html'
+    template_name = 'faqs/faqs.html'

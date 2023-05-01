@@ -6,7 +6,7 @@ class FaqAdmin(admin.ModelAdmin):
     """Allows admin to manage FAQs via the admin panel"""
     list_display = (
         'question',
-        'amswer',
+        'answer',
     )
 
 

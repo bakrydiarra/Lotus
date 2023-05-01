@@ -5,7 +5,7 @@ from django.urls import reverse
 class Faq(models.Model):
     """Model for FAQ"""
 
-    question = models.CharField()
+    question = models.CharField(max_length=250, blank=False)
     answer = models.TextField()
 
     def get_absolute_url(self):
