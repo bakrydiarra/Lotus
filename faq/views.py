@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .models import Faq
 from django.views import generic, View
 from django.urls import reverse_lazy
-from django.views.generic import CreateView, UpdateView
+from django.views.generic import CreateView, UpdateView, DeleteView
 from .forms import FaqForm
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 
@@ -75,7 +75,7 @@ class DeleteFaq(LoginRequiredMixin, DeleteView):
     """
     Class to delete a Faq
     """
-    model = Review
+    model = Faq
     template_name = 'faqs/delete_faq.html'
     success_url = reverse_lazy('faqs')
 

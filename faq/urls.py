@@ -8,4 +8,7 @@ urlpatterns = [
     path(
         'edit_faq/<int:pk>/', views.EditFaq.as_view(), name='edit_faq'
         ),
+        path(
+        'delete_faq/<int:pk>/', views.DeleteFaq.as_view(), name='delete_faq'
+        ),
 ]
