@@ -39,7 +39,7 @@
                             {% if user.is_superuser %}
                             <span class="align-self-end">
                                 <small class="edit-delete-btns ">
-                                    <a href="">Edit</a> |
+                                    <a href="{% url 'edit_faq' faq.id %}">Edit</a> |
                                     <a href="">Delete</a>
                                 </small>
                             </span>
