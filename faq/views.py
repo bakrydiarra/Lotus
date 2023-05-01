@@ -69,3 +69,25 @@ class EditFaq(LoginRequiredMixin, UpdateView):
         if self.get_object().name != self.request.user:
             return self.handle_no_permission()
         return super().dispatch(request, *args, **kwargs)
+
+
+class DeleteFaq(LoginRequiredMixin, DeleteView):
+    """
+    Class to delete a Faq
+    """
+    model = Review
+    template_name = 'faqs/delete_faq.html'
+    success_url = reverse_lazy('faqs')
+
+    def form_valid(self, form):
+        form.instance.name = self.request.user
+        return super().form_valid(form)
+
+    def dispatch(self, request, *args, **kwargs):
+        """
+        check that the current user
+        is the owner of the faq
+        """
+        if self.get_object().name != self.request.user:
+            return self.handle_no_permission()
+        return super().dispatch(request, *args, **kwargs)
