@@ -28,13 +28,24 @@
                         <h2 class="mb-0"></h2>
                         <button class="btn-accordion btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <strong>{{ faq.question }}</strong>
+                            
                         </button>
                     </h2>
                     </div>
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div class="card-body">
                             {{ faq.answer }}
+                            <br>
+                            {% if user.is_superuser %}
+                            <span class="align-self-end">
+                                <small class="edit-delete-btns ">
+                                    <a href="">Edit</a> |
+                                    <a href="">Delete</a>
+                                </small>
+                            </span>
+                            {% endif %}
                         </div>
+                        
                     </div>
                 </div>
             </div>
