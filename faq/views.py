@@ -4,7 +4,7 @@ from django.views import generic, View
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, UpdateView
 from .forms import FaqForm
-from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 
 
 class Faqs(generic.ListView):
@@ -15,7 +15,7 @@ class Faqs(generic.ListView):
     template_name = 'faqs/faqs.html'
 
 
-class AddFaq(CreateView):
+class AddFaq(LoginRequiredMixin, UserPassesTestMixin, CreateView):
     """
     Class to add a Faq
     """
@@ -26,13 +26,19 @@ class AddFaq(CreateView):
 
     def form_valid(self, form):
         form.instance.name = self.request.user
-        self.request.user == self.request.user.is_superuser
         return super().form_valid(form)
 
     def form_invalid(self, form):
         response = super().form_invalid(form)
         messages.error(self.request, 'Please fill up all fields.')
         return response
+
+    def test_func(self):
+        """
+        ensures only superuser can add new serivces
+        """
+        if self.request.user.is_superuser:
+            return True
 
 
 class EditFaq(LoginRequiredMixin, UpdateView):
@@ -48,7 +54,6 @@ class EditFaq(LoginRequiredMixin, UpdateView):
 
     def form_valid(self, form):
         form.instance.name = self.request.user
-        self.request.user == self.request.user.is_superuser
         return super().form_valid(form)
 
     def form_invalid(self, form):
