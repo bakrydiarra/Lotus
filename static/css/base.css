@@ -144,7 +144,7 @@ a.nav-link:hover {
     min-height: 960px;
 }
 
-/* --------------------------------  Feedback message thank you, contact pages */
+/* --------------------------------  Feedback message thank you, contact and about us pages */
 
 .feedback-image-container {
     display: flex;
@@ -165,7 +165,7 @@ a.nav-link:hover {
 
 /* --------------------------------  about us page */
 
-.about-image-container {
+/* .about-image-container {
     display: flex;
     overflow: hidden;
     align-items: center;
@@ -175,7 +175,7 @@ a.nav-link:hover {
     background-position: center;
     background-size: cover;
     min-height: 960px;
-}
+} */
 
 /* --------------------------------  Reviews */
 
