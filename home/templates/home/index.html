@@ -10,19 +10,25 @@
 {% endblock %}
 
 {% block content %}
-<div class="container h-100">
-    <div class="row h-100">
-        <div class="col-12 col-md-6 ">
+<div class="container">
+    <div class="row  my-3 px-5 px-md-0">
+        <div class="col-12 col-md-6 d-flex justify-content-center align-items-end home-image-container-left">
             <h4>
                 <a href="" class="btn btn-lg rounded-0 text-uppercase py-3">About Us</a>
             </h4>
         </div>
-        <div class="col-12 col-md-6 ">
+        <div class="col-12 col-md-6 d-flex justify-content-center align-items-end home-image-container-right">
             <h4>
-                <a href="" class="btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
+                <a href="{% url 'products' %}" class="btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
             </h4>
         </div>
 
     </div>
+</div>
+<div class="container my-5 text-center pb-5">
+    <h1>Lotus opens the secret garden of your pleasure. Click and discover our orgasmic selection of stimulating vibrators</h1>
+    <br>
+    <p>We have a wide range of <strong>high quality sex toys</strong> which will surrender you to endlessly orgasms.</p>
+    <p>We support sex positivity and encourage our clientèle to <strong>explore the satisfaction of stimulating the G-spot</strong> and embrace the <strong>masturbation</strong>  as an essential need.</p>
 </div>
 {% endblock %}

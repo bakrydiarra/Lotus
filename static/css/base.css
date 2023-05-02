@@ -120,6 +120,30 @@ a.nav-link:hover {
 
 /* --------------------------------  HomePage */
 
+.home-image-container-left {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/media/selection.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 900px;
+}
+
+.home-image-container-right {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/media/shopping_bag.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 960px;
+}
+
 /* --------------------------------  Reviews */
 
 .review-bg {
