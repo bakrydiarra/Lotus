@@ -51,17 +51,6 @@ class EditReview(LoginRequiredMixin, UpdateView):
     template_name = 'reviews/edit_review.html'
     success_url = reverse_lazy('thank_review')
 
-    """
-    to get the original queryset of all Review objects
-    to filter onlyto include objects where the user
-    matches the currently logged in user
-    """
-
-    def get_queryset(self):
-        queryset = super().get_queryset()
-        queryset = queryset.filter(name=self.request.user)
-        return queryset
-
     def form_valid(self, form):
         form.instance.name = self.request.user
         return super().form_valid(form)
