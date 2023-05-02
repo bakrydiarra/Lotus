@@ -45,6 +45,7 @@
   * [Header](#header)
   * [Footer](#footer)
   * [Home Page](#home-page)
+  * [About Us Page](#about-us-page)
   * [User Account Pages](#user-account-pages)
   * [Profile](#profile)
   * [Vibrator (Products)](vibrator--products)
@@ -52,8 +53,8 @@
   * [Product Management](#product-management)
   * [Bag](#bag)
   * [Checkout](#checkout)
-  * [About Us](#about-us)
-  * [Reviewss](#reviews)
+  * [FAQs](#faqs)
+  * [Reviews](#reviews)
   * [Contact Form](#contact-form)
   * [Error Pages](#error-pages)
   * [Future Implementations](#future-implementations)
@@ -335,6 +336,61 @@ User journey diagram
 
 ### Header
 
+- The header is present on all pages of the website.
+
+<details>
+<summary>Header images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+- Text logo: redirects the user to the home page.
+
+<details>
+<summary>Logo image</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+- Search bar: allows the user to search for name by name or description.
+
+<details>
+<summary>Search Bar image</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+- User icon: allows to access a dropdown menu with Sign up and login links
+- User icon: registered users displayed their name next to the icon with dropdown menu logout and my profile links
+- User icon: registered superuser acces under the icon a dropdown menu with the options Faqs Management and Product Management links
+
+<details>
+<summary>Icon images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+- Bag icon: allows the user to visualize once a product added the quatity of itemes selected.
+- Bag icon: allows the user to visualize once a product added a toast message that displays the content of the shopping bag.
+
+<details>
+<summary>Bag icon images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+- Main navbar: is present on all pages and allows the user to navigate the site through few links (Product, Reviews, About Us, Contact us).
+
 <details>
 <summary>Navbar images</summary>
 <img src="">
@@ -345,6 +401,8 @@ User journey diagram
 
 ### Footer
 
+- The footer is present on all pages of the website.
+
 <details>
 <summary>Footer images</summary>
 <img src="">
@@ -353,10 +411,58 @@ User journey diagram
 
 ---
 
+- footer: allows to navigate the site through different links (Products, Reviews, Faqs, Contact Us, Privacy policy).
+
+<details>
+<summary>Footer link image</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+- footer: allows the user to visit Lotus' social pages (Facebook, Insta, Youtube) through social media icons.
+
+<details>
+<summary>Social media icons image</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+- footer: allows users to subscribe to the website's newslette through Mailchimp subscription form.
+
+<details>
+<summary>FMailchimp subscription for image</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
 ### Home Page
+
+- Home page: contains two calls for action (shop now, About Us)
+- Home page: contains a Motto/Info about Lotus
+- Home page : contains two images which illustrate Lotus' scale of products
 
 <details>
 <summary>Home Page images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### About Us Page
+
+- About Us page: contains the culture of Lotus' brand
+- Anout Us page: contains a image to illustrate self-pleasure
+- Anout Us page : contains a Motto/Info about Lotus
+
+<details>
+<summary>About Us Page image</summary>
 <img src="">
 <img src="">
 </details>
@@ -433,7 +539,7 @@ User journey diagram
 
 ---
 
-### About Us
+### FAQs
 
 <details>
 <summary>About Us</summary>
