@@ -15,9 +15,21 @@
 
 ## Site info
 
+ 
+ - Lotus  is built using Django full-stack framework and uses a Relational Database. Technologies used include HTML, CSS, Javascript, Python, and Stripe payments.
+
  - Lotus is an application that envourages sex-positivity amongst women. 
  - It's an online sexshop that proposes high quality silicone hygiene safe adult toys.
  - The site offers a great spectrum of vibrators and entertains a luxury and playfull aesthetic touch.
+
+Key features include:
+
+ - Filters: Users can apply filters to quickly and easily find some products (Search or sort by)
+ - Bag & Stripe Checkout: Users can add multiple items to their bag and proceed to checkout with Stripe. See Stripe's testing card details to place an order on the website
+ - Authentication: Users can create an account to save their contact information and view their order history
+ - Reviews: Registered users can create, read, update and delete reviews
+ - Contact form: Visitors can send enquiries
+ - FAQs: Users can consult the FAQs in order to find some precise information
 
 ---
 
@@ -434,7 +446,7 @@ User journey diagram
 - footer: allows users to subscribe to the website's newslette through Mailchimp subscription form.
 
 <details>
-<summary>FMailchimp subscription for image</summary>
+<summary>Mailchimp subscription for image</summary>
 <img src="">
 <img src="">
 </details>
