@@ -144,6 +144,25 @@ a.nav-link:hover {
     min-height: 960px;
 }
 
+/* --------------------------------  Feedback message thank you and contact */
+
+.feedback-image-container {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/media/image_feedback.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 960px;
+}
+
+.cheerup {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
 /* --------------------------------  Reviews */
 
 .review-bg {
