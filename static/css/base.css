@@ -9,6 +9,10 @@ body {
 
 }
 
+strong {
+    color: #000;
+}
+
 .main-content {
     min-height: calc(100vh - 328px);
 }
@@ -25,15 +29,15 @@ hr {
 
 .edit-delete-btns {
     z-index: 5000;
-    color: #FCCFD6 !important;
+    color: #000 !important;
 }
 
 .edit-delete-btns span {
-    color: #FCCFD6;
+    color: #000;
 }
 
 .edit-delete-btns a {
-    color: #FCCFD6;
+    color: #000;
 }
 
 .btn {
@@ -115,6 +119,20 @@ a.nav-link:hover {
 
 
 /* --------------------------------  HomePage */
+
+/* --------------------------------  Reviews */
+
+.review-bg {
+    background-color: #FCCFD6;
+}
+
+.card-columns {
+    column-gap: 2rem;
+}
+
+.card-columns {
+    column-count: 2;
+}
 
 /* --------------------------------   Allauth form formatting  */
 
