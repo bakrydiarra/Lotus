@@ -50,8 +50,9 @@ Key features include:
   * [Database Model](#database-model)
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
-  * [Structure](#structure)
   * [Wireframes](#wireframes)
+  * [Structure](#structure)
+  * [Security](#security)
 
 * [Features](#features)
   * [Header](#header)
@@ -341,6 +342,24 @@ User journey diagram
 <summary>Functional Structure</summary>
 <img src="docs/readme_images/information_structure.png">
 </details>
+
+---
+
+## Security
+
+### User Authentication
+
+Authentication was implemented using Django's built-in authentication system:
+ - to create a custom user model that allows users to sign up and log in to the website.
+ - to create a custom admin model that allows admin users to log in to the admin site.
+ - Django's LoginRequiredMixin is used to make sure that any requests to access secure pages by non-authenticated users are redirected to login page.
+ - Django's UserPassesTestMixin is used to limit access based on certain permissions i.e. add a FAQ which is restricted onyl to the superuser.
+
+ ### Methods
+
+ ### Form Validation
+
+ ### Database Security
 
 ---
 
