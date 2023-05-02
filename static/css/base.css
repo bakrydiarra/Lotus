@@ -9,6 +9,10 @@ body {
 
 }
 
+.main-content {
+    min-height: calc(100vh - 328px);
+}
+
 .border-pink {
     border: 1px solid #FCCFD6 !important;
 }
@@ -222,6 +226,26 @@ a.nav-link:hover {
 }
 
 
+/* --------------------------------  footer */
+
+footer {
+    background-color: #7F7693;
+    color: white;
+}
+
+.text-color {
+    color: #fff !important;
+}
+
+.social-networks i {
+    font-size: 160%;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.social-networks i:hover {
+    color: #FCCFD6;
+}
 
 /* -------------------------------- Media Queries */
 
