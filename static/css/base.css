@@ -47,6 +47,33 @@ hr {
     background-color: #77949A;
 }
 
+/* -------------------------------- back  to top btn */
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+    background-color: #7F7693;
+    
+}
+
+.btt-link {
+    cursor: pointer;
+}
+
+.text-up {
+    background-color: #7F7693;
+    color: #000;
+}
+
+.text-up:hover {
+    color: #FCCFD6;
+}
+
+
 /* --------------------------------  Navbar */
 
 .logo-font {
@@ -75,11 +102,17 @@ a.nav-link:hover {
     background-color: #7F7693;;
 }
 
-.bag-badge {
+.bag-counter {
     position: absolute;
     transform: translateY(-15%);
 
 }
+
+.bag-counter:hover {
+    color: #FCCFD6 !important;
+    background-color: #7F7693;;
+}
+
 
 /* --------------------------------  HomePage */
 
@@ -210,21 +243,6 @@ a.nav-link:hover {
     max-width: 640px;
 
 }
-
-/* -------------------------------- back top btn */
-
-.btt-button {
-    height: 42px;
-    width: 42px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-}
-
-.btt-link {
-    cursor: pointer;
-}
-
 
 /* --------------------------------  footer */
 
