@@ -144,7 +144,7 @@ a.nav-link:hover {
     min-height: 960px;
 }
 
-/* --------------------------------  Feedback message thank you and contact */
+/* --------------------------------  Feedback message thank you, contact pages */
 
 .feedback-image-container {
     display: flex;
@@ -161,6 +161,20 @@ a.nav-link:hover {
 .cheerup {
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+/* --------------------------------  about us page */
+
+.about-image-container {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/media/about_us_image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 960px;
 }
 
 /* --------------------------------  Reviews */
