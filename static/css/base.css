@@ -80,7 +80,7 @@ hr {
 
 /* --------------------------------  Navbar */
 
-.logo-font {
+.mylogo {
     font-family: 'Kurale', sans-serif;
 }
 
@@ -372,4 +372,43 @@ footer {
     body {
         height: calc(100vh - 116px);
     }
+    .main-content {
+        min-height: calc(100vh - 264px);
+    }
+    .nav-link {
+        padding: 0.15rem;
+    }
+    .nav-link i.fa-lg {
+        font-size: 1rem;
+    }
+    .navbar-toggler {
+        padding: .6rem .6rem;
+        font-size: 1rem;
+    }
+    .logo-font {
+        font-size: 3rem;
+        line-height: 75px;
+    }
+    .cheerup {
+        font-size: 1rem;
+    }
+    .product-card {
+        width: 80%;
+    }
+    .increase-qty,
+    .decrease-qty {
+        padding: .25rem .5rem !important;
+    }
+    .social-networks i {
+        font-size: 130%;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .card-columns {
+        column-count: 1;
+    }
+
 }
