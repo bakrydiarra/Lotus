@@ -224,7 +224,7 @@ The issues that I couldn’t tackle from the "Todo" column ended in the “Won�
   |  Yes  | No  | No | No |
 
 
-   #### Product
+  #### Product
 
   | Create | Read | Update | Delete |
   | ------------- | ------------- | -------------    | ------------- |
@@ -239,6 +239,11 @@ The issues that I couldn’t tackle from the "Todo" column ended in the “Won�
   | ------------- | ------------- | -------------    | ------------- |
   |  Yes  | Yes  | Yes | Yes |
 
+  #### Faq
+
+  | Create | Read | Update | Delete |
+  | ------------- | ------------- | -------------    | ------------- |
+  |  Yes  | Yes  | Yes | Yes |
 
 ### Database Model
 
@@ -502,8 +507,30 @@ Authentication was implemented using Django's built-in authentication system:
 
 ### User Account Pages
 
+- Sign up page: allows new users to create account - the process requires a confirmation email with confirmation link belo
+
 <details>
-<summary>User Account Pages images</summary>
+<summary>Sign up images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+- Login page: existing users to log into their account - including a "remember me" and "Fogot Password" option.Success messages inform the user if they have logged in successfully.
+
+<details>
+<summary>Login page images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+- Logout page: allows authenticated users to securely log out of their account. Success messages inform the user if they have logged out successfully.
+
+<details>
+<summary>Logout page images</summary>
 <img src="">
 <img src="">
 </details>
@@ -512,15 +539,27 @@ Authentication was implemented using Django's built-in authentication system:
 
 ### Profile
 
+- Delivery details: stores the user's delivery address and phone number.
+
 <details>
-<summary>Profile images</summary>
+<summary>Delivery details images</summary>
 <img src="">
 <img src="">
 </details>
 
 ---
 
-### Vibrators (Products)
+- Order History: displays a list of every order the user has made with order njmber, date and order total. Each order is available once it has been clicked.
+
+<details>
+<summary>Order History images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Vibrators (Products List)
 
 <details>
 <summary>Vibrators (Products) images</summary>
@@ -572,8 +611,15 @@ Authentication was implemented using Django's built-in authentication system:
 
 ### FAQs
 
+- FAQs: allows to display the frequently asked questions.
+- FAQs Management link: available in dropdown menu under the user icon when owner logged in, redirect to add FAQs page
+- Add FAQs page : allows the owner to add new question and answer
+- Edit FAQs page: accessible through edit btn in each pair question/answer. This allows the owner to edit content.
+- Faqs Delete btn: allows the owner to delete a pair question/answer
+- FAQs page: allows the user to visualize FAQs
+
 <details>
-<summary>About Us</summary>
+<summary>FAQs images</summary>
 <img src="">
 <img src="">
 </details>
