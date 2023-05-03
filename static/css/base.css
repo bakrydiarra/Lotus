@@ -383,6 +383,9 @@ footer {
     body {
         height: calc(100vh - 116px);
     }
+    h1 {
+        font-size: 20px;
+    }
     .main-content {
         min-height: calc(100vh - 264px);
     }
