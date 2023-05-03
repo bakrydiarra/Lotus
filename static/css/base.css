@@ -108,8 +108,8 @@ a.nav-link:hover {
 
 .bag-counter {
     position: absolute;
-    transform: translateY(-15%);
-
+    transform: translateY(50%);
+    margin-right: 2px;
 }
 
 .bag-counter:hover {
@@ -117,6 +117,14 @@ a.nav-link:hover {
     background-color: #7F7693;;
 }
 
+a.dropdown-item {
+    color: #7F7693;
+}
+
+a.dropdown-item:hover {
+    color: #FCCFD6;
+    background-color: #7F7693;;
+}
 
 /* --------------------------------  HomePage */
 
