@@ -43,7 +43,7 @@
                     <strong>{{ review.name }}</strong>
                     <br>
                     {{ review.created_on }}
-                    {% if user.is_authenticated and review.name == user or user.is_superuser %}
+                    {% if user.is_authenticated and review.name == user  %}
                     <span class="align-self-end">
                         <small class="edit-delete-btns ">
                             <a href="{% url 'edit_review' review.id %}">Edit</a> |
