@@ -26,6 +26,15 @@ class ContactUs(CreateView):
     template_name = 'contact/contact.html'
     success_url = reverse_lazy('received_msg')
 
+    # get value from authenticated user
+    def get_initial(self):
+        """Set the initial values of the form"""
+        initial = super().get_initial()
+        if self.request.user.is_authenticated:
+            initial["name"] = self.request.user.username
+            initial["email"] = self.request.user.email
+        return initial
+
     def form_valid(self, form):
         response = super().form_valid(form)
 
