@@ -1,7 +1,6 @@
-"""Order Form Imports"""
-
 from django import forms
 from .models import Order
+from django.core.validators import RegexValidator
 
 
 class OrderForm(forms.ModelForm):
@@ -41,3 +40,16 @@ class OrderForm(forms.ModelForm):
                 self.fields[field].widget.attrs['placeholder'] = placeholder
             self.fields[field].widget.attrs['class'] = 'stripe-style-input'
             self.fields[field].label = False
+
+        self.fields['phone_number'].widget.attrs[
+            'pattern'] = "[0-9]{1,15}"
+
+        """
+        To prevent whitespace when form is submitted
+        """
+        self.fields['full_name'].widget.attrs[
+            'pattern'] = "([^\\s][A-z0-9À-ž\x27\\s]+)"
+        self.fields['street_address1'].widget.attrs[
+            'pattern'] = "([^\\s][A-z0-9À-ž\x27\\s]+)"
+        self.fields['town_or_city'].widget.attrs[
+            'pattern'] = "([^\\s][A-z0-9À-ž\x27\\s]+)"
