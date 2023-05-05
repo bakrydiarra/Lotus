@@ -61,11 +61,13 @@ hr {
     right: 10px;
     z-index: 1;
     background-color: #7F7693;
+    text-decoration: none;
     
 }
 
 .btt-link {
     cursor: pointer;
+    text-decoration: none;
 }
 
 .text-up {
