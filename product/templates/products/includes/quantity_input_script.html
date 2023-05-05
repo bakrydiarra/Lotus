@@ -25,24 +25,22 @@
     // Grow quantity
     $('.grow-qty').click(function(e) {
        e.preventDefault();
-       var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
-       var currentValue = parseInt($(closestInput).val());
-       $(closestInput).val(currentValue + 1);
-       /* var updatedValue = parseInt($(closestInput).val()); */
        var itemId = $(this).data('item_id');
+       var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
+       var allQuantityInputs = $(`.input-group-${itemId} input[name='quantity']`);
+       var currentValue = parseInt($(closestInput).val());
+       $(allQuantityInputs).val(currentValue + 1);
        handleEnableDisable(itemId);
-      /*  updateBag(itemId, updatedValue); */
     });
 
     // Reduce quantity
     $('.reduce-qty').click(function(e) {
        e.preventDefault();
-       var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
-       var currentValue = parseInt($(closestInput).val());
-       $(closestInput).val(currentValue - 1);
-       /* var updatedValue = parseInt($(closestInput).val()) */
        var itemId = $(this).data('item_id');
+       var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
+       var allQuantityInputs = $(`.input-group-${itemId} input[name='quantity']`);
+       var currentValue = parseInt($(closestInput).val());
+       $(allQuantityInputs).val(currentValue - 1);    
        handleEnableDisable(itemId);
-       /* updateBag(itemId, updatedValue); */
     });
 </script>
