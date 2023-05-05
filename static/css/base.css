@@ -65,7 +65,8 @@ hr {
     
 }
 
-.btt-link {
+.btt-link,
+.btn-link  {
     cursor: pointer;
     text-decoration: none;
 }
@@ -79,6 +80,13 @@ hr {
     color: #FCCFD6;
 }
 
+button {
+   text-decoration: none;
+}
+
+.btn-accordion  {
+    background-color: #FCCFD6;
+}
 
 /* --------------------------------  Navbar */
 

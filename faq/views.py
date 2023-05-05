@@ -1,5 +1,5 @@
-from django.shortcuts import render
 from .models import Faq
+from django.contrib import messages
 from django.views import generic, View
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, UpdateView, DeleteView
