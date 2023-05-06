@@ -825,7 +825,8 @@ IN PROGRESS
 - [Django allauth](https://django-allauth.readthedocs.io/en/latest/index.html)  - Used to implement account authorisation and providing associated templates
 - [jquery library](https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js) - Used to fade out alert messages
 - [dj_database_url](https://pypi.org/project/dj-database-url/) - Used to allow database urls to connect to the postgres db
-- [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Used to develop the layout of the site.
+- [Bootstrap 4](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - Used to develop the layout of the site.
+- [django-summernote](https://github.com/summernote/django-summernote) (WYSIWYG HTML editor)
 - [Font Awesome](https://fontawesome.com/) - Used to produce icons on the site.
 - [Google Fonts](https://fonts.google.com/) - Used to import the site's font family.
 
@@ -866,6 +867,342 @@ IN PROGRESS
 ---
 
 ## Deployment 
+
+### Creating a Gitpod Workspace
+
+<details>
+<summary>Steps</summary>
+
+1. Log in to GitHub and go to the [Code Institute student template for Gitpod](https://github.com/Code-Institute-Org/gitpod-full-template)
+2. Click 'Use this Template' next to the Green Gitpod button.
+3. Add a repository name and click 'Create reposiory from template'.
+4. This will create a copy of the template in your own repository. Now you can click the green 'Gitpod' button to open a workspace in Gitpod.
+
+</details>
+
+---
+
+### Installing support libraries and Django
+
+<details>
+<summary>Steps</summary>
+
+```
+$ pip3 install 'django<4' gunicorn
+$ pip3 install dj_database_url psycopg2
+$ pip3 install boto3
+$ pip3 install django-storages
+$ pip3 install django-crispy-forms  
+$ pip3 install crispy-bootstrap5
+$ pipe install django-summernote
+```
+
+</details>
+
+---
+
+### Create requirements file
+
+<details>
+<summary>Step</summary>
+
+```
+$ pip3 freeze --local > requirements.txt
+```
+
+</details>
+
+---
+
+### Create a project
+
+<details>
+<summary>Step</summary>
+
+```
+$ django-admin startproject lotus .
+```
+
+</details>
+
+---
+### Create apps and add them to settings.py
+
+<details>
+<summary>Steps</summary>
+
+```
+$ python3 manage.py startapp bag
+$ python3 manage.py startapp checkout
+$ python3 manage.py startapp contact
+$ python3 manage.py startapp faq
+$ python3 manage.py startapp home
+$ python3 manage.py startapp product
+$ python3 manage.py startapp profiles
+$ python3 manage.py startapp reviews
+INSTALLED_APPS = [
+   'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'home',
+    'product',
+    'bag',
+    'checkout',
+    'contact',
+    'profiles',
+    'reviews',
+    'faq',
+    'crispy_forms',
+    'django_summernote',
+    'storages',
+]
+```
+
+</details>
+
+---
+
+### Migrate changes
+
+<details>
+<summary>Steps</summary>
+
+```
+$ python manage.py makemigrations
+$ python manage.py migrate
+```
+
+</details>
+
+---
+
+### Creating a database
+
+<details>
+<summary>Steps</summary>
+
+1. Go to [ElephantSQL.com](https://elephantsql.com/) and select to create a database
+2. Select the free database plan
+3. Select “Log in with GitHub” and authorise with GitHub
+4. Create new team form. You can use your name, read and agree to the T&C's, select yes for GDPR, provide your email address and click Create Team. Your account will be created 
+5. From your dashboard, click “Create New Instance”
+6. Set up your plan. Give it the same name as your project, select the free plan. Select "select region" and select a region close to you.
+7. Click review, and if the details are correct, click create instance.
+8. Return to the ElephantSQL dashboard and click on the database instance name for this project
+9. In the URL section, clicking the copy icon will copy the database URL to your clipboard
+
+```
+import os
+import dj_database_url
+if os.path.isfile('env.py'):
+  import env
+```
+
+```
+if 'DATABASE_URL' in os.environ:
+        DATABASES = {
+            'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+        }
+    else:
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.sqlite3',
+                'NAME': BASE_DIR / 'db.sqlite3',
+            }
+    }
+
+```
+
+</details>
+
+---
+
+### Creating AWS account
+
+<details>
+<summary>Steps</summary>
+
+1. Find and access S3 as a service and create a new bucket:
+
+    Under Object Ownership, check "ACLs enabled"
+
+    Uncheck "Block all public access" and acknowledge (required for public access to static files)
+
+2. Configur bucket settings:
+
+    Under **Properties**, enable Static Website Hosting
+
+    Under **Permissions**, copy the following code into CORS section:
+
+    ```
+    [
+        {
+            "AllowedHeaders": [
+                "Authorization"
+            ],
+            "AllowedMethods": [
+                "GET"
+            ],
+            "AllowedOrigins": [
+                "*"
+            ],
+            "ExposeHeaders": []
+        }
+    ]
+    ```
+    This is required to set up the access between the Heroku app and the S3 bucket.
+
+    Under **Bucket policy**, go to Policy generator.
+
+    Bucket Type = S3 Bucket Policy
+
+    Principal = * (allows all principles)
+
+    Actions = GetObject
+
+    Paste in ARN from bucket settings tab.
+
+    Click Add Statement, then Generate Policy.
+
+    Copy policy in paste into bucket policy editor. Also add ``/*`` onto the end of the resource key.
+
+    Click Save.
+
+    Under **Access control list (ACL)**, check "List" checkbox for "Everyone (public access)"
+
+3. Create user to access bucket with IAM (Identity and Access Management)
+
+    In IAM, got to User Groups (sidebar left).
+
+    There create a group for a user, create an access policy giving the group access to the S3 bucket and assign the user to the group so it can use the policy to access all files. 
+
+4. Connect Django to S3
+
+    Configure settings.py accordingly, including necessary AWS variables.
+
+    ```
+    if 'USE_AWS' in os.environ:
+    # Cache control
+    AWS_S3_OBJECT_PARAMETERS = {
+        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+        'CacheControl': 'max-age=94608000',
+    }
+
+    # Bucket Config
+    AWS_STORAGE_BUCKET_NAME = 'mylotus'
+    AWS_S3_REGION_NAME = 'eu-north-1'
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+
+    # Static and media files
+    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_LOCATION = 'static'
+    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+    MEDIAFILES_LOCATION = 'media'
+
+    # Override static and media URLs in production
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+
+    ```
+
+
+  
+
+    Create ``custom_storages.py`` file.
+
+    ```
+     from django.conf import settings
+     from storages.backends.s3boto3 import S3Boto3Storage
+
+     class StaticStorage(S3Boto3Storage):
+        location = settings.STATICFILES_LOCATION
+
+      class MediaStorage(S3Boto3Storage):
+        location = settings.MEDIAFILES_LOCATION
+
+    ```
+5. Create folder in your bucket S3
+   Name the folder 'media' and click 'Save'.
+   Inside the folder, click 'Upload', 'Add files', and then select all the images that you are using for your site.
+   Then under 'Permissions' select the option 'Grant public-read access' and click upload.
+   The static files and media files should be automatically linked from django to your S3 bucket.
+
+   
+    
+
+
+</details>
+
+---
+
+### Creating env.py
+
+<details>
+<summary>Steps</summary>
+
+1. place env.py to the project root directory
+2. add env.py to git.ignore to avoid pushing this file to GitHub
+3. Add the following entries into the file
+
+```
+import os
+os.environ["DATABASE_URL"] = "XXXX"
+os.environ["SECRET_KEY"]= "XXXX"
+os.environ["STRIPE_PUBLIC_KEY"]= "XXXX"
+os.environ["STRIPE_SECRET_KEY"] = "XXXX"
+os.environ["STRIPE_WH_SECRET"] = "XXXX"
+os.environ["AWS_ACCESS_KEY_ID"] = "XXXX"
+os.environ["AWS_SECRET_ACCESS_KEY"] = "XXXX"
+```
+
+</details>
+
+---
+
+### Creating an application with Heroku
+
+<details>
+<summary>Steps</summary>
+
+
+1. Create a Heroku account and log in.
+2. Create a new app. When you do so, select the closest region to you and give it an appropriate name. Note Heroku names must be unique
+3. Add the following Config Vars in Heroku:
+
+|     Variable name     |                           Value/where to find value                           |
+|:---------------------:|:-----------------------------------------------------------------------------:|
+| AWS_ACCESS_KEY_ID     | AWS CSV file(instructions below)                                               |
+| AWS_SECRET_ACCESS_KEY | AWS CSV file(instructions below)                                               |
+| DATABASE_URL          | Postgres generated (as per step above)                                        |
+| EMAIL_HOST_PASS       | Password from email client                                                    |
+| EMAIL_HOST_USER       | Site's email address                                                          |
+| SECRET_KEY            | Random key generated as above                                                 |
+| STRIPE_PUBLIC_KEY     | Stripe Dashboard > Developers tab > API Keys > Publishable key                |
+| STRIPE_SECRET_KEY     | Stripe Dashboard > Developers tab > API Keys > Secret key                     |
+| STRIPE_WH_SECRET      | Stripe Dashboard > Developers tab > Webhooks > site endpoint > Signing secret |
+| USE_AWS               | True (when AWS set up - instructions below)                                   |
+
+
+4. Connect Heroku to github repository
+5. Deploy from branch manually (before final deployment: the debug setting in settings.py was set to false for security, X_FRAME_OPTIONS = 'SAMEORIGIN' was added and  the DISABLE_COLLECTSTATIC config var in Heroku has to be removed)
+
+```
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = False
+```
+
+</details>
+
+---
 
 ---
 
