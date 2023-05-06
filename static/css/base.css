@@ -361,6 +361,11 @@ footer {
     color: #FCCFD6;
 }
 
+#mc_embed_signup {
+    background: #7F7693;
+    clear: left;
+    font: 14px lato, Arial, sans-serif;
+}
 /* -------------------------------- Media Queries */
 
 
