@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_title %}Lotus| Product Details {% endblock %}
 {% block page_header %}
 <div class="container header-container">
     <div class="row">
@@ -53,7 +54,7 @@
                                     <div class="input-group input-group-{{ product.id }}">
                                         <div class="input-group-prepend">
                                             <button class="reduce-qty btn rounded-0 reduce-qty_{{ product.id }}"
-                                                data-item_id="{{ product.id }}">
+                                                data-item_id="{{ product.id }}" aria-label="Reduce Quantity">
                                                 <span>
                                                     <i class="fas fa-minus"></i>
                                                 </span>
@@ -63,7 +64,7 @@
                                             name="quantity" value="1" min="1" max="99" data-item_id="{{ product.id }}">
                                         <div class="input-group-append">
                                             <button class="grow-qty btn rounded-0 grow-qty_{{ product.id }}"
-                                                data-item_id="{{ product.id }}">
+                                                data-item_id="{{ product.id }}" aria-label="Grow Quantity">
                                                 <span>
                                                     <i class="fas fa-plus"></i>
                                                 </span>
