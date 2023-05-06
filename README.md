@@ -561,6 +561,10 @@ Authentication was implemented using Django's built-in authentication system:
 
 ### Vibrators (Products List)
 
+- Products list: accessible by clicking the link 'Product' in Navbar which will display a dropdown menu with different links. For instance, 'All' link displays all products. The other links are categories which display the products according their category.
+- Products list: is displayed in product cards.Each product card shows an image of the product, its title, excerpt and price. If the user is a superuser, edit and delete buttons will appear at the bottom of the product card.
+- A  sort by feature is located on the products page where users can sort all products by price in ascending or descending order and by title (A-Z) or (Z-A) .
+
 <details>
 <summary>Vibrators (Products) images</summary>
 <img src="">
@@ -570,6 +574,11 @@ Authentication was implemented using Django's built-in authentication system:
 ---
 
 ### Product (Details)
+
+- Product details page: contains product image, titte, excerpt, description and price.
+- Product details page: contains quantity input, keep Shopping button and ass to bag button
+- Product details page: contains edit and delete option for authorised users for each product
+
 
 <details>
 <summary>Product (Detailss) images</summary>
@@ -581,8 +590,37 @@ Authentication was implemented using Django's built-in authentication system:
 
 ### Product Management
 
+- Add product page is accessible by clicking product Management link under the user icon when the superuser is authenticated.
+- Add product page: contains form fields, a cancel button and a add product button
+
 <details>
-<summary>Product Management images</summary>
+<summary>Add product page images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Edit Product page
+
+- Edit product page is accessible by clicking edit link in each card product
+- Edit product page: contains form fields, a cancel button and a edit product button
+
+<details>
+<summary>Edit product page images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Delete Product page
+
+- Delete product page is accessible by clicking delete link in each card product
+- Edit product page: a cancel button and a delete button
+
+<details>
+<summary>Edit product page images</summary>
 <img src="">
 <img src="">
 </details>
@@ -638,6 +676,11 @@ Authentication was implemented using Django's built-in authentication system:
 
 ### Contact Form
 
+- Contact form: allows the user to enter their name, email, subject and message.
+- Submit button: sends the message to the database.
+- Cancel button: redirect the user to the home page.
+- If the user is logged in, the email field is prepopulated with the user's email address.
+
 <details>
 <summary>Contact Form images</summary>
 <img src="">
@@ -646,7 +689,38 @@ Authentication was implemented using Django's built-in authentication system:
 
 ---
 
+### Received Msg Page
+
+- Received Msg Page: allows the user to receive a confirmation that his message was well properly sent.
+- FAq button: redirect the user to the FAQs
+
+<details>
+<summary>Received msg image</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Thank you Page
+
+- Thank you Page: allows the user to receive a confirmation that his review was well properly published.
+- Home button: redirect the user to the home page.
+
+
+<details>
+<summary>Thank you image</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
 ### Error Pages
+
+- Error message: displays the error message.
+- Home button: redirects the user to the home page.
+- Logout button: allows the user to log out 
 
 <details>
 <summary>Error Pages images</summary>
