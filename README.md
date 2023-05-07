@@ -18,7 +18,7 @@
  
  - Lotus  is built using Django full-stack framework and uses a Relational Database. Technologies used include HTML, CSS, Javascript, Python, and Stripe payments.
 
- - Lotus is an application that envourages sex-positivity amongst women. 
+ - Lotus is an application that envourages sex-positivity and self-pleasure. 
  - It's an online sexshop that proposes high quality silicone hygiene safe adult toys.
  - The site offers a great spectrum of vibrators and entertains a luxury and playfull aesthetic touch.
 
@@ -124,11 +124,11 @@ Key features include:
 
 ### Target Audience
 
-- Women who are curious to discover self-pleasure with sex toys
-- Women who care about hight quality body safe product
-- Women who are sex positivity supporters
+- People who are curious to discover self-pleasure with sex toys
+- People who care about hight quality body safe product
+- People who are sex positivity supporters
 
-User 1: The typical site user would be a female who has an interest in self care and self pleasure in her sexuality.
+User 1: The typical site user would be a person who has an interest in self care and self pleasure in his sexuality.
 User 2: Additional site users could be partner of user 1 and may be browsing the site to purchase gifts.
 
 
@@ -153,6 +153,8 @@ User 2: Additional site users could be partner of user 1 and may be browsing the
 | 5                              | shopper    | search all products                                                    | find what I am looking for.                                                       |
 | 6                              | shopper    | sort all products                                                      | view products based on price or title.                                            |
 | 7                              | site user  | read reviews left by other customers                                   | have feedback insights from customers.                                            |
+| 7                              | site user  | read reviews left by other customers                                   | have feedback insights from customers.                                            |
+| 7b                             | site user  | read FAQs left by owner.                                               | get more precise information.                                                     |
 | Registration and User Accounts |            |                                                                        |                                                                                   |
 | 8                              | site user  | register an account                                                    | have a personal account and see my profile.                                       |
 | 9                              | site user  | login or logout                                                        | access my personal info/keep my account secure.                                   |
@@ -629,6 +631,12 @@ Authentication was implemented using Django's built-in authentication system:
 
 ### Bag
 
+- Bag Page is accessible when the user clicks to the shopping bag icon.
+- Bag Page contains quantity adjustment option, product removal option and uptdate option
+- Bag Page displays subtotal, delivery cost and grand total
+- bag Page contains keep shopping button and go to secure checkout button
+
+
 <details>
 <summary>Bag images</summary>
 <img src="">
@@ -639,8 +647,27 @@ Authentication was implemented using Django's built-in authentication system:
 
 ### Checkout
 
+- Checkout page contains a form, including sections for personal info, contact details and card details
+- Checkout page contains options to save details to profile for authenticated users. If the user is a guest, a link to create an account or login will be present.
+- Checkout page contains current ordres summary
+- Checkout page contains an adjust bag button and a complete order button
+
 <details>
 <summary>Checkout images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Checkout Success page
+
+- Checkout Success page contains confirmation order and informs user that an email was sent to his registered email.
+- Checkout Success page displays order details, contact and billing info
+- Checkout Success page contains and Keep shopping button
+
+<details>
+<summary>Checkout Success images</summary>
 <img src="">
 <img src="">
 </details>
@@ -666,8 +693,52 @@ Authentication was implemented using Django's built-in authentication system:
 
 ### Reviews
 
+- Add review page is accessible by clicking add review button
+- Add review page contains a form
+- Add review page contains a cancel button and a add review button
+
+
+<details>
+<summary> Add Review images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Add Review
+
+- Reviews page is accessible by clicking the link reviews in the navbar.
+- Reviews page contains reviews made by users and a button add review if user is authenticated, otherwise a msg to invite him to register in order to post a review
+
 <details>
 <summary>Reviews images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Edit Review
+
+- Edit Review page is accessible by clicking the edit button, only displayed for the user who owns the reviews - must be authenticated.
+- Edit Review page contains a form pre-populated with the existing review text
+- Edut review page contains edit button and cancel button
+
+<details>
+<summary>Edit review images</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### Delete Review
+
+- Delete review page contains a delete button and a cancel button
+
+<details>
+<summary>Delete review images</summary>
 <img src="">
 <img src="">
 </details>
@@ -710,6 +781,20 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Thank you image</summary>
+<img src="">
+<img src="">
+</details>
+
+---
+
+### About Us Page
+
+- About us page is accessible by clicking the link about us in the navbar
+- About us page contains a text about Lotus and a button home
+
+
+<details>
+<summary>About Us image</summary>
 <img src="">
 <img src="">
 </details>
