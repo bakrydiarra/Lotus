@@ -85,7 +85,7 @@ button {
 }
 
 .btn-accordion  {
-    background-color: #FCCFD6;
+    background-color: #FCCFD6 !important;
 }
 
 /* --------------------------------  Navbar */
