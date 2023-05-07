@@ -32,7 +32,7 @@
 </details>
 
 <details>
-<summary>Product Management Page</summary>
+<summary>Delete Product Page</summary>
 <img src="">
 </details>
 
@@ -73,6 +73,31 @@
 
 <details>
 <summary>Contact Us Page</summary>
+<img src="">
+</details>
+
+<details>
+<summary>Faqs Page</summary>
+<img src="">
+</details>
+
+<details>
+<summary>Add Faqs Page</summary>
+<img src="">
+</details>
+
+<details>
+<summary>Edit Faqs Page</summary>
+<img src="">
+</details>
+
+<details>
+<summary>Delete Faqs Page</summary>
+<img src="">
+</details>
+
+<details>
+<summary>About Us Page</summary>
 <img src="">
 </details>
 
