@@ -499,8 +499,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Login page images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/logged_in.png">
 </details>
 
 ---
@@ -517,23 +516,17 @@ Authentication was implemented using Django's built-in authentication system:
 ### Profile
 
 - Delivery details: stores the user's delivery address and phone number.
+- Order History: displays a list of every order the user has made with order number, date and order total. Each order is available once it has been clicked.
+
 
 <details>
 <summary>Delivery details images</summary>
 <img src="docs/readme_images/profile.png">
+<img src="docs/readme_images/past_order.png">
 </details>
 
 ---
 
-- Order History: displays a list of every order the user has made with order number, date and order total. Each order is available once it has been clicked.
-
-<details>
-<summary>Order History images</summary>
-<img src="">
-<img src="">
-</details>
-
----
 
 ### Vibrators (Products List)
 
@@ -641,7 +634,6 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Checkout Success images</summary>
-<img src="docs/readme_images/confirmation_order.png">
 <img src="docs/readme_images/success_checkout.png">
 <img src="docs/readme_images/payment.png">
 </details>

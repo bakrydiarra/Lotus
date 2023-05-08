@@ -16,145 +16,45 @@
 
 ##  W3C Validator
 
-<details>
-<summary>Home Page</summary>
-<img src="">
-</details>
+All HTML pages were run through the W3C HTML Validator. See results in below table.
 
-<details>
-<summary>Product list Page</summary>
-<img src="">
-</details>
+| Page                           | Logged Out | Logged In |
+|--------------------------------|------------|-----------|
+| Home                           | No Errors  | No Errors |
+| Products                       | No Errors  | No Errors |
+| Product Detail                 | No Errors  | No Errors |
+| Add Product                    | N/A        |No Errors  |
+| Edit Product                   | N/A        | No Errors |
+| Bag                            | No Errors  | No Errors |
+| Checkout                       | No Errors  | No Errors |
+| Checkout Success               | No Errors  | No Errors |
+| Profile                        | N/A        | No Errors |
+| Order History                  | N/A        | No Errors |
+| FAQs                           | No Errors  | No Errors |
+| Add FAQ.                       | N/A        | No Errors |
+| Edit FAQ.                      | N/A        | No Errors |
+| Delete FAQ                     | N/A        | No Errors |
+| Reviews                        | No Errors  | No Errors |
+| Add Review                     | N/A        | No Errors |
+| Edit Review.                   | N/A        | No Errors |
+| Delete Review.                 | N/A        | No Errors |
+| Contact                        | 10 Erros   | 10 Errors |
+| Received msg                   | No Errors  | No Errors |
+| Thank Review                   | No Errors  | No Errors |
+| Sign In                        | No Errors  | N/A       |
+| Sign Up                        | No Errors  | N/A       |
+| Log Out                        | N/A        | No Errors |
+| Password Reset                 | No Errors  | N/A       |
+| 400.html                       | No errors  | No errors |
+| 403.html                       | N/A        | No errors |
+| 404.html                       | No errors  | No errors |
+| 500.html                       | No errors  | No errors |
 
-<details>
-<summary>Product Details Page</summary>
-<img src="">
-</details>
 
-<details>
-<summary>Delete Product Page</summary>
-<img src="">
-</details>
+There was few minor markup errors present on the contact page, it does not significantly impact the user experience. These errors are located within the Django Summernote library and is outwidth my control to edit/correct them.
 
-<details>
-<summary> Add Product</summary>
-<img src="">
-</details>
+![HTML Error](docs/readme_images/contact_html_errors.png)
 
-<details>
-<summary> Edit Product</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Reviews Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary> Edit Review Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary> Add Review age</summary>
-<img src="">
-</details>
-
-<details>
-<summary> Delete Review Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Order Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Contact Us Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Faqs Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Add Faqs Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Edit Faqs Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Delete Faqs Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>About Us Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Bag Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Checkout Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Profile Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Order History Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Signup Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Signin Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Logout Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>404.html Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>400.html Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>404.html Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>500.html Page</summary>
-<img src="">
-</details>
 
 ---
 
