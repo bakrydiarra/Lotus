@@ -375,9 +375,8 @@ Authentication was implemented using Django's built-in authentication system:
 - The header is present on all pages of the website.
 
 <details>
-<summary>Header images</summary>
+<summary>Header image</summary>
 <img src="docs/readme_images/header.png">
-<img src="">
 </details>
 
 ---
@@ -405,7 +404,7 @@ Authentication was implemented using Django's built-in authentication system:
 - User icon: registered superuser acces under the icon a dropdown menu with the options Faqs Management and Product Management links
 
 <details>
-<summary>Icon images</summary>
+<summary> User Icon images</summary>
 <img src="docs/readme_images/icon_user.png">
 <img src="docs/readme_images/icon_user_logged.png">
 <img src="docs/readme_images/icon_name.png">
@@ -428,8 +427,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Navbar images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/navbar.png">
 </details>
 
 ---
@@ -486,28 +484,13 @@ Authentication was implemented using Django's built-in authentication system:
 
 ---
 
-### About Us Page
-
-- About Us page: contains the culture of Lotus' brand
-- Anout Us page: contains a image to illustrate self-pleasure
-- Anout Us page : contains a Motto/Info about Lotus
-
-<details>
-<summary>About Us Page image</summary>
-<img src="">
-<img src="">
-</details>
-
----
-
 ### User Account Pages
 
 - Sign up page: allows new users to create account - the process requires a confirmation email with confirmation link belo
 
 <details>
-<summary>Sign up images</summary>
-<img src="">
-<img src="">
+<summary>Sign up image</summary>
+<img src="docs/readme_images/sign_up.png">
 </details>
 
 ---
@@ -632,8 +615,8 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Bag images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/shopping_bag_empty.png">
+<img src="docs/readme_images/shopping_bag_item.png">
 </details>
 
 ---
@@ -747,8 +730,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Contact Form images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/contact.png">
 </details>
 
 ---
@@ -787,9 +769,9 @@ Authentication was implemented using Django's built-in authentication system:
 
 
 <details>
-<summary>About Us image</summary>
-<img src="">
-<img src="">
+<summary>About Us images</summary>
+<img src="docs/readme_images/about_us_1.png">
+<img src="docs/readme_images/about_us_2.png">
 </details>
 
 ---
@@ -802,8 +784,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Error Pages images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/error_page.png">
 </details>
 
 ---
@@ -817,6 +798,7 @@ Authentication was implemented using Django's built-in authentication system:
 <details>
 <summary>Toast success add item page image</summary>
 <img src="docs/readme_images/success_add_item.png">
+<img src="docs/readme_images/success_remove.png">
 </details>
 
 ---
