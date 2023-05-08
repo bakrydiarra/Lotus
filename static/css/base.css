@@ -27,6 +27,7 @@ hr {
 
 /* --------------------------------  btn */
 
+
 .edit-delete-btns {
     z-index: 5000;
     color: #000 !important;
@@ -65,8 +66,7 @@ hr {
     
 }
 
-.btt-link,
-.btn-link  {
+.btt-link {
     cursor: pointer;
     text-decoration: none;
 }
@@ -86,6 +86,11 @@ button {
 
 .btn-accordion  {
     background-color: #FCCFD6 !important;
+    text-decoration: none !important;
+}
+
+.btn-accordion:hover  {
+    text-decoration: none;
 }
 
 /* --------------------------------  Navbar */
@@ -183,20 +188,6 @@ a.dropdown-item:hover {
     font-size: 1.5rem;
     font-weight: 400;
 }
-
-/* --------------------------------  about us page */
-
-/* .about-image-container {
-    display: flex;
-    overflow: hidden;
-    align-items: center;
-    justify-content: center;
-    background-image: url('/media/about_us_image.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 960px;
-} */
 
 /* --------------------------------  Reviews */
 
