@@ -3,7 +3,7 @@
 ## Project Portfolio 5 - Full Stack Development/Specialization E-commerce
 
 
-![amiresponsive]() 
+![amiresponsive](docs/readme_images/amiresponsive.png) 
 
 
 ## Live Project
