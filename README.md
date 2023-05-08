@@ -62,7 +62,7 @@ Key features include:
   * [User Account Pages](#user-account-pages)
   * [Profile](#profile)
   * [Vibrator (Products)](vibrator--products)
-  * [Product Detail](#product-detail)
+  * [Product Details](#product-details)
   * [Product Management](#product-management)
   * [Bag](#bag)
   * [Checkout](#checkout)
@@ -199,11 +199,9 @@ The issues that I couldn’t tackle from the "Todo" column ended in the “Won�
 
 <details>
 <summary>Issue Samples</summary>
-<img src="">
-<img src="">
-<img src="">
-<img src="">
-<img src="">
+<img src="docs/readme_images/dashboard_1.png">
+<img src="docs/readme_images/dashboard_2.png">
+<img src="docs/readme_images/dashboard_3.png">
 </details>
 
 ---
@@ -378,7 +376,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Header images</summary>
-<img src="">
+<img src="docs/readme_images/header.png">
 <img src="">
 </details>
 
@@ -388,8 +386,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Logo image</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/logo.png">
 </details>
 
 ---
@@ -398,8 +395,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Search Bar image</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/search_bar.png">
 </details>
 
 ---
@@ -410,8 +406,9 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Icon images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/icon_user.png">
+<img src="docs/readme_images/icon_user_logged.png">
+<img src="docs/readme_images/icon_name.png">
 </details>
 
 ---
@@ -421,8 +418,8 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Bag icon images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/bag.png">
+<img src="docs/readme_images/bag_counter.png">
 </details>
 
 ---
@@ -443,8 +440,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Footer images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/footer.png">
 </details>
 
 ---
@@ -453,8 +449,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Footer link image</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/links_footer.png">
 </details>
 
 ---
@@ -463,8 +458,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Social media icons image</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/social_media.png">
 </details>
 
 ---
@@ -473,8 +467,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Mailchimp subscription for image</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/mailchimp_footer.png">
 </details>
 
 ---
@@ -487,8 +480,8 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Home Page images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/home_page_1.png">
+<img src="docs/readme_images/home_page_2.png">
 </details>
 
 ---
@@ -811,6 +804,19 @@ Authentication was implemented using Django's built-in authentication system:
 <summary>Error Pages images</summary>
 <img src="">
 <img src="">
+</details>
+
+---
+
+### Toast messsage Pages
+
+- 
+- 
+- 
+
+<details>
+<summary>Toast success add item page image</summary>
+<img src="docs/readme_images/success_add_item.png">
 </details>
 
 ---

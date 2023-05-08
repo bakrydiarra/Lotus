@@ -52,7 +52,6 @@ hr {
     background-color: #77949A;
 }
 
-/* -------------------------------- back  to top btn */
 
 .btt-button {
     height: 42px;
@@ -90,7 +89,7 @@ button {
 }
 
 .btn-accordion:hover  {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 /* --------------------------------  Navbar */
