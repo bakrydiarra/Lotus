@@ -509,8 +509,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Logout page images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/logout_page.png">
 </details>
 
 ---
@@ -521,13 +520,12 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Delivery details images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/profile.png">
 </details>
 
 ---
 
-- Order History: displays a list of every order the user has made with order njmber, date and order total. Each order is available once it has been clicked.
+- Order History: displays a list of every order the user has made with order number, date and order total. Each order is available once it has been clicked.
 
 <details>
 <summary>Order History images</summary>
@@ -545,8 +543,9 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Vibrators (Products) images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/product_search_result.png">
+<img src="docs/readme_images/product_search_empty.png">
+<img src="docs/readme_images/product_list.png">
 </details>
 
 ---
@@ -573,8 +572,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Add product page images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/add_product.png">
 </details>
 
 ---
@@ -586,8 +584,8 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Edit product page images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/edit_product_1.png">
+<img src="docs/readme_images/edit_product_2.png">
 </details>
 
 ---
@@ -630,8 +628,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Checkout images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/checkout.png">
 </details>
 
 ---
@@ -644,8 +641,9 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Checkout Success images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/confirmation_order.png">
+<img src="docs/readme_images/success_checkout.png">
+<img src="docs/readme_images/payment.png">
 </details>
 
 ---
@@ -661,8 +659,9 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>FAQs images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/faqs_1.png">
+<img src="docs/readme_images/faqs_2.png">
+<img src="docs/readme_images/add_faq.png">
 </details>
 
 ---
@@ -676,21 +675,20 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary> Add Review images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/add_review.png">
 </details>
 
 ---
 
-### Add Review
+### Reviews
 
 - Reviews page is accessible by clicking the link reviews in the navbar.
 - Reviews page contains reviews made by users and a button add review if user is authenticated, otherwise a msg to invite him to register in order to post a review
 
 <details>
 <summary>Reviews images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/reviews_1.png">
+<img src="docs/readme_images/reviews_2.png">
 </details>
 
 ---
@@ -792,13 +790,14 @@ Authentication was implemented using Django's built-in authentication system:
 ### Toast messsage Pages
 
 - 
-- 
-- 
 
 <details>
 <summary>Toast success add item page image</summary>
 <img src="docs/readme_images/success_add_item.png">
 <img src="docs/readme_images/success_remove.png">
+<img src="docs/readme_images/success_loggedin.png">
+<img src="docs/readme_images/toast_alert_edit.png">
+<img src="docs/readme_images/success_deleted.png">
 </details>
 
 ---
