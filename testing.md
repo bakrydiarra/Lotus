@@ -60,8 +60,24 @@ There was few minor markup errors present on the contact page, it does not signi
 
  #### **CSS Validation**
 
+No errors were detected when passing my CSS files through the official W3C CSS Validator
+
  <details>
-<summary>CSS </summary>
+<summary>base.css</summary>
+<img src="">
+</details>
+
+---
+
+ <details>
+<summary>checkout.css</summary>
+<img src="">
+</details>
+
+---
+
+ <details>
+<summary>profile.css/summary>
 <img src="">
 </details>
 
