@@ -277,19 +277,6 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 ---
 
-2. As a site user, I want to be able to view a list of products so that I can select a product to view.
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
-
-<details>
-<summary>Demo</summary>
-<img src="">
-</details>
-
----
 
 3. As a shopper, I want to be able to click on a product so that I can read the full product details.
 
@@ -312,6 +299,21 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 | If Superuser in session: |                          |                                                                                              |           |
 | Edit product link        | Click                    | Redirect to edit product page                                                                | Pass      |
 | Delete product link      | Click                    | Open delete confirmation page                                                                | Pass      |
+
+<details>
+<summary>Demo</summary>
+<img src="">
+</details>
+
+---
+
+
+2. As a site user, I want to be able to view a list of products so that I can select a product to view.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|   |  |   |  |
+
 
 <details>
 <summary>Demo</summary>
@@ -361,6 +363,16 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 </details>
 
 ---
+
+| Element               | Action  | Expected Result                                                                                | Pass/Fail |
+| --------------------- | ------- | ---------------------------------------------------------------------------------------------- | --------- |
+| Sort By' Dropdown     | Click   | Open 'sort by' options                                                                         | Pass      |
+| Sort By' Options (x4) | Click   | Re-order products correctly                                                                    | Pass      |
+| If Category Selected  | Display | Pages heading changes to show category name                                                    | Pass      |
+| Product Number        | Display | Displays correct number of products on page                                                    | Pass      |
+| Product Card          | Click   | Redirect to product detail page                                                                | Pass      |
+| If Searched Product   | Display | Only display products with search term in either the product's title or description or excerpt | Pass      |
+| If Searched Product   | Display | Display number of products found for " searched product"                                       | Pass      |
 
 7. As a site user, I want to be able to read reviews left by other customers so that I can have feedback insights from custommers.
 
