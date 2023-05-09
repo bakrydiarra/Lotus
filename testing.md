@@ -688,10 +688,37 @@ test commit
 
 26. As a site user, I want to be able to add / edit / delete a review regarding one of the products in the site so that I can give my feedback.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
+| Add Review                     |                       |                                                                                                                        |           |
+| ------------------------------ | --------------------- | ---------------------------------------------------------------------------------------------------------------------- | --------- |
+| Element                        | Action                | Expected Result                                                                                                        | Pass/Fail |
+| Add Review                     | Access                | If a user tries to add a review (by changing the url) without being signed in they are redirected to the login page    | Pass      |
+| Form Text Input (if required)  | Leave blank           | On Submit: Warning appears, form won't submit                                                                          | Pass      |
+| Form Text Input (if required)  | Just input whitespace | On Submit: Form won't submit                                                                                           | Pass      |
+| Cancel button                  | Click                 | Redirect to Reviews page                                                                                               |           |
+| Add Review button(form valid)  | Click                 | Form submit                                                                                                            | Pass      |
+| Add Review button(form valid)  | Click                 | Redirect to Reviews Page with all information displaying correctly                                                     | Pass      |
+| Add Review button(form valid)  | Click                 | Success page appears informing theuser that the Review has been added                                                  | Pass      |
+|                                |                       |                                                                                                                        |           |
+|                                |                       |                                                                                                                        |           |
+| Edit Testimonial               |                       |                                                                                                                        |           |
+| Element                        | Action                | Expected Result                                                                                                        | Pass/Fail |
+| Edit Review                    | Access                | If a user tries to edit a Review (by changing the url) without being signed in they are redirected to the login page   | Pass      |
+| Edit Review                    | Access                | If a user tries to edit another user's Review (by changing the url) they are redirected to a custom 403 page           | Pass      |
+| Edit Review Form               | Display               | Form has all the fields filled out with the original content                                                           | Pass      |
+| Form Text Input (if required)  | Leave blank           | On Submit: Warning appears, form won't submit                                                                          | Pass      |
+| Form Text Input (if required)  | Just input whitespace | On Submit: Form won't submit                                                                                           | Pass      |
+| Cancel button                  | Click                 | Redirect to Reviews page                                                                                               |           |
+| Submit button(form valid)      | Click                 | Form submit                                                                                                            | Pass      |
+| Edit Review button(form valid) | Click                 | Redirect to Reviews Page with all information displaying correctly                                                     | Pass      |
+| Edit Review button(form valid) | Click                 | Success page appears informing the user that the review has been edited                                                | Pass      |
+|                                |                       |                                                                                                                        |           |
+|                                |                       |                                                                                                                        |           |
+| Confirm Delete Review          |                       |                                                                                                                        |           |
+| Element                        | Action                | Expected Result                                                                                                        | Pass/Fail |
+| Delete Review                  | Access                | If a user tries to delete a Review (by changing the url) without being signed in they are redirected to the login page | Pass      |
+| Delete Review                  | Access                | If a user tries to delete another user's Review (by changing the url) they are redirected to a custom 403 page         | Pass      |
+| Confirm Delete - cancel button | Click                 | Redirect to Reviews page                                                                                               | Pass      |
+| Confirm Delete - delete button | Click                 | Delete Review from database                                                                                            | Pass      |
 
 <details>
 <summary>Demo</summary>
