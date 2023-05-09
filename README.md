@@ -538,6 +538,8 @@ Authentication was implemented using Django's built-in authentication system:
 <img src="docs/readme_images/product_search_result.png">
 <img src="docs/readme_images/product_search_empty.png">
 <img src="docs/readme_images/product_list.png">
+<img src="docs/readme_images/products_by_categories.png">
+<img src="docs/readme_images/products_by_categories_bis.png">
 </details>
 
 ---
@@ -551,8 +553,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Product (Detailss) images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/product_detail.png">
 </details>
 
 ---
@@ -653,6 +654,7 @@ Authentication was implemented using Django's built-in authentication system:
 <img src="docs/readme_images/faqs_1.png">
 <img src="docs/readme_images/faqs_2.png">
 <img src="docs/readme_images/add_faq.png">
+<img src="docs/readme_images/delete_faq.png">
 </details>
 
 ---
@@ -692,8 +694,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Edit review images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/edit_review.png">
 </details>
 
 ---
@@ -704,8 +705,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Delete review images</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/delete_review.png">
 </details>
 
 ---
@@ -731,8 +731,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Received msg image</summary>
-<img src="">
-<img src="">
+<img src="docs/readme_images/thanks_you_message.png">
 </details>
 
 ---
@@ -745,7 +744,6 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Thank you image</summary>
-<img src="">
 <img src="">
 </details>
 

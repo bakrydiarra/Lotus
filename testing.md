@@ -121,12 +121,12 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 <details>
 <summary>Reviews Page</summary>
-<img src="">
+<img src="docs/readme_images/lighthouse_reviews.png">
 </details>
 
 <details>
 <summary> Edit Review Page</summary>
-<img src="">
+<img src="docs/readme_images/lighthouse_edit_review.png">
 </details>
 
 <details>
@@ -136,12 +136,12 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 <details>
 <summary> Delete Review Page</summary>
-<img src="">
+<img src="docs/readme_images/lighthouse_delete_review.png">
 </details>
 
 <details>
 <summary>Checkout Page</summary>
-<img src="">
+<img src="docs/readme_images/lighthouse_checkout.png">
 </details>
 
 <details>
@@ -223,11 +223,11 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 1. As a site user, I want to be able to intuitively navigate around the site so that I can find content.
 
-- A  fully responsive on different screen sizes navigation bar is visible on every page of the site.
+ - A  fully responsive on different screen sizes navigation bar is visible on every page of the site.
 
 27. As a site user, I want to be able to sign up for the website's newsletter so that I can keep myself informed about new products and promotions from the site.
 
-- In the footer is a 'Newsletter' section. Here the user can input their email address to sign up.
+ - In the footer is a 'Newsletter' section. Here the user can input their email address to sign up.
 
 | Element                 | Action                        | Expected Result                                                          | Pass/Fail |  
 | ----------------------- | ----------------------------- | ------------------------------------------------------------------------ | --------- |  
@@ -281,7 +281,7 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 3. As a shopper, I want to be able to click on a product so that I can read the full product details.
 
-- Clicking on an individual product will expose the full product details.
+ - Clicking on an individual product will expose the full product details.
 
 | Element                  | Action                   | Expected Result                                                                              | Pass/Fail |
 | ------------------------ | ------------------------ | -------------------------------------------------------------------------------------------- | --------- |
@@ -308,19 +308,19 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 2. As a site user, I want to be able to view a list of products so that I can select a product to view.
 
-- Navigateing to the all products page will display a list of all products from the database.
+ - Navigateing to the all products page will display a list of all products from the database.
 
 4. As a shopper, I want to be able to view a specific category of products so that I can browse the type of products I'm interested in.
 
--Clicking the 'Product' link in the navbar the dropdown menu will show all the different categories. Clicking any of these will take the user to the products page, showing only items from the category selected. The category chosen will display as the page heading.
+  - Clicking the 'Product' link in the navbar the dropdown menu will show all the different categories. Clicking any of these will take the user to the products page, showing only items from the category selected. The category chosen will display as the page heading.
 
 5. As a shopper, I want to be able to search all products so that I can find what I am looking for.
 
-- Entering kerywords in the search bar  box will display any text in the product's title, or description and display the results on the product's page.
+ - Entering kerywords in the search bar  box will display any text in the product's title, or description and display the results on the product's page.
 
 6. As a shopper, I want to be able to sort all products so that I can view products based on price or title.
 
-- A sort by box is located on the products page where users can sort all products by price in ascending or descending order and by title (A-Z) or (Z-A).
+ - A sort by box is located on the products page where users can sort all products by price in ascending or descending order and by title (A-Z) or (Z-A).
 
 
 | Element               | Action  | Expected Result                                                                                | Pass/Fail |
@@ -344,7 +344,7 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 7. As a site user, I want to be able to read reviews left by other customers so that I can have feedback insights from custommers.
 
-- Navigationg to the Reviews page, we can discover reviewss left by previous clients. Each review displays the date and the user's name.
+ - Navigationg to the Reviews page, we can discover reviewss left by previous clients. Each review displays the date and the user's name.
 
 | Element            | Action  | Expected Result                                  | Pass/Fail |
 | ------------------ | ------- | ------------------------------------------------ | --------- |
@@ -364,7 +364,7 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 7a. As a site user, I want tobe able to  read FAQs left by owner so that I can get more precise information.
 
-- Navigating to the FAQs page, we can discover the Faqs left by the owner - question/answer
+ - Navigating to the FAQs page, we can discover the Faqs left by the owner - question/answer
 
 | Element            | Action  | Expected Result                                  | Pass/Fail |
 | ------------------ | ------- | ------------------------------------------------ | --------- |
@@ -385,12 +385,12 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 8. As a site user, I want to be able to register an account so that I can have a personal account and see my profile.
 
-- A sign up button is located in the user options drop down menu in the Navbar. Clicking the button redirect to the sign up page.
+ - A sign up button is located in the user options drop down menu in the Navbar. Clicking the button redirect to the sign up page.
 
 10. As a site user, I want to be able to see my login status so that I can know if I'm logged in or out.
 
-- Whenever a user logs in or logs out a toast message will appear notifying the user or their action.
-- The user name will display in the navbar.
+ - Whenever a user logs in or logs out a toast message will appear notifying the user or their action.
+ - The user name will display in the navbar.
 
 
 | Element                         | Action                                    | Expected Result                             | Pass/Fail |
@@ -431,9 +431,9 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 9. As a site user, I want to be able to login or logout so that I can access my personal info/keep my account secure.
 
-- Whenever a user logs in or logs out a toast message will appear notifying the user or their action.
-- The user name will display in the navbar.
-- When signed in the options in the user menu will change to show Profile and Log Out buttons.
+ - Whenever a user logs in or logs out a toast message will appear notifying the user or their action.
+ - The user name will display in the navbar.
+ - When signed in the options in the user menu will change to show Profile and Log Out buttons.
 
 
 | Element                         | Action                                    | Expected Result                             | Pass/Fail |
@@ -471,13 +471,12 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 11. As a site user, I want to be able to save my personal details in my user profile so that I can spare the time to fill them out for future orders.
 
-- Users can fill in their personal details on their profile page. This information will be prepopulated for any future orders.
+ - Users can fill in their personal details on their profile page. This information will be prepopulated for any future orders.
 
 12. As a site user, I want to be able to have a personalised user profile so that I can with my personal order history and be able to update my default billing address.
-
 13. As a site user, I want to be able to view my order history so that I can remember what purchases I've made.
-- Once an account has been created and order have been placed, the order history is available on the profile page.
-- Clicking the order number will take you to a summary page of that order.
+ - Once an account has been created and order have been placed, the order history is available on the profile page.
+ - Clicking the order number will take you to a summary page of that order.
 
 
 | Element                | Action            | Expected Result                                                                                                                | Pass/Fail |
@@ -507,7 +506,7 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 14. As a site user, I want to be able to recover my password in case I forget so that I can recover access to my account.
 
-- On the sign-in page, a link to recover your password is located underneath the sign-in button. This uses the AllAuth functionality to reset the user's password.
+ - On the sign-in page, a link to recover your password is located underneath the sign-in button. This uses the AllAuth functionality to reset the user's password.
 
 
 <details>
@@ -523,22 +522,22 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 15. As a shopper, I want to be able to add a number of products in different quantities to my shopping bag so that I can purchase them all at once.
 
-- Within the product detail page the shopper can adjust the quantity by using the buttons located on either side of the input, or by typing in the amount.
--  Clicking on the add to bag button, the chosen quantity of the product is added to the user's shopping bag.
+ - Within the product detail page the shopper can adjust the quantity by using the buttons located on either side of the input, or by typing in the amount.
+ -  Clicking on the add to bag button, the chosen quantity of the product is added to the user's shopping bag.
 
 
 16. As a shopper, I want to be able to view a running total of my shopping bag so that I can see how much it costs in total.
 
-- As the user adds products to his bag, a toast message appears in the screen informing the user that the item has been added, giving him a short image of the bag contents and the total cost of the bag.
+ - As the user adds products to his bag, a toast message appears in the screen informing the user that the item has been added, giving him a short image of the bag contents and the total cost of the bag.
 
 17. As a shopper, I want to be able to view the contents of my shopping bag at any time so that I can see what is included and the total cost.
 
-- Clicking on the shopping bag icon in the nav bar redirect to the shopping bag page which shows the products that have added to the bag, unit price, quantity and subtotal.
-- The bottom of the page shows the bag total, delivery costs and then the grand total.
+ - Clicking on the shopping bag icon in the nav bar redirect to the shopping bag page which shows the products that have added to the bag, unit price, quantity and subtotal.
+ - The bottom of the page shows the bag total, delivery costs and then the grand total.
 
 18. As a shopper, I want to be able to adjust the quantity of individual products in my bag so that I can make changes before I purchase.
-- Viewing the shopping bag, the quantity of each product line item can be adjusted and the subtotal updated by clicking the update icon.
-- The user is able to delete the product by clicking the remove button and the bag should be updated accordingly.
+ - Viewing the shopping bag, the quantity of each product line item can be adjusted and the subtotal updated by clicking the update icon.
+ - The user is able to delete the product by clicking the remove button and the bag should be updated accordingly.
 
 
 | Element                                                      | Action              | Expected Result                                        | Pass/Fail |
@@ -569,25 +568,25 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 19. As a shopper, I want to be able to see a summary of my shopping cart when I checkout so that I can know what products are included and the total cost before I commit to purchasing.
 
-- On the Checkout page  a summary the order including a thumbnail image, the product name, the quantity, the unit cost and the overall total order cost on the right-hand side is available.
+ - On the Checkout page  a summary the order including a thumbnail image, the product name, the quantity, the unit cost and the overall total order cost on the right-hand side is available.
 
 20. As a shopper, I want to be able to enter my payment information securely so that I can purchase my chosen products quickly with no issues.
 
-- Navigating to the checkout page, we can find the Stripe Elements UI where the card details can be securely given and pay for the order.
-- The user receives feedback if the card number is valid/invalid.
+ - Navigating to the checkout page, we can find the Stripe Elements UI where the card details can be securely given and pay for the order.
+ - The user receives feedback if the card number is valid/invalid.
 
 
 21. As a shopper, I want to be able to checkout as a guest so that I can avoid to sign up for an account.
 
-- Shoppers do not need an account to purchase any items. The checkout process remains the same.
+ - Shoppers do not need an account to purchase any items. The checkout process remains the same.
 
 22. As a shopper, I want to be able to view an order confirmation after checkout so that I can know my purchase was successful.
 
-- When the user submits the checkout form, they are redirected to a Checkout Success page where they can see an order confirmation and a summary of their order.
+ - When the user submits the checkout form, they are redirected to a Checkout Success page where they can see an order confirmation and a summary of their order.
 
 23. As a shopper, I want to be able to receive an email confirmation of my order so that I can have a record of my purchase.
 
-- When the user has submitted their order they will receive a confirmation email to the email address they entered in their order form containing all the details of the order.
+ - When the user has submitted their order they will receive a confirmation email to the email address they entered in their order form containing all the details of the order.
 
 
 | Element                             | Action                          | Expected Result                                                    | Pass/Fail |
@@ -657,6 +656,10 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 ### Admin & Store Management
 
 24. As a site owner, I want to be able to add/edit/delete products through an easy-to-use interface so that I can can manage the store's contents.
+
+ - Logged-in site owner, a Product Management option appears in the User drop-down menu.
+ - The site owner is able to edit and delete products by clicking buttons on both the main Product page and also the product detail page.
+ - The edit form is pre-populated with the product information.
 
 
 | Element                         | Action                | Expected Result                                                                                                            | Pass/Fail |
