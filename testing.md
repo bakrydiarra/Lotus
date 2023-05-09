@@ -229,47 +229,6 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 
 
-| Element                 | Action                        | Expected Result                                                          | Pass/Fail |  
-| ----------------------- | ----------------------------- | ------------------------------------------------------------------------ | --------- |  
-| NavBar                  |                               |                                                                          |           |  
-| Site Name/Logo          | Click                         | Redirect to home                                                         | Pass      |  
-| Search Box Function     | Enter Text and Click Search   | Search both the product's title and description for a match.             | Pass      |  
-| My Account Dropdown     | Click                         | Open profile dropdown                                                    | Pass      |  
-| Sign Up Link            | Click                         | Redirect to Sign Up page (Not visible if user in session)                | Pass      |  
-| login Link              | Click                         | Redirect to login page (Not visible if user in session)                  | Pass      |  
-| Product Management Link | Click                         | Redirect to add_product page (Only visible if superuser in session)      | Pass      |  
-| FAQ Management Link     | Click                         | Redirect to add_faq page (Only visible if superuser in session)          | Pass      |  
-| My Profile Link         | Click                         | Redirect to user profile page (Only visible if user in session)          | Pass      |  
-| Logout Link             | Click                         | Redirect to logout confirm page (Only visible if user in session)        | Pass      |  
-| Bag Link                | Click                         | Redirect to bag page                                                     | Pass      |  
-| Mobile Top Header       |                               |                                                                          |           |  
-| Search Icon Button      | Click                         | Open up search box                                                       | Pass      |  
-| Search Box Function     | Enter Text and Click Search   | Search both the product's title and description for a match.             | Pass      |  
-| My Account Dropdown     | Click                         | Open profile dropdown                                                    | Pass      |  
-| Sign Up Link            | Click                         | Redirect to Sign Up page (Not visible if user in session)                | Pass      |  
-| login Link              | Click                         | Redirect to login page (Not visible if user in session)                  | Pass      |  
-| Product Management Link | Click                         | Redirect to add_product page (Only visible if superuser in session)      | Pass      |  
-| FAQ Management Link     | Click                         | Redirect to add_faq page (Only visible if superuser in session)          | Pass      |  
-| My Profile Link         | Click                         | Redirect to user profile page (Only visible if user in session)          | Pass      |  
-| Logout Link             | Click                         | Redirect to logout confirm page (Only visible if user in session)        | Pass      |  
-| Bag Link                | Click                         | Redirect to bag page                                                     | Pass      |  
-| Main Nav                |                               |                                                                          |           |  
-| All Products            | Click                         | Redirect all products page                                               | Pass      |  
-| Clitoral Vibrator Link  | Click                         | Redirect to prints page filtered to Clitoral Vibrator                    | Pass      |  
-| G-spot Vibrator Link    | Click                         | Redirect to prints page filtered to G-spot Vibrator                      | Pass      |  
-| Rabbit Vibrator Link    | Click                         | Redirect to prints page filtered to Rabbit Vibrator                      | Pass      |  
-| About Us                | Click                         | Redirect to About US Page                                                | Pass      |  
-| Contact Link            | Click                         | Open Contact Page                                                        | Pass      |  
-| Home Link               | Click                         | Redirect to home (Only displays when screen size reduces to medium size) | Pass      |  
-| Reviews Link            | Click                         | Redirect to reviews page                                                 | Pass      |  
-| Hamburger Menu          | Responsive                    | Display when screen size reduces to medium size                          | Pass      |  
-| Footer                  |                               |                                                                          |           |  
-| Social Media Icon Links | Click                         | Open correct location in new tab                                         | Pass      |  
-| Newsletter Email field  | Insert incorrect/empty format | On submit: form won't submit                                             | Pass      |  
-| Newsletter Email field  | Insert incorrect/empty format | Error message displays                                                   | Pass      |  
-| Subscribe Button        | Click                         | Form submit                                                              | Pass      |  
-| Subscribe Button        | Click                         | Message appears saying Thank You for subscribing!                        | Pass      |  
-| Privacy Policy Link     | Click                         | Open Privacy Policy Page in new tab                                      | Pass      |
 
 <details>
 <summary>Demo</summary>
@@ -361,6 +320,49 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 </details>
 
 ---
+
+| Element                 | Action                        | Expected Result                                                          | Pass/Fail |  
+| ----------------------- | ----------------------------- | ------------------------------------------------------------------------ | --------- |  
+| NavBar                  |                               |                                                                          |           |  
+| Site Name/Logo          | Click                         | Redirect to home                                                         | Pass      |  
+| Search Box Function     | Enter Text and Click Search   | Search both the product's title and description for a match.             | Pass      |  
+| My Account Dropdown     | Click                         | Open profile dropdown                                                    | Pass      |  
+| Sign Up Link            | Click                         | Redirect to Sign Up page (Not visible if user in session)                | Pass      |  
+| login Link              | Click                         | Redirect to login page (Not visible if user in session)                  | Pass      |  
+| Product Management Link | Click                         | Redirect to add_product page (Only visible if superuser in session)      | Pass      |  
+| FAQ Management Link     | Click                         | Redirect to add_faq page (Only visible if superuser in session)          | Pass      |  
+| My Profile Link         | Click                         | Redirect to user profile page (Only visible if user in session)          | Pass      |  
+| Logout Link             | Click                         | Redirect to logout confirm page (Only visible if user in session)        | Pass      |  
+| Bag Link                | Click                         | Redirect to bag page                                                     | Pass      |  
+| Mobile Top Header       |                               |                                                                          |           |  
+| Search Icon Button      | Click                         | Open up search box                                                       | Pass      |  
+| Search Box Function     | Enter Text and Click Search   | Search both the product's title and description for a match.             | Pass      |  
+| My Account Dropdown     | Click                         | Open profile dropdown                                                    | Pass      |  
+| Sign Up Link            | Click                         | Redirect to Sign Up page (Not visible if user in session)                | Pass      |  
+| login Link              | Click                         | Redirect to login page (Not visible if user in session)                  | Pass      |  
+| Product Management Link | Click                         | Redirect to add_product page (Only visible if superuser in session)      | Pass      |  
+| FAQ Management Link     | Click                         | Redirect to add_faq page (Only visible if superuser in session)          | Pass      |  
+| My Profile Link         | Click                         | Redirect to user profile page (Only visible if user in session)          | Pass      |  
+| Logout Link             | Click                         | Redirect to logout confirm page (Only visible if user in session)        | Pass      |  
+| Bag Link                | Click                         | Redirect to bag page                                                     | Pass      |  
+| Main Nav                |                               |                                                                          |           |  
+| All Products            | Click                         | Redirect all products page                                               | Pass      |  
+| Clitoral Vibrator Link  | Click                         | Redirect to prints page filtered to Clitoral Vibrator                    | Pass      |  
+| G-spot Vibrator Link    | Click                         | Redirect to prints page filtered to G-spot Vibrator                      | Pass      |  
+| Rabbit Vibrator Link    | Click                         | Redirect to prints page filtered to Rabbit Vibrator                      | Pass      |  
+| About Us                | Click                         | Redirect to About US Page                                                | Pass      |  
+| Contact Link            | Click                         | Open Contact Page                                                        | Pass      |  
+| Home Link               | Click                         | Redirect to home (Only displays when screen size reduces to medium size) | Pass      |  
+| Reviews Link            | Click                         | Redirect to reviews page                                                 | Pass      |  
+| Hamburger Menu          | Responsive                    | Display when screen size reduces to medium size                          | Pass      |  
+| Footer                  |                               |                                                                          |           |  
+| Social Media Icon Links | Click                         | Open correct location in new tab                                         | Pass      |  
+| Newsletter Email field  | Insert incorrect/empty format | On submit: form won't submit                                             | Pass      |  
+| Newsletter Email field  | Insert incorrect/empty format | Error message displays                                                   | Pass      |  
+| Subscribe Button        | Click                         | Form submit                                                              | Pass      |  
+| Subscribe Button        | Click                         | Message appears saying Thank You for subscribing!                        | Pass      |  
+| Privacy Policy Link     | Click                         | Open Privacy Policy Page in new tab                                      | Pass      |
+
 
 ### Registration and User Accounts
 
@@ -464,6 +466,8 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 </details>
 
 ---
+
+### Purchasing and Checkout
 
 15. As a shopper, I want to be able to add a number of products in different quantities to my shopping bag so that I can purchase them all at once.
 
@@ -589,6 +593,58 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 <summary>Demo</summary>
 <img src="">
 </details>
+
+| Element                         | Action                                    | Expected Result                             | Pass/Fail |
+| ------------------------------- | ----------------------------------------- | ------------------------------------------- | --------- |
+| Sign Up                         |                                           |                                             |           |
+| Sign in link                    | Click                                     | Redirect to sign in page                    | Pass      |
+| Email field                     | Insert incorrect format                   | On submit: form won't submit                | Pass      |
+| Email field                     | Insert incorrect format                   | Error message displays                      | Pass      |
+| Email field                     | Insert correct format                     | On submit: form submit                      | Pass      |
+| Email field                     | Leave empty                               | On submit: form won't submit                | Pass      |
+| Email field                     | Insert duplicate email                    | On submit: form won't submit                | Pass      |
+| Email field                     | Insert duplicate email                    | Error message displays                      | Pass      |
+| Email Confirmation field        | Insert different email                    | On submit: form won't submit                | Pass      |
+| Email Confirmation field        | Insert different email                    | Error message displays                      | Pass      |
+| Username field                  | Leave empty/incorrect format              | On submit: form won't submit                | Pass      |
+| Username field                  | Leave empty/incorrect format              | Error message displays                      | Pass      |
+| Username field                  | Insert correct format                     | On submit: form submit                      | Pass      |
+| Username field                  | Insert duplicate username                 | On submit: form won't submit                | Pass      |
+| Username field                  | Insert duplicate username                 | Error message displays                      | Pass      |
+| Password field                  | Insert incorrect format/length            | On submit: form won't submit                | Pass      |
+| Password field                  | Insert incorrect format/length            | Error message displays                      | Pass      |
+| Password field                  | Passwords don't match                     | On submit: form won't submit                | Pass      |
+| Password field                  | Passwords don't match                     | Error message displays                      | Pass      |
+| Password field                  | Insert correct format and passwords match | On submit: form submit                      | Pass      |
+| Sign Up button(form valid)      | Click                                     | Form submit                                 | Pass      |
+| Sign Up button(form valid)      | Click                                     | Redirect to Verify Email Address page       | Pass      |
+| Sign Up button(form valid)      | Click                                     | Alert message confirming email sent appears | Pass      |
+| Confirmation Email Confirm Link | Click                                     | Open Confirm Email Address Page             | Pass      |
+| Confirm Button                  | Click                                     | Success message confirming new user appears | Pass      |
+| Confirm Button                  | Click                                     | Redirect to sign in page                    | Pass      |
+|                                 |                                           |                                             |           |
+| Log in                          |                                           |                                             |           |
+| Sign up link                    | Click                                     | Redirect to sign up page                    | Pass      |
+| Username field                  | Leave empty                               | On submit: form won't submit                | Pass      |
+| Username field                  | Leave empty                               | Error message displays                      | Pass      |
+| Username field                  | Insert wrong username                     | On submit: form won't submit                | Pass      |
+| Username field                  | Insert wrong username                     | Error message displays                      | Pass      |
+| Password field                  | Leave empty                               | On submit: form won't submit                | Pass      |
+| Password field                  | Leave empty                               | Error message displays                      | Pass      |
+| Password field                  | Insert wrong password                     | On submit: form won't submit                | Pass      |
+| Password field                  | Insert wrong password                     | Error message displays                      | Pass      |
+| Login button(form valid)        | Click                                     | Form submit                                 | Pass      |
+| Login button(form valid)        | Click                                     | Redirect to home page                       | Pass      |
+| Login button(form valid)        | Click                                     | Success message confirming login appears    | Pass      |
+| Forgot Password Link            | Click                                     | Redirect to Password Reset page             | Pass      |
+| Email field                     | Leave empty/incorrect format              | On submit: form submit                      | Pass      |
+| Reset My Password Button        | Click                                     | Confirmation message that email sent        | Pass      |
+| Password Reset Email Link       | Click                                     | Open Change Password Page                   | Pass      |
+| Change Password Button          | Click                                     | Success message confirming Password Changed | Pass      |
+|                                 |                                           |                                             |           |
+| Sign Out Confirmation           |                                           |                                             |           |
+| Sign Out button                 | Click                                     | Redirect to homepage                        | Pass      |
+| Sign Out button                 | Click                                     | Success message confirming Sign Out appears | Pass      |
 
 ---
 
