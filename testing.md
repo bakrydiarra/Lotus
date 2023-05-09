@@ -467,9 +467,7 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 14. As a site user, I want to be able to recover my password in case I forget so that I can recover access to my account.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
+test commit 
 
 
 <details>
