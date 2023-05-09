@@ -327,9 +327,13 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 7. As a site user, I want to be able to read reviews left by other customers so that I can have feedback insights from custommers.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
+| Element            | Action  | Expected Result                                  | Pass/Fail |
+| ------------------ | ------- | ------------------------------------------------ | --------- |
+| Reviews Content    | Display | Display correct review content, author and date  | Pass      |
+| Add Review button  | Click   | Open Add review form                             | Pass      |
+| Edit review link   | Display | Only display if user is the author of the review | Pass      |
+| Edit review link   | Click   | Redirect to edit review page                     | Pass      |
+| Delete review link | Display | Only display if user is the author of the review | Pass      |
 
 
 <details>
