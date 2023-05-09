@@ -223,11 +223,6 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 1. As a site user, I want to be able to intuitively navigate around the site so that I can find content.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
-
 | Element                 | Action                        | Expected Result                                                          | Pass/Fail |  
 | ----------------------- | ----------------------------- | ------------------------------------------------------------------------ | --------- |  
 | NavBar                  |                               |                                                                          |           |  
@@ -280,11 +275,6 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 3. As a shopper, I want to be able to click on a product so that I can read the full product details.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
-
 | Element                  | Action                   | Expected Result                                                                              | Pass/Fail |
 | ------------------------ | ------------------------ | -------------------------------------------------------------------------------------------- | --------- |
 | Product Content          | Display                  | Display correct product image, excerpt, price, product details and dispatch time frame       | Pass      |
@@ -310,59 +300,11 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 2. As a site user, I want to be able to view a list of products so that I can select a product to view.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
-
-<details>
-<summary>Demo</summary>
-<img src="">
-</details>
-
----
-
 4. As a shopper, I want to be able to view a specific category of products so that I can browse the type of products I'm interested in.
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
-
-<details>
-<summary>Demo</summary>
-<img src="">
-</details>
-
----
 
 5. As a shopper, I want to be able to search all products so that I can find what I am looking for.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
-
-<details>
-<summary>Demo</summary>
-<img src="">
-</details>
-
----
-
 6. As a shopper, I want to be able to sort all products so that I can view products based on price or title.
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
-
-<details>
-<summary>Demo</summary>
-<img src="">
-</details>
-
----
 
 | Element               | Action  | Expected Result                                                                                | Pass/Fail |
 | --------------------- | ------- | ---------------------------------------------------------------------------------------------- | --------- |
@@ -373,6 +315,15 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 | Product Card          | Click   | Redirect to product detail page                                                                | Pass      |
 | If Searched Product   | Display | Only display products with search term in either the product's title or description or excerpt | Pass      |
 | If Searched Product   | Display | Display number of products found for " searched product"                                       | Pass      |
+
+<details>
+<summary>Demo</summary>
+<img src="">
+</details>
+
+---
+
+
 
 7. As a site user, I want to be able to read reviews left by other customers so that I can have feedback insights from custommers.
 
@@ -394,10 +345,6 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 ### Registration and User Accounts
 
 8. As a site user, I want to be able to register an account so that I can have a personal account and see my profile.
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
 
 
 | Element                         | Action                                    | Expected Result                             | Pass/Fail |
@@ -437,11 +384,6 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 ---
 
 9. As a site user, I want to be able to login or logout so that I can access my personal info/keep my account secure.
-
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
 
 
 | Element                         | Action                                    | Expected Result                             | Pass/Fail |
@@ -493,39 +435,28 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 11. As a site user, I want to be able to save my personal details in my user profile so that I can spare the time to fill them out for future orders.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
-
-<details>
-<summary>Demo</summary>
-<img src="">
-</details>
-
----
-
 12. As a site user, I want to be able to have a personalised user profile so that I can with my personal order history and be able to update my default billing address.
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
-
-<details>
-<summary>Demo</summary>
-<img src="">
-</details>
-
----
 
 13. As a site user, I want to be able to view my order history so that I can remember what purchases I've made.
 
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
+| Element                | Action            | Expected Result                                                                                                                | Pass/Fail |
+| ---------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------ | --------- |
+| Open Profile Page      | Access            | If a user tries to access the profile page (by changing the url) without being signed in they are redirected to the login page | Pass      |
+| Form fields            | On load           | fields populated with user default info(if previously saved)                                                                   | Pass      |
+| All input fields       | Leave blank       | On submit: form submits                                                                                                        | Pass      |
+| All input fields       | Just whitespace   | On submit: form submits                                                                                                        | Pass      |
+| All input fields       | Fill in correctly | On submit: form submits                                                                                                        | Pass      |
+| Form Dropdown          | Click             | Show dropdown options                                                                                                          | Pass      |
+| Update button          | Click             | Form submits                                                                                                                   | Pass      |
+| Update button          | Click             | Success message appears confirming profile successfully updated                                                                | Pass      |
+| Previous order number  | Click             | Redirect to previous order page                                                                                                | Pass      |
+|                        |                   |                                                                                                                                |           |
+| Previous Order Page    |                   |                                                                                                                                |           |
+| Element                | Action            | Expected Result                                                                                                                | Pass/Fail |
+| Information Display    | Display           | All previous order information displays correctly                                                                              | Pass      |
+| Toast                  | On load           | Previous order info toast appears                                                                                              | Pass      |
+| Back to Profile button | Click             | Redirect to profile page                                                                                                       | Pass      |
 
 <details>
 <summary>Demo</summary>
@@ -685,9 +616,6 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 24. As a site owner, I want to be able to add/edit/delete products through an easy-to-use interface so that I can can manage the store's contents.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
 
 | Element                         | Action                | Expected Result                                                                                                            | Pass/Fail |
 | ------------------------------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------- | --------- |
@@ -733,11 +661,6 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 ### Contact
 
 25. As a site user, I want to be able to submit an enquiry form so that I can report a personal matter
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
 
 | Element                       | Action                | Expected Result                                                                     | Pass/Fail |
 | ----------------------------- | --------------------- | ----------------------------------------------------------------------------------- | --------- |
