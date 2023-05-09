@@ -61,7 +61,7 @@ Key features include:
   * [About Us Page](#about-us-page)
   * [User Account Pages](#user-account-pages)
   * [Profile](#profile)
-  * [Vibrator (Products)](vibrator--products)
+  * [Products](#products)
   * [Product Details](#product-details)
   * [Product Management](#product-management)
   * [Bag](#bag)
@@ -1330,6 +1330,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 - [Valentinog](https://www.valentinog.com/blog/get-context-data/) - for understanding how to add extra context data to a CreateView
 - [Stackoverflow](https://stackoverflow.com/questions/49376371/python-decorators-args-and-kwargs) - for understanding pyhton decorators
 - [Stackoverflow](https://stackoverflow.com/questions/65285154/django-decorators-to-handle-admin-users-redirection) - for understanding pyhton decorators
+- [Very Academy](https://www.youtube.com/watch?v=FY9W3MN8jBQ) - for understanding Django custom field validator with RegexValidator
 
 
 ### Code Used
