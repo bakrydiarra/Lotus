@@ -223,6 +223,48 @@ details>
 |   |  |   |  |
 
 
+| Element                 | Action                        | Expected Result                                                          | Pass/Fail |  |
+| ----------------------- | ----------------------------- | ------------------------------------------------------------------------ | --------- |  |
+| NavBar                  |                               |                                                                          |           |  |
+| Site Name/Logo          | Click                         | Redirect to home                                                         | Pass      |  |
+| Search Box Function     | Enter Text and Click Search   | Search both the product's title and description for a match.             | Pass      |  |
+| My Account Dropdown     | Click                         | Open profile dropdown                                                    | Pass      |  |
+| Sign Up Link            | Click                         | Redirect to Sign Up page (Not visible if user in session)                | Pass      |  |
+| login Link              | Click                         | Redirect to login page (Not visible if user in session)                  | Pass      |  |
+| Product Management Link | Click                         | Redirect to add_product page (Only visible if superuser in session)      | Pass      |  |
+| FAQ Management Link     | Click                         | Redirect to add_faq page (Only visible if superuser in session)          | Pass      |  |
+| My Profile Link         | Click                         | Redirect to user profile page (Only visible if user in session)          | Pass      |  |
+| Logout Link             | Click                         | Redirect to logout confirm page (Only visible if user in session)        | Pass      |  |
+| Bag Link                | Click                         | Redirect to bag page                                                     | Pass      |  |
+| Mobile Top Header       |                               |                                                                          |           |  |
+| Search Icon Button      | Click                         | Open up search box                                                       | Pass      |  |
+| Search Box Function     | Enter Text and Click Search   | Search both the product's title and description for a match.             | Pass      |  |
+| My Account Dropdown     | Click                         | Open profile dropdown                                                    | Pass      |  |
+| Sign Up Link            | Click                         | Redirect to Sign Up page (Not visible if user in session)                | Pass      |  |
+| login Link              | Click                         | Redirect to login page (Not visible if user in session)                  | Pass      |  |
+| Product Management Link | Click                         | Redirect to add_product page (Only visible if superuser in session)      | Pass      |  |
+| FAQ Management Link     | Click                         | Redirect to add_faq page (Only visible if superuser in session)          | Pass      |  |
+| My Profile Link         | Click                         | Redirect to user profile page (Only visible if user in session)          | Pass      |  |
+| Logout Link             | Click                         | Redirect to logout confirm page (Only visible if user in session)        | Pass      |  |
+| Bag Link                | Click                         | Redirect to bag page                                                     | Pass      |  |
+| Main Nav                |                               |                                                                          |           |  |
+| All Products            | Click                         | Redirect all products page                                               | Pass      |  |
+| Clitoral Vibrator Link  | Click                         | Redirect to prints page filtered to Clitoral Vibrator                    | Pass      |  |
+| G-spot Vibrator Link    | Click                         | Redirect to prints page filtered to G-spot Vibrator                      | Pass      |  |
+| Rabbit Vibrator Link    | Click                         | Redirect to prints page filtered to Rabbit Vibrator                      | Pass      |  |
+| About Us                | Click                         | Redirect to About US Page                                                | Pass      |  |
+| Contact Link            | Click                         | Open Contact Page                                                        | Pass      |  |
+| Home Link               | Click                         | Redirect to home (Only displays when screen size reduces to medium size) | Pass      |  |
+| Reviews Link            | Click                         | Redirect to reviews page                                                 | Pass      |  |
+| Hamburger Menu          | Responsive                    | Display when screen size reduces to medium size                          | Pass      |  |
+| Footer                  |                               |                                                                          |           |  |
+| Social Media Icon Links | Click                         | Open correct location in new tab                                         | Pass      |  |
+| Newsletter Email field  | Insert incorrect/empty format | On submit: form won't submit                                             | Pass      |  |
+| Newsletter Email field  | Insert incorrect/empty format | Error message displays                                                   | Pass      |  |
+| Subscribe Button        | Click                         | Form submit                                                              | Pass      |  |
+| Subscribe Button        | Click                         | Message appears saying Thank You for subscribing!                        | Pass      |  |
+| Privacy Policy Link     | Click                         | Open Privacy Policy Page in new tab                                      | Pass      |  |
+
 <details>
 <summary>Demo</summary>
 <img src="">
