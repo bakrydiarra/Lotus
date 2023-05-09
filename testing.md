@@ -219,9 +219,15 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 ## Testing the user experience
 
-### Viewing and Navigation
+### Viewing and Navigation & Newsletter
 
 1. As a site user, I want to be able to intuitively navigate around the site so that I can find content.
+
+- A  fully responsive on different screen sizes navigation bar is visible on every page of the site.
+
+27. As a site user, I want to be able to sign up for the website's newsletter so that I can keep myself informed about new products and promotions from the site.
+
+- In the footer is a 'Newsletter' section. Here the user can input their email address to sign up.
 
 | Element                 | Action                        | Expected Result                                                          | Pass/Fail |  
 | ----------------------- | ----------------------------- | ------------------------------------------------------------------------ | --------- |  
@@ -275,6 +281,8 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 3. As a shopper, I want to be able to click on a product so that I can read the full product details.
 
+- Clicking on an individual product will expose the full product details.
+
 | Element                  | Action                   | Expected Result                                                                              | Pass/Fail |
 | ------------------------ | ------------------------ | -------------------------------------------------------------------------------------------- | --------- |
 | Product Content          | Display                  | Display correct product image, excerpt, price, product details and dispatch time frame       | Pass      |
@@ -300,11 +308,20 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 2. As a site user, I want to be able to view a list of products so that I can select a product to view.
 
+- Navigateing to the all products page will display a list of all products from the database.
+
 4. As a shopper, I want to be able to view a specific category of products so that I can browse the type of products I'm interested in.
+
+-Clicking the 'Product' link in the navbar the dropdown menu will show all the different categories. Clicking any of these will take the user to the products page, showing only items from the category selected. The category chosen will display as the page heading.
 
 5. As a shopper, I want to be able to search all products so that I can find what I am looking for.
 
+- Entering kerywords in the search bar  box will display any text in the product's title, or description and display the results on the product's page.
+
 6. As a shopper, I want to be able to sort all products so that I can view products based on price or title.
+
+- A sort by box is located on the products page where users can sort all products by price in ascending or descending order and by title (A-Z) or (Z-A).
+
 
 | Element               | Action  | Expected Result                                                                                | Pass/Fail |
 | --------------------- | ------- | ---------------------------------------------------------------------------------------------- | --------- |
@@ -327,6 +344,8 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 7. As a site user, I want to be able to read reviews left by other customers so that I can have feedback insights from custommers.
 
+- Navigationg to the Reviews page, we can discover reviewss left by previous clients. Each review displays the date and the user's name.
+
 | Element            | Action  | Expected Result                                  | Pass/Fail |
 | ------------------ | ------- | ------------------------------------------------ | --------- |
 | Reviews Content    | Display | Display correct review content, author and date  | Pass      |
@@ -343,12 +362,35 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 ---
 
+7a. As a site user, I want tobe able to  read FAQs left by owner so that I can get more precise information.
+
+- Navigating to the FAQs page, we can discover the Faqs left by the owner - question/answer
+
+| Element            | Action  | Expected Result                                  | Pass/Fail |
+| ------------------ | ------- | ------------------------------------------------ | --------- |
+| Faqs Content       | Display | Display correct faqs                             | Pass      |
 
 
+
+
+
+<details>
+<summary>Demo</summary>
+<img src="">
+</details>
+
+---
 
 ### Registration and User Accounts
 
 8. As a site user, I want to be able to register an account so that I can have a personal account and see my profile.
+
+- A sign up button is located in the user options drop down menu in the Navbar. Clicking the button redirect to the sign up page.
+
+10. As a site user, I want to be able to see my login status so that I can know if I'm logged in or out.
+
+- Whenever a user logs in or logs out a toast message will appear notifying the user or their action.
+- The user name will display in the navbar.
 
 
 | Element                         | Action                                    | Expected Result                             | Pass/Fail |
@@ -389,6 +431,10 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 9. As a site user, I want to be able to login or logout so that I can access my personal info/keep my account secure.
 
+- Whenever a user logs in or logs out a toast message will appear notifying the user or their action.
+- The user name will display in the navbar.
+- When signed in the options in the user menu will change to show Profile and Log Out buttons.
+
 
 | Element                         | Action                                    | Expected Result                             | Pass/Fail |
 | ------------------------------- | ----------------------------------------- | ------------------------------------------- | --------- |
@@ -422,26 +468,16 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 ---
 
-10. As a site user, I want to be able to see my login status so that I can know if I'm logged in or out.
-
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
-
-<details>
-<summary>Demo</summary>
-<img src="">
-</details>
-
----
 
 11. As a site user, I want to be able to save my personal details in my user profile so that I can spare the time to fill them out for future orders.
+
+- Users can fill in their personal details on their profile page. This information will be prepopulated for any future orders.
 
 12. As a site user, I want to be able to have a personalised user profile so that I can with my personal order history and be able to update my default billing address.
 
 13. As a site user, I want to be able to view my order history so that I can remember what purchases I've made.
+- Once an account has been created and order have been placed, the order history is available on the profile page.
+- Clicking the order number will take you to a summary page of that order.
 
 
 | Element                | Action            | Expected Result                                                                                                                | Pass/Fail |
@@ -471,7 +507,7 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 14. As a site user, I want to be able to recover my password in case I forget so that I can recover access to my account.
 
-test commit 
+- On the sign-in page, a link to recover your password is located underneath the sign-in button. This uses the AllAuth functionality to reset the user's password.
 
 
 <details>
@@ -487,51 +523,41 @@ test commit
 
 15. As a shopper, I want to be able to add a number of products in different quantities to my shopping bag so that I can purchase them all at once.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
+- Within the product detail page the shopper can adjust the quantity by using the buttons located on either side of the input, or by typing in the amount.
+-  Clicking on the add to bag button, the chosen quantity of the product is added to the user's shopping bag.
 
-
-<details>
-<summary>Demo</summary>
-<img src="">
-</details>
-
----
 
 16. As a shopper, I want to be able to view a running total of my shopping bag so that I can see how much it costs in total.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
-
-<details>
-<summary>Demo</summary>
-<img src="">
-</details>
-
----
+- As the user adds products to his bag, a toast message appears in the screen informing the user that the item has been added, giving him a short image of the bag contents and the total cost of the bag.
 
 17. As a shopper, I want to be able to view the contents of my shopping bag at any time so that I can see what is included and the total cost.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
-
-<details>
-<summary>Demo</summary>
-<img src="">
-</details>
-
----
+- Clicking on the shopping bag icon in the nav bar redirect to the shopping bag page which shows the products that have added to the bag, unit price, quantity and subtotal.
+- The bottom of the page shows the bag total, delivery costs and then the grand total.
 
 18. As a shopper, I want to be able to adjust the quantity of individual products in my bag so that I can make changes before I purchase.
+- Viewing the shopping bag, the quantity of each product line item can be adjusted and the subtotal updated by clicking the update icon.
+- The user is able to delete the product by clicking the remove button and the bag should be updated accordingly.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
+
+| Element                                                      | Action              | Expected Result                                        | Pass/Fail |
+| ------------------------------------------------------------ | ------------------- | ------------------------------------------------------ | --------- |
+| No Bag Items                                                 |                     |                                                        |           |
+| Keep Shopping button                                         | Click               | Redirect to home decor page                            | Pass      |
+| Bag Items                                                    |                     |                                                        |           |
+| Qty control buttons                                          | Click               | Increase/decrease quantity                             | Pass      |
+| Qty control buttons                                          | Click               | Minus button disabled if quantity is 1                 | Pass      |
+| Qty control buttons                                          | Click               | Plus button disabled if quantity is 99                 | Pass      |
+| Qty control buttons                                          | Manually Input >99  | Error message appears when refresh button is clicked   | Pass      |
+| Qty control buttons                                          | Manually Input <1   | Shopping bag is emptied when refresh button is clicked | Pass      |
+| Update button                                                | Click               | Update bag item quantity                               | Pass      |
+| Update button                                                | Refresh Icon button | Updated confirmation toast appears                     | Pass      |
+| Remove button                                                | Click               | Remove item from bag                                   | Pass      |
+| Removebutton                                                 | Click               | Removed confirmation toast appears                     | Pass      |
+| Line item subtotal / Bag total / Delivery cost / Grand Total | Calculate           | All numbers are calculated correctly                   | Pass      |
+| Continue shopping button                                     | Click               | Redirect to products page                              | Pass      |
+| Secure Checkout button                                       | Click               | Redirect to checkout page                              | Pass      |
 
 
 <details>
@@ -543,66 +569,80 @@ test commit
 
 19. As a shopper, I want to be able to see a summary of my shopping cart when I checkout so that I can know what products are included and the total cost before I commit to purchasing.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
-
-<details>
-<summary>Demo</summary>
-<img src="">
-</details>
-
----
+- On the Checkout page  a summary the order including a thumbnail image, the product name, the quantity, the unit cost and the overall total order cost on the right-hand side is available.
 
 20. As a shopper, I want to be able to enter my payment information securely so that I can purchase my chosen products quickly with no issues.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
+- Navigating to the checkout page, we can find the Stripe Elements UI where the card details can be securely given and pay for the order.
+- The user receives feedback if the card number is valid/invalid.
 
-
-<details>
-<summary>Demo</summary>
-<img src="">
-</details>
-
----
 
 21. As a shopper, I want to be able to checkout as a guest so that I can avoid to sign up for an account.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
-
-<details>
-<summary>Demo</summary>
-<img src="">
-</details>
-
----
+- Shoppers do not need an account to purchase any items. The checkout process remains the same.
 
 22. As a shopper, I want to be able to view an order confirmation after checkout so that I can know my purchase was successful.
 
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
-
-<details>
-<summary>Demo</summary>
-<img src="">
-</details>
-
----
+- When the user submits the checkout form, they are redirected to a Checkout Success page where they can see an order confirmation and a summary of their order.
 
 23. As a shopper, I want to be able to receive an email confirmation of my order so that I can have a record of my purchase.
 
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
+- When the user has submitted their order they will receive a confirmation email to the email address they entered in their order form containing all the details of the order.
+
+
+| Element                             | Action                          | Expected Result                                                    | Pass/Fail |
+| ----------------------------------- | ------------------------------- | ------------------------------------------------------------------ | --------- |
+| Checkout Page                       | Direct URL input (empty bag)    | redirect to products page                                          | Pass      |
+| Checkout Page                       | Direct URL input (empty bag)    | empty bag toast appears                                            | Pass      |
+| Form fields(if user logged in)      | On load                         | fields populated with user default info(if previously saved)       | Pass      |
+| Text Input(if required)             | Leave blank                     | On submit:form won't submit                                        | Pass      |
+| Text Input(if required)             | Leave blank                     | error message on invalid field(s)                                  | Pass      |
+| Text Input(if required)             | Just whitespace                 | On submit:form won't submit                                        | Pass      |
+| Text Input(if required)             | Just whitespace                 | error message on invalid field(s)                                  | Pass      |
+| Text Input(if required)             | Fill in correctly               | On submit: form submits                                            | Pass      |
+| Phone number Input                  | Leave blank                     | On submit:form won't submit                                        | Pass      |
+| Phone number Input                  | Leave blank                     | error message on field                                             | Pass      |
+| Phone number Input                  | Just whitespace                 | On submit:form won't submit                                        | Pass      |
+| Phone number Input                  | Just whitespace                 | error message on field                                             | Pass      |
+| Phone number Input                  | Use non numeric characters      | On submit:form won't submit                                        | Pass      |
+| Phone number Input                  | Use non numeric characters      | error message on field                                             | Pass      |
+| Email Input                         | Leave blank                     | On submit:form won't submit                                        | Pass      |
+| Email Input                         | Leave blank                     | error message on field                                             | Pass      |
+| Email Input                         | Just whitespace                 | On submit:form won't submit                                        | Pass      |
+| Email Input                         | Just whitespace                 | error message on field                                             | Pass      |
+| Email Input                         | Fill in correctly               | On submit: form submits                                            | Pass      |
+| Form Dropdown                       | Click                           | Show dropdown options                                              | Pass      |
+| Save to profile checkbox            | On load(user logged in)         | Shown                                                              | Pass      |
+| Save to profile checkbox            | On load(user not logged in)     | Not shown                                                          | Pass      |
+| Save to profile checkbox            | Checked                         | On submit:Delivery information saved to user profile               | Pass      |
+| Save to profile checkbox            | Unchecked                       | On submit:Delivery information not saved to user profile           | Pass      |
+| Payment card input                  | Input invalid card number       | Error message on field                                             | Pass      |
+| Payment card input                  | Input invalid date              | Error message on field                                             |           |
+| Adjust Bag button                   | Click                           | Redirect to bag page                                               | Pass      |
+| Complete Order button(form invalid) | Click                           | Form won't submit                                                  | Pass      |
+| Complete Order button(form invalid) | Click                           | Error message on invalid fields                                    | Pass      |
+| Complete Order button(form valid)   | Payment succeeds                | loading screen reappears                                           | Pass      |
+| Complete Order button(form valid)   | Payment succeeds                | form submits                                                       | Pass      |
+| Complete Order button(form valid)   | Payment succeeds                | redirect to order confirmation page                                | Pass      |
+| Complete Order button(form valid)   | (if user logged in)             | order saved to user profile                                        | Pass      |
+| Complete Order button(form valid)   | Payment failed                  | Loading animation appears                                          | Pass      |
+| Complete Order button(form valid)   | Payment failed                  | form won't submit                                                  | Pass      |
+| Complete Order button(form valid)   | Payment failed                  | error message at bottom of form                                    | Pass      |
+| Complete Order button(form valid)   | Click                           | Success message appears confirming order successfully processed    | Pass      |
+| Complete Order button(form valid)   | Payment Requires authentication | Authentication box appears                                         | Pass      |
+| Fail Authentication button          | Click                           | Authentication box closes                                          | Pass      |
+| Fail Authentication button          | Click                           | User directed back to form                                         | Pass      |
+| Fail Authentication button          | Click                           | error message at bottom of form                                    | Pass      |
+| Complete Authentication button      | Click                           | loading screen reappears                                           | Pass      |
+| Complete Authentication button      | Click                           | form submits                                                       | Pass      |
+| Complete Authentication button      | Click                           | redirect to order confirmation page                                | Pass      |
+| Complete Order button(form valid)   | Click                           | Success message appears confirming order successfully processed    | Pass      |
+| Complete Order button(form valid)   | Click                           | User receives an order confirmation email with correct information | Pass      |
+|                                     |                                 |                                                                    |           |
+| Checkout Success Page               |                                 |                                                                    |           |
+| Element                             | Action                          | Expected Result                                                    | Pass/Fail |
+| Order Confirmation                  | Display                         | Display Correct Order Details                                      | Pass      |
+| Keep Shopping! button               | Click                           | Redirect to products page                                          | Pass      |
 
 
 <details>
@@ -664,6 +704,11 @@ test commit
 
 25. As a site user, I want to be able to submit an enquiry form so that I can report a personal matter
 
+- Clicking on the "Contact Us" link a contact form is displayed.
+- The user can select the type of enquiry from a drop-down menu.
+- If the user is logged in, their email address is prepopulated.
+- When the form is submitted, the user is redirected to a thank you page and receives an email confirmation.
+
 | Element                       | Action                | Expected Result                                                                     | Pass/Fail |
 | ----------------------------- | --------------------- | ----------------------------------------------------------------------------------- | --------- |
 | Form Text Input (if required) | Leave blank           | On Submit: Warning appears, form won't submit                                       | Pass      |
@@ -674,7 +719,7 @@ test commit
 | Cancel button                 | Click                 | Redirect to Home page                                                               | Pass      |
 | Submit button(form valid)     | Click                 | Form submit                                                                         | Pass      |
 | Submit button(form valid)     | Click                 | Redirect to home Page                                                               | Pass      |
-| Submit button(form valid)     | Click                 | Success message appears informing the superuser that the enquiry has been submitted | Pass      |
+| Submit button(form valid)     | Click                 | Thank you message page appears                                                      | Pass      |
 | Submit button(form valid)     | Click                 | User receives confirmation email about their enquiry                                | Pass      |
 
 <details>
@@ -688,6 +733,10 @@ test commit
 
 26. As a site user, I want to be able to add / edit / delete a review regarding one of the products in the site so that I can give my feedback.
 
+- Logged-in user clicks on the "Add Review" button on th Reviews page, they can see a form where they can add a new Review to the site. If the user is not logged-in a message will invite him to register in order to post a review.
+- The user is able to edit and delete their own reviewss from buttons on the Reviews Page.
+- The edit forms fields are pre-populated with review information.
+
 | Add Review                     |                       |                                                                                                                        |           |
 | ------------------------------ | --------------------- | ---------------------------------------------------------------------------------------------------------------------- | --------- |
 | Element                        | Action                | Expected Result                                                                                                        | Pass/Fail |
@@ -697,10 +746,10 @@ test commit
 | Cancel button                  | Click                 | Redirect to Reviews page                                                                                               |           |
 | Add Review button(form valid)  | Click                 | Form submit                                                                                                            | Pass      |
 | Add Review button(form valid)  | Click                 | Redirect to Reviews Page with all information displaying correctly                                                     | Pass      |
-| Add Review button(form valid)  | Click                 | Success page appears informing theuser that the Review has been added                                                  | Pass      |
+| Add Review button(form valid)  | Click                 | Thank you page appears informing theuser that the Review has been added                                                | Pass      |
 |                                |                       |                                                                                                                        |           |
 |                                |                       |                                                                                                                        |           |
-| Edit Testimonial               |                       |                                                                                                                        |           |
+| Edit Review.                   |                       |                                                                                                                        |           |
 | Element                        | Action                | Expected Result                                                                                                        | Pass/Fail |
 | Edit Review                    | Access                | If a user tries to edit a Review (by changing the url) without being signed in they are redirected to the login page   | Pass      |
 | Edit Review                    | Access                | If a user tries to edit another user's Review (by changing the url) they are redirected to a custom 403 page           | Pass      |
@@ -726,24 +775,6 @@ test commit
 </details>
 
 ---
-
-### Newsletter
-
-27. As a site user, I want to be able to sign up for the website's newsletter so that I can keep myself informed about new products and promotions from the site.
-
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|   |  |   |  |
-
-
-<details>
-<summary>Demo</summary>
-<img src="">
-</details>
-
----
-
 
 
 ## BUGS

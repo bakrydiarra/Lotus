@@ -153,8 +153,7 @@ User 2: Additional site users could be partner of user 1 and may be browsing the
 | 5                              | shopper    | search all products                                                    | find what I am looking for.                                                       |
 | 6                              | shopper    | sort all products                                                      | view products based on price or title.                                            |
 | 7                              | site user  | read reviews left by other customers                                   | have feedback insights from customers.                                            |
-| 7                              | site user  | read reviews left by other customers                                   | have feedback insights from customers.                                            |
-| 7b                             | site user  | read FAQs left by owner.                                               | get more precise information.                                                     |
+| 7a                             | site user  | read FAQs left by owner.                                               | get more precise information.                                                     |
 | Registration and User Accounts |            |                                                                        |                                                                                   |
 | 8                              | site user  | register an account                                                    | have a personal account and see my profile.                                       |
 | 9                              | site user  | login or logout                                                        | access my personal info/keep my account secure.                                   |

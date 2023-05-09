@@ -14,7 +14,13 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
+            {% if current_categories %}
+            {% for c in current_categories %}
+            <h1 class="page-title text-center">{{ c.friendly_name }}</h1>
+            {% endfor %}
+            {% else %}
             <h1 class="page-title text-center">Products</h1>
+            {% endif %}
         </div>
     </div>
     <hr>
