@@ -64,46 +64,26 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
  <details>
 <summary>base.css</summary>
-<img src="">
+<img src="docs/readme_images/base_css.png">
 </details>
 
 ---
 
  <details>
 <summary>checkout.css</summary>
-<img src="">
+<img src="docs/readme_images/checkout_css.png">
 </details>
 
 ---
 
  <details>
-<summary>profile.css/summary>
-<img src="">
+<summary>profile.css</summary>
+<img src="docs/readme_images/profile_css.png">
 </details>
 
 ---
 
 ## Python Linter
-
-<details>
-<summary>XX</summary>
-<img src="">
-</details>
-
-<details>
-<summary>XX</summary>
-<img src="">
-</details>
-
-<details>
-<summary>XX</summary>
-<img src="">
-</details>
-
-<details>
-<summary>XX</summary>
-<img src="">
-</details>
 
 <details>
 <summary>XX</summary>
@@ -116,32 +96,27 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 <details>
 <summary>Home Page</summary>
-<img src="">
+<img src="docs/readme_images/lighthouse_home.png">
 </details>
 
 <details>
 <summary>Product list Page</summary>
-<img src="">
+<img src="docs/readme_images/lighthouse_products.png">
 </details>
 
 <details>
 <summary>Product Details Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Product Management Page</summary>
-<img src="">
+<img src="docs/readme_images/lighthouse_product_details.png">
 </details>
 
 <details>
 <summary> Add Product</summary>
-<img src="">
+<img src="docs/readme_images/lighthouse_add_product.png">
 </details>
 
 <details>
 <summary> Edit Product</summary>
-<img src="">
+<img src="docs/readme_images/">
 </details>
 
 <details>
@@ -156,26 +131,11 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 <details>
 <summary> Add Review age</summary>
-<img src="">
+<img src="docs/readme_images/lighthouse_add_review.png">
 </details>
 
 <details>
 <summary> Delete Review Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Order Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Contact Us Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>Bag Page</summary>
 <img src="">
 </details>
 
@@ -185,49 +145,50 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 </details>
 
 <details>
-<summary>Profile Page</summary>
-<img src="">
+<summary>Contact Us Page</summary>
+<img src="docs/readme_images/lighthouse_contact.png">
 </details>
 
 <details>
-<summary>Order History Page</summary>
-<img src="">
+<summary>Bag Page</summary>
+<img src="docs/readme_images/lighthouse_shopping_bag.png">
+</details>
+
+<details>
+<summary>Profile Page</summary>
+<img src="docs/readme_images/lighthouse_profile.png">
+</details>
+
+<details>
+<summary>About us Page</summary>
+<img src="docs/readme_images/lighthouse_about_us.png">
+</details>
+
+<details>
+<summary>Thank you Page</summary>
+<img src="docs/readme_images/lighthouse_thank_you.png">
 </details>
 
 <details>
 <summary>Signup Page</summary>
-<img src="">
+<img src="docs/readme_images/lighthouse_signup.png">
 </details>
 
 <details>
 <summary>Signin Page</summary>
-<img src="">
+<img src="docs/readme_images/lighthouse_signin.png">
 </details>
 
 <details>
 <summary>Logout Page</summary>
-<img src="">
+<img src="docs/readme_images/lighthouse_signout.png">
 </details>
 
 <details>
-<summary>404.html Page</summary>
-<img src="">
+<summary>Rest password Page</summary>
+<img src="docs/readme_images/lighthouse_rest_password.png">
 </details>
 
-<details>
-<summary>400.html Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>404.html Page</summary>
-<img src="">
-</details>
-
-<details>
-<summary>500.html Page</summary>
-<img src="">
-</details>
 
 
 ## MANUAL TESTING
