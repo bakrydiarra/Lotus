@@ -361,9 +361,19 @@ Authentication was implemented using Django's built-in authentication system:
 
  ### Methods
 
+ - django decorator @require_superuser passed in via *args and **kwargs to make sure the user is a superuser in case product management
+ - def **dispatch**(self, request, *args, **kwargs) to check if the current user is the owner of the review
+ - def test_func(self) to make sure that the current user is the superuser
+
  ### Form Validation
 
+ - If incorrect or empty data is added to a form, the form won't submit and a warning will appear to the user informing them what field raised the error.
+
  ### Database Security
+
+ - The database url and secret key are stored in the env.py file to prevent unwanted connections to the database. 
+ - Stripe keys and wh secret are also stored in the env.py file. 
+ - CSRF tokens were used on all forms throughout this site.
 
 ---
 
@@ -791,9 +801,6 @@ Authentication was implemented using Django's built-in authentication system:
 
 ---
 
-### Future Implementations
-
-
 ## Marketing Strategy
 
 - Lotus has been promoted through various marketing strategies such as SEO, content marketing, social media marketing, and email marketing. 
@@ -850,7 +857,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 ### Social Media Marketing
 
-IN PROGRESS
+- A Facebook business page has been created for organic social media marketing. The Facebook page includes a link to redirect user to the lotus website.
 
 ### Email Marketing
 
@@ -1321,23 +1328,23 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 - [W3Schools](https://www.w3schools.com/)
 - [BOUTIQUE ADO](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) - Django walkthrough project "Boutique Ado" used as an inspiration and an orientation to my project
 - [Medium.com](https://medium.com/@ksarthak4ever/django-class-based-views-vs-function-based-view-e74b47b2e41b) - for understanding difference between Class Based Views vs Function Based Views
+- [Medium.com] (https://medium.com/@hassanraza/when-to-use-get-get-queryset-get-context-data-in-django-952df6be036a#:~:text=get_context_data(),to%20display%20in%20your%20templates.) - for understanding how to use get_context_data
 - [Exploring Python Classes with Ben Kavanagh](https://www.youtube.com/watch?v=opOK_1g1rsw&list=PL_7334VduOHvzZYlgy_0kZLcic2NINCUt&index=7) - for understanding difference between Class Based Views vs Function Based Views
 - [LearnDjango](https://learndjango.com/tutorials/) - for understanding the use of Django Framework
 - [Summernote](https://summernote.org/) - for understanding use of Summernote
 - [Valentinog](https://www.valentinog.com/blog/get-context-data/) - for understanding how to add extra context data to a CreateView
-- [Stackoverflow](https://stackoverflow.com/questions/49376371/python-decorators-args-and-kwargs) - for understanding pyhton decorators
-- [Stackoverflow](https://stackoverflow.com/questions/65285154/django-decorators-to-handle-admin-users-redirection) - for understanding pyhton decorators
+- [Stackoverflow](https://stackoverflow.com/questions/49376371/python-decorators-args-and-kwargs) - for understanding python-decorators-args-and-kwargs
+- [Stackoverflow](https://stackoverflow.com/questions/65285154/django-decorators-to-handle-admin-users-redirection) - for understanding django decorators to handle admin users redirection
 - [Very Academy](https://www.youtube.com/watch?v=FY9W3MN8jBQ) - for understanding Django custom field validator with RegexValidator
+- [Crack Concepts](https://www.youtube.com/watch?v=9RksQ5YT7FM) - for understanding REGEX (REGULAR EXPRESSIONS)
+- [Web Dev Simplified](https://www.youtube.com/watch?v=rhzKDrUiJVk) - for understanding REGEX (REGULAR EXPRESSIONS)
+- [Useful Programmer](https://www.youtube.com/watch?v=aw8Y_uVMmZY) - for understanding Regular Expressions - Remove Whitespace from Start and End 
 
-
-### Code Used
-
-IN PROGRESS
 
 
 ### Content
 
-IN PROGRESS 
+All content was written by myself.
 
 ###  Media
 

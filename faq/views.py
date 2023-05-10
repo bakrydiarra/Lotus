@@ -35,7 +35,7 @@ class AddFaq(LoginRequiredMixin, UserPassesTestMixin, CreateView):
 
     def test_func(self):
         """
-        ensures only superuser can add new serivces
+        ensures only superuser can add new faq
         """
         if self.request.user.is_superuser:
             return True
