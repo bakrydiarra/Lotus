@@ -393,7 +393,7 @@ All Javascript was passed through Jshint with no issues.
 
 <details>
 <summary>Demo</summary>
-<img src="">
+<img src="docs/readme_images/product_navigation.gif">
 </details>
 
 ---
