@@ -786,16 +786,22 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 
 ## BUGS
 
-to come
+During the project I encountered a number of minor bugs, most of them resulted from mispelling mistakes, case sensitiveness or carless erros during coding such identations.
 
 | Bug           | Fix           |
 | ------------- | ------------- |
-|  |  |
-|  |  |
-|  | |
-| |  |
-|    |  |
-| | |
+| Django urls not working | While I was working on the contact app. I couldn't render the template for contact due to a missing directoy patterns. Once added, it worked. |
+| delivery cost wasn't render in the checkout | once the identaton was fixed. I could render the cost delivery|
+| problem to update total cost |  once the identaton was fixed. I could render the update total cost|
+| few undefined variables | Once I imported the import or assign value the variables. It worked pefectly |
 
+<details>
+<summary>Sample erros</summary>
+<img src="docs/readme_images/code_mistake_1.png">
+<img src="docs/readme_images/code_mistake_2.png">
+<img src="docs/readme_images/code_mistake_3.png">
+</details>
+
+---
 
 [Back to README.md](README.md)
