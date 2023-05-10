@@ -264,6 +264,7 @@ All Javascript was passed through Jshint with no issues.
      - Nest Hub
      - Nest Hub Max
 #### Responsive Design
+
  - The display of the site has been made responsive to allow it to adapt for instance the grid structure layout to a single column.
 
 <details>
@@ -482,6 +483,13 @@ All Javascript was passed through Jshint with no issues.
 <img src="docs/readme_images/signup.gif">
 </details>
 
+<details>
+<summary>Confirmation Email</summary>
+<img src="docs/readme_images/confirmation_button.png">
+<img src="docs/readme_images/success_confirmation_email.png">
+</details>
+
+
 ---
 
 9. As a site user, I want to be able to login or logout so that I can access my personal info/keep my account secure.
@@ -506,11 +514,6 @@ All Javascript was passed through Jshint with no issues.
 | Login button(form valid)        | Click                                     | Form submit                                 | Pass      |
 | Login button(form valid)        | Click                                     | Redirect to home page                       | Pass      |
 | Login button(form valid)        | Click                                     | Success message confirming login appears    | Pass      |
-| Forgot Password Link            | Click                                     | Redirect to Password Reset page             | Pass      |
-| Email field                     | Leave empty/incorrect format              | On submit: form submit                      | Pass      |
-| Reset My Password Button        | Click                                     | Confirmation message that email sent        | Pass      |
-| Password Reset Email Link       | Click                                     | Open Change Password Page                   | Pass      |
-| Change Password Button          | Click                                     | Success message confirming Password Changed | Pass      |
 |                                 |                                           |                                             |           |
 | Sign Out Confirmation           |                                           |                                             |           |
 | Sign Out button                 | Click                                     | Redirect to homepage                        | Pass      |
@@ -563,10 +566,28 @@ All Javascript was passed through Jshint with no issues.
 
  - On the sign-in page, a link to recover your password is located underneath the sign-in button. This uses the AllAuth functionality to reset the user's password.
 
+| Element                         | Action                                    | Expected Result                             | Pass/Fail |
+| ------------------------------- | ----------------------------------------- | ------------------------------------------- | --------- |
+| Forgot Password Link            | Click                                     | Redirect to Password Reset page             | Pass      |
+| Email field                     | Leave empty/incorrect format              | On submit: form submit                      | Pass      |
+| Reset My Password Button        | Click                                     | Confirmation message that email sent        | Pass      |
+| Password Reset Email Link       | Click                                     | Open Change Password Page                   | Pass      |
+| Change Password Button          | Click                                     | Success message confirming Password Changed | Pass      |
+
 
 <details>
 <summary>Demo</summary>
-<img src="">
+<img src="docs/readme_images/reset_password.gif">
+</details>
+
+<details>
+<summary>Change Password</summary>
+<img src="docs/readme_images/change_password.png">
+</details>
+
+<details>
+<summary>Success Password</summary>
+<img src="docs/readme_images/success_password.png">
 </details>
 
 ---
