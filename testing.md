@@ -415,7 +415,7 @@ All Javascript was passed through Jshint with no issues.
 
 <details>
 <summary>Demo</summary>
-<img src="">
+<img src="docs/readme_images/reviews.gif">
 </details>
 
 ---
@@ -434,7 +434,7 @@ All Javascript was passed through Jshint with no issues.
 
 <details>
 <summary>Demo</summary>
-<img src="">
+<img src="docs/readme_images/faqs.gif">
 </details>
 
 ---
@@ -888,12 +888,12 @@ All Javascript was passed through Jshint with no issues.
 | Element                        | Action                | Expected Result                                                                                                        | Pass/Fail |
 | Delete Review                  | Access                | If a user tries to delete a Review (by changing the url) without being signed in they are redirected to the login page | Pass      |
 | Delete Review                  | Access                | If a user tries to delete another user's Review (by changing the url) they are redirected to a custom 403 page         | Pass      |
-| Confirm Delete - cancel button | Click                 | Redirect to Reviews page                                                                                               | Pass      |
+| Confirm Delete - cancel button | Click                 | Redirect to home page                                                                                                  | Pass      |
 | Confirm Delete - delete button | Click                 | Delete Review from database                                                                                            | Pass      |
 
 <details>
 <summary>Demo</summary>
-<img src="">
+<img src="docs/readme_images/reviews.gif">
 </details>
 
 ---
