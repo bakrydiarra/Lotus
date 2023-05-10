@@ -174,9 +174,10 @@ User 2: Additional site users could be partner of user 1 and may be browsing the
 | 23                             | shopper    | receive an email confirmation of my order                              | have a record of my purchase                                                      |
 | Admin & Store Management       |            |                                                                        |                                                                                   |
 | 24                             | site owner | add/edit/delete products through an easy-to-use interface              | can manage the store's contents.                                                  |
+| 24a                            | site owner | add/edit/delete FAQ                                                    | can give more precise information to the website vistiors                         |
 | Contact                        |            |                                                                        |                                                                                   |
 | 25                             | site user  | submit an enquiry form                                                 | report a personal matter                                                          |
-| Review                           |            |                                                                        |                                                                                   |
+| Review                         |            |                                                                        |                                                                                   |
 | 26                             | site user  | add / edit / delete a review regarding one of the products in the site | give my feedback.                                                                 |
 | Newsletter                     |            |                                                                        |                                                                                   |
 | 27                             | site user  | sign up for the website's newsletter                                   | keep myself informed about new products and promotions from the site.             |

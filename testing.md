@@ -712,7 +712,7 @@ All Javascript was passed through Jshint with no issues.
 
 24. As a site owner, I want to be able to add/edit/delete products through an easy-to-use interface so that I can can manage the store's contents.
 
- - Logged-in site owner, a Product Management option appears in the User drop-down menu.
+ - For logged-in site owner, a Product Management option appears in the User drop-down menu.
  - The site owner is able to edit and delete products by clicking buttons on both the main Product page and also the product detail page.
  - The edit form is pre-populated with the product information.
 
@@ -749,7 +749,48 @@ All Javascript was passed through Jshint with no issues.
 | Confirm Delete Product          | Action                | Expected Result                                                                                                            | Pass/Fail |
 | Delete Product                  | Access                | If a user tries to Delete a product (by changing the url) without being signed in they are redirected to the login page    | Pass      |
 | Delete Product                  | Access                | If a user tries to Delete a product (by changing the url) without being superuser they are redirected to a custom 403 page | Pass      |
-| Delete                          | Click                 | Redirect to home dpage                                                                                                     | Pass      |
+| Delete                          | Click                 | Redirect to home page                                                                                                      | Pass      |
+
+<details>
+<summary>Demo</summary>
+<img src="">
+</details>
+
+---
+
+24a. As a site owner, I want to be able to add/edit/delete faq so that I can give mor informations to the website visitors. 
+
+- For logged-in site owner, a Faq Management option appears in the User drop-down menu.
+- The site owner is able to edit and delete each faq by clicking delete or edit button.
+- The edit form is pre-populated with the product information.
+
+
+| Element                         | Action                | Expected Result                                                                                                            | Pass/Fail |
+| ------------------------------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------- | --------- |
+| Add Faq                         | Access                | If a user tries to add a product (by changing the url) without being signed in they are redirected to the login page       | Pass      |
+| Add Faq                         | Access                | If a user tries to add a product (by changing the url) without being superuser they are redirected to a custom 403 page    | Pass      |
+| Form Text Input (if required)   | Leave blank           | On Submit: Warning appears, form won't submit                                                                              | Pass      |
+| Form Text Input (if required)   | Just input whitespace | On Submit: Form won't submit                                                                                               | Pass      |
+| Cancel button                   | Click                 | Redirect to FAQs page                                                                                                      | Pass      |
+| Add Faq button(form valid)      | Click                 | Form submit                                                                                                                | Pass      |
+| Add Faq button(form valid)      | Click                 | Redirect to Faqs page                                                                                                      | Pass      |
+|                                 |                       |                                                                                                                            |           |
+| Edit Faq                        |                       |                                                                                                                            |           |
+| Element                         | Action                | Expected Result                                                                                                            | Pass/Fail |
+| Edit Faq                        | Access                | If a user tries to add a product (by changing the url) without being signed in they are redirected to the login page       | Pass      |
+| Edit Faq                        | Access                | If a user tries to add a product (by changing the url) without being superuser they are redirected to a custom 403 page    | Pass      |
+| Edit Fag Form                   | Display               | Form has all the fields filled out with the original content                                                               | Pass      |
+| Form Text Input (if required)   | Leave blank           | On Submit: Warning appears, form won't submit                                                                              | Pass      |
+| Form Text Input (if required)   | Just input whitespace | On Submit: Form won't submit                                                                                               | Pass      |
+| Cancel button                   | Click                 | Redirect to Faq page                                                                                                       | Pass      |
+| Submit button(form valid)       | Click                 | Form submit                                                                                                                | Pass      |
+| Edit Faq button(form valid)     | Click                 | Redirect to Faqs page                                                                                                      | Pass      |
+|                                 |                       |                                                                                                                            |           |
+| Confirm Delete Product          | Action                | Expected Result                                                                                                            | Pass/Fail |
+| Delete Faq                      | Access                | If a user tries to Delete a product (by changing the url) without being signed in they are redirected to the login page    | Pass      |
+| Delete Faq                      | Access                | If a user tries to Delete a product (by changing the url) without being superuser they are redirected to a custom 403 page | Pass      |
+| Delete                          | Click                 | Redirect to home page                                                                                                      | Pass      |
+
 
 <details>
 <summary>Demo</summary>
