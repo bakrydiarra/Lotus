@@ -479,7 +479,7 @@ All Javascript was passed through Jshint with no issues.
 
 <details>
 <summary>Demo</summary>
-<img src="">
+<img src="docs/readme_images/signup.gif">
 </details>
 
 ---
@@ -845,7 +845,7 @@ All Javascript was passed through Jshint with no issues.
 | Cancel button                  | Click                 | Redirect to Reviews page                                                                                               |           |
 | Add Review button(form valid)  | Click                 | Form submit                                                                                                            | Pass      |
 | Add Review button(form valid)  | Click                 | Redirect to Reviews Page with all information displaying correctly                                                     | Pass      |
-| Add Review button(form valid)  | Click                 | Thank you page appears informing theuser that the Review has been added                                                | Pass      |
+| Add Review button(form valid)  | Click                 | Thank you page appears informing the user that the Review has been added                                               | Pass      |
 |                                |                       |                                                                                                                        |           |
 |                                |                       |                                                                                                                        |           |
 | Edit Review.                   |                       |                                                                                                                        |           |
