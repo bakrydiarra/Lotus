@@ -789,12 +789,12 @@ All Javascript was passed through Jshint with no issues.
 | Confirm Delete Product          | Action                | Expected Result                                                                                                            | Pass/Fail |
 | Delete Faq                      | Access                | If a user tries to Delete a product (by changing the url) without being signed in they are redirected to the login page    | Pass      |
 | Delete Faq                      | Access                | If a user tries to Delete a product (by changing the url) without being superuser they are redirected to a custom 403 page | Pass      |
-| Delete                          | Click                 | Redirect to home page                                                                                                      | Pass      |
+| Delete                          | Click                 | Redirect to Faq page                                                                                                      | Pass      |
 
 
 <details>
 <summary>Demo</summary>
-<img src="">
+<img src="docs/readme_images/faq_management.gif">
 </details>
 
 ---
