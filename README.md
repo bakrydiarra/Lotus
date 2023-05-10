@@ -591,18 +591,6 @@ Authentication was implemented using Django's built-in authentication system:
 <img src="docs/readme_images/edit_product_2.png">
 </details>
 
----
-
-### Delete Product page
-
-- Delete product page is accessible by clicking delete link in each card product
-- Edit product page: a cancel button and a delete button
-
-<details>
-<summary>Edit product page images</summary>
-<img src="">
-<img src="">
-</details>
 
 ---
 
@@ -754,7 +742,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 <details>
 <summary>Thank you image</summary>
-<img src="">
+<img src="docs/readme_images/thank_you_review.png">
 </details>
 
 ---
@@ -1328,7 +1316,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 - [W3Schools](https://www.w3schools.com/)
 - [BOUTIQUE ADO](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) - Django walkthrough project "Boutique Ado" used as an inspiration and an orientation to my project
 - [Medium.com](https://medium.com/@ksarthak4ever/django-class-based-views-vs-function-based-view-e74b47b2e41b) - for understanding difference between Class Based Views vs Function Based Views
-- [Medium.com] (https://medium.com/@hassanraza/when-to-use-get-get-queryset-get-context-data-in-django-952df6be036a#:~:text=get_context_data(),to%20display%20in%20your%20templates.) - for understanding how to use get_context_data
+- [Medium.com](https://medium.com/@hassanraza/when-to-use-get-get-queryset-get-context-data-in-django-952df6be036a#:~:text=get_context_data(),to%20display%20in%20your%20templates.) - for understanding how to use get_context_data
 - [Exploring Python Classes with Ben Kavanagh](https://www.youtube.com/watch?v=opOK_1g1rsw&list=PL_7334VduOHvzZYlgy_0kZLcic2NINCUt&index=7) - for understanding difference between Class Based Views vs Function Based Views
 - [LearnDjango](https://learndjango.com/tutorials/) - for understanding the use of Django Framework
 - [Summernote](https://summernote.org/) - for understanding use of Summernote

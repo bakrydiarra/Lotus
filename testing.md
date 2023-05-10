@@ -7,6 +7,7 @@
 
 * [W3C Validator](#w3c-validator)
 * [Python Linter](#python-linter)
+* [JSHINT](#jshint)
 * [Lighthouse](#lighthouse)
 * [MANUAL TESTING](#manual-testing)
 * [BUGS](#bugs)
@@ -92,6 +93,59 @@ No errors were detected when passing my CSS files through the official W3C CSS V
 <details>
 <summary>Flake8 results</summary>
 <img src="docs/readme_images/flake8.png">
+</details>
+
+---
+
+##  JSHINT
+
+All Javascript was passed through Jshint with no issues.
+
+<details>
+<summary>Bag</summary>
+<img src="docs/readme_images/jshint_bag.png">
+</details>
+
+---
+
+<details>
+<summary>Base</summary>
+<img src="docs/readme_images/jshint_base.png">
+</details>
+
+---
+
+<details>
+<summary>Checkout</summary>
+<img src="docs/readme_images/jshint_checkout.png">
+</details>
+
+---
+
+<details>
+<summary>Image selector</summary>
+<img src="docs/readme_images/jshint_image_selector.png">
+</details>
+
+---
+
+<details>
+<summary>Products</summary>
+<img src="docs/readme_images/jshint_products.png">
+</details>
+
+---
+
+<details>
+<summary>Profile</summary>
+<img src="docs/readme_images/jshint_profile.png">
+</details>
+
+---
+
+<details>
+<summary>Quantity Input</summary>
+<img src="docs/readme_images/jshint_quantity_input.png">
 </details>
 
 ---
