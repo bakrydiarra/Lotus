@@ -775,9 +775,9 @@ Authentication was implemented using Django's built-in authentication system:
 
 ---
 
-### Toast messsage Pages
+### Toast messsages
 
-- 
+- The user is informed about his actions if it was a success or not through toast messages on the top right corner of every page
 
 <details>
 <summary>Toast success add item page image</summary>
@@ -793,7 +793,7 @@ Authentication was implemented using Django's built-in authentication system:
 ## Marketing Strategy
 
 - Lotus has been promoted through various marketing strategies such as SEO, content marketing, social media marketing, and email marketing. 
-- Each of these strategies has been elaborated upon separately in the following sections.
+
 
 ### SEO
 
@@ -826,7 +826,7 @@ Authentication was implemented using Django's built-in authentication system:
 **Building Trust:**
 
 - In order to build brand trust, a reviews page for our product has been included in the site.
-- About Us Page inform our clientèle from our ehtic regarding our product and sex positivity awareness
+- About Us Page inform our clientèle from our ethic regarding our product and sex positivity awareness
 - The page footer also includes links to the privacy policy to inform users about how their data is being collected and processed.
 
 **Sitemap and robots.txt**
@@ -847,6 +847,14 @@ Authentication was implemented using Django's built-in authentication system:
 ### Social Media Marketing
 
 - A Facebook business page has been created for organic social media marketing. The Facebook page includes a link to redirect user to the lotus website.
+
+<details>
+<summary>Facebook business page</summary>
+<img src="docs/readme_images/facebook_1.png">
+<img src="docs/readme_images/facebook_2.png">
+<img src="docs/readme_images/facebook_3.png">
+<img src="docs/readme_images/facebook_4.png">
+</details>
 
 ### Email Marketing
 
