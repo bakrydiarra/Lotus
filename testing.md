@@ -152,6 +152,8 @@ All Javascript was passed through Jshint with no issues.
 
 ## Lighthouse
 
+ - Overall the results are good. 
+
 <details>
 <summary>Home Page</summary>
 <img src="docs/readme_images/lighthouse_home.png">
@@ -170,11 +172,6 @@ All Javascript was passed through Jshint with no issues.
 <details>
 <summary> Add Product</summary>
 <img src="docs/readme_images/lighthouse_add_product.png">
-</details>
-
-<details>
-<summary> Edit Product</summary>
-<img src="docs/readme_images/">
 </details>
 
 <details>
