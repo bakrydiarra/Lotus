@@ -329,7 +329,7 @@ All Javascript was passed through Jshint with no issues.
 
 <details>
 <summary>Demo</summary>
-<img src="">
+<img src="docs/readme_images/navigation.gif">
 </details>
 
 ---
@@ -844,7 +844,7 @@ All Javascript was passed through Jshint with no issues.
 
 <details>
 <summary>Demo</summary>
-<img src="">
+<img src="docs/readme_images/contact.gif">
 </details>
 
 ---
