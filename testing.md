@@ -275,7 +275,9 @@ All Javascript was passed through Jshint with no issues.
 
 ## Testing the user experience
 
+
 ### Viewing and Navigation & Newsletter
+
 
 1. As a site user, I want to be able to intuitively navigate around the site so that I can find content.
 
@@ -356,7 +358,7 @@ All Javascript was passed through Jshint with no issues.
 
 <details>
 <summary>Demo</summary>
-<img src="">
+<img src="docs/readme_images/product_detail.gif">
 </details>
 
 ---
@@ -521,7 +523,7 @@ All Javascript was passed through Jshint with no issues.
 
 <details>
 <summary>Demo</summary>
-<img src="">
+<img src="docs/readme_images/login_logout.gif">
 </details>
 
 ---
