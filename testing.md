@@ -749,16 +749,16 @@ All Javascript was passed through Jshint with no issues.
 | Confirm Delete Product          | Action                | Expected Result                                                                                                            | Pass/Fail |
 | Delete Product                  | Access                | If a user tries to Delete a product (by changing the url) without being signed in they are redirected to the login page    | Pass      |
 | Delete Product                  | Access                | If a user tries to Delete a product (by changing the url) without being superuser they are redirected to a custom 403 page | Pass      |
-| Delete                          | Click                 | Redirect to home page                                                                                                      | Pass      |
+| Delete                          | Click                 | Redirect to product page                                                                                                      | Pass      |
 
 <details>
 <summary>Demo</summary>
-<img src="">
+<img src="docs/readme_images/product_management.gif">
 </details>
 
 ---
 
-24a. As a site owner, I want to be able to add/edit/delete faq so that I can give mor informations to the website visitors. 
+24a. As a site owner, I want to be able to add/edit/delete faq so that I can give more informations to the website visitors. 
 
 - For logged-in site owner, a Faq Management option appears in the User drop-down menu.
 - The site owner is able to edit and delete each faq by clicking delete or edit button.
