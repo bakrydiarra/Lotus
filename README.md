@@ -16,7 +16,7 @@
 ## Site info
 
  
- - Lotus  is built using Django full-stack framework and uses a Relational Database. Technologies used include HTML, CSS, Javascript, Python, and Stripe payments.
+ - Lotus  is built using Django full-stack framework and a Relational Database. Technologies used include HTML, CSS, Javascript, Python, and Stripe payments.
 
  - Lotus is an application that envourages sex-positivity and self-pleasure. 
  - It's an online sexshop that proposes high quality silicone hygiene safe adult toys.
@@ -25,7 +25,7 @@
 Key features include:
 
  - Filters: Users can apply filters to quickly and easily find some products (Search or sort by)
- - Bag & Stripe Checkout: Users can add multiple items to their bag and proceed to checkout with Stripe. See Stripe's testing card details to place an order on the website
+ - Bag & Stripe Checkout: Users can add multiple items to their bag and proceed to checkout with Stripe. See Stripe's testing card details to place an order on the website [here](https://stripe.com/docs/testing#cards).
  - Authentication: Users can create an account to save their contact information and view their order history
  - Reviews: Registered users can create, read, update and delete reviews
  - Contact form: Visitors can send enquiries
@@ -113,7 +113,7 @@ Key features include:
 - To provide an enjoyable user experience which would make users wish to return to the site to purchase 
 - To have the ability to be given feedback via a contact form
 - To provide users with products that meet their expectations
-- To allow users to view, read and comment reviews that may help to other users to make a choice or simply to share their joyful experience with one of the vibrator.
+- To allow users to view reviews that may help to other users to make a choice or simply to share their joyful experience with one of the vibrator.
 - To allow users to checkout quickly and easily
 - To allow users to create a profile to view past orders and update profile information
 
@@ -262,7 +262,7 @@ A backend database was  built with the Django framework and the use of ElephantS
 
 <details>
  <summary>Colour Palette</summary>
- <img src="docs/readme_images/color_1.png">
+ <img src="docs/readme_images/colors_1.png">
  <img src="docs/readme_images/color_1_bis.png">
  <img src="docs/readme_images/color_2.png">
  <img src="docs/readme_images/color_2_bis.png">
@@ -429,11 +429,12 @@ Authentication was implemented using Django's built-in authentication system:
 <summary>Bag icon images</summary>
 <img src="docs/readme_images/bag.png">
 <img src="docs/readme_images/bag_counter.png">
+<img src="docs/readme_images/success_add_item.png">
 </details>
 
 ---
 
-- Main navbar: is present on all pages and allows the user to navigate the site through few links (Product, Reviews, About Us, Contact us).
+- Main navbar: is present on all pages and allows the user to navigate the site through few links (Home, Product, Reviews, About Us, Contact us).
 
 <details>
 <summary>Navbar images</summary>
@@ -471,7 +472,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 ---
 
-- footer: allows users to subscribe to the website's newslette through Mailchimp subscription form.
+- footer: allows users to subscribe to the website's newsletter through Mailchimp subscription form.
 
 <details>
 <summary>Mailchimp subscription for image</summary>
@@ -496,7 +497,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 ### User Account Pages
 
-- Sign up page: allows new users to create account - the process requires a confirmation email with confirmation link belo
+- Sign up page: allows new users to create account - the process requires a confirmation email with confirmation link attached
 
 <details>
 <summary>Sign up image</summary>
@@ -538,7 +539,7 @@ Authentication was implemented using Django's built-in authentication system:
 ---
 
 
-### Vibrators (Products List)
+### Products
 
 - Products list: accessible by clicking the link 'Product' in Navbar which will display a dropdown menu with different links. For instance, 'All' link displays all products. The other links are categories which display the products according their category.
 - Products list: is displayed in product cards.Each product card shows an image of the product, its title, excerpt and price. If the user is a superuser, edit and delete buttons will appear at the bottom of the product card.
@@ -558,13 +559,13 @@ Authentication was implemented using Django's built-in authentication system:
 ### Product (Details)
 
 - Product details page: contains product image, titte, excerpt, description and price.
-- Product details page: contains quantity input, keep Shopping button and ass to bag button
+- Product details page: contains quantity input, keep Shopping button and add to bag button
 - Product details page: contains edit and delete option for authorised users for each product
 
 
 <details>
-<summary>Product (Detailss) images</summary>
-<img src="docs/readme_images/product_detail.png">
+<summary>Product (Detail) images</summary>
+<img src="docs/readme_images/product_detail_page.png">
 </details>
 
 ---
@@ -658,7 +659,7 @@ Authentication was implemented using Django's built-in authentication system:
 
 ---
 
-### Reviews
+### Add Review
 
 - Add review page is accessible by clicking add review button
 - Add review page contains a form
@@ -1322,8 +1323,8 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ### Ressources Used
 
-- [W3Schools](https://www.w3schools.com/)
-- [BOUTIQUE ADO](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) - Django walkthrough project "Boutique Ado" used as an inspiration and an orientation to my project
+- [W3Schools](https://www.w3schools.com/) - for understanding diverse coding issues
+- [BOUTIQUE ADO](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) - Django walkthrough project "Boutique Ado" used as an inspiration, main structure and an orientation to my project
 - [Medium.com](https://medium.com/@ksarthak4ever/django-class-based-views-vs-function-based-view-e74b47b2e41b) - for understanding difference between Class Based Views vs Function Based Views
 - [Medium.com](https://medium.com/@hassanraza/when-to-use-get-get-queryset-get-context-data-in-django-952df6be036a#:~:text=get_context_data(),to%20display%20in%20your%20templates.) - for understanding how to use get_context_data
 - [Exploring Python Classes with Ben Kavanagh](https://www.youtube.com/watch?v=opOK_1g1rsw&list=PL_7334VduOHvzZYlgy_0kZLcic2NINCUt&index=7) - for understanding difference between Class Based Views vs Function Based Views
