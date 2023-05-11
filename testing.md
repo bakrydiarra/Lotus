@@ -279,6 +279,7 @@ All Javascript was passed through Jshint with no issues.
 
 ### Home page
 
+- Two call for action buttons and two pictures which illustrate the product range of the Lotus website
 
 | Element         | Action | Expected Result    | Pass/Fail |
 | --------------- | ------ | ------------------ | --------- |
