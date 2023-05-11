@@ -867,8 +867,7 @@ All Javascript was passed through Jshint with no issues.
 | Enquiry Type Dropdown         | Click                 | Display all Enquiry Types in Database                                               | Pass      |
 | Cancel button                 | Click                 | Redirect to Home page                                                               | Pass      |
 | Submit button(form valid)     | Click                 | Form submit                                                                         | Pass      |
-| Submit button(form valid)     | Click                 | Redirect to home Page                                                               | Pass      |
-| Submit button(form valid)     | Click                 | Thank you message page appears                                                      | Pass      |
+| Submit button(form valid)     | Click                 | Redirect Thank you message page appears                                             | Pass      |
 | Submit button(form valid)     | Click                 | User receives confirmation email about their enquiry                                | Pass      |
 
 <details>
@@ -894,8 +893,7 @@ All Javascript was passed through Jshint with no issues.
 | Form Text Input (if required)  | Just input whitespace | On Submit: Form won't submit                                                                                           | Pass      |
 | Cancel button                  | Click                 | Redirect to Reviews page                                                                                               |           |
 | Add Review button(form valid)  | Click                 | Form submit                                                                                                            | Pass      |
-| Add Review button(form valid)  | Click                 | Redirect to Reviews Page with all information displaying correctly                                                     | Pass      |
-| Add Review button(form valid)  | Click                 | Thank you page appears informing the user that the Review has been added                                               | Pass      |
+| Add Review button(form valid)  | Click                 | Redirect Thank you page                                                                                                | Pass      |
 |                                |                       |                                                                                                                        |           |
 |                                |                       |                                                                                                                        |           |
 | Edit Review.                   |                       |                                                                                                                        |           |
@@ -907,8 +905,7 @@ All Javascript was passed through Jshint with no issues.
 | Form Text Input (if required)  | Just input whitespace | On Submit: Form won't submit                                                                                           | Pass      |
 | Cancel button                  | Click                 | Redirect to Reviews page                                                                                               |           |
 | Submit button(form valid)      | Click                 | Form submit                                                                                                            | Pass      |
-| Edit Review button(form valid) | Click                 | Redirect to Reviews Page with all information displaying correctly                                                     | Pass      |
-| Edit Review button(form valid) | Click                 | Success page appears informing the user that the review has been edited                                                | Pass      |
+| Edit Review button(form valid) | Click                 | Redirect Thank you page                                                                                                | Pass      |
 |                                |                       |                                                                                                                        |           |
 |                                |                       |                                                                                                                        |           |
 | Confirm Delete Review          |                       |                                                                                                                        |           |
@@ -932,10 +929,10 @@ During the project I encountered a number of minor bugs, most of them resulted f
 
 | Bug           | Fix           |
 | ------------- | ------------- |
-| Django urls not working | While I was working on the contact app. I couldn't render the template for contact due to a missing directoy patterns. Once added, it worked. |
+| Django urls not working | While I was working on the contact app. I couldn't render the template for contact due to a wrong directoy patterns. Once added, it worked. |
 | delivery cost wasn't render in the checkout | once the identaton was fixed. I could render the cost delivery|
 | problem to update total cost |  once the identaton was fixed. I could render the update total cost|
-| few undefined variables | Once I imported the import or assign value the variables. It worked pefectly |
+| few undefined variables | Once I imported the imports or assign value to the variables. It worked pefectly |
 
 <details>
 <summary>Sample erros</summary>

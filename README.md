@@ -70,8 +70,7 @@ Key features include:
   * [Reviews](#reviews)
   * [Contact Form](#contact-form)
   * [Error Pages](#error-pages)
-  * [Future Implementations](#future-implementations)
-
+ 
 * [Marketing Strategy](#marketing-strategy)
   * [SEO](#seo)
   * [Content marketing](#content-marketing)
@@ -1360,6 +1359,7 @@ Images were all open source and free to use from [Pexels](https://www.pexels.com
 - pexels-anna-shvets-5187303.jpg
 - pexels-anna-shvets-5187360.jpg
 - pexels-cottonbro-studio-6768324.jpg
+- pexels-anna-shvets-5187375.jpg
 
 
 ###  Acknowledgments
